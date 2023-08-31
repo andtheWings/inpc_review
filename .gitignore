@@ -2,3 +2,9 @@
 .Rproj.user/
 
 regenstrief_from_openalex/
+
+_targets/
+
+data/
+
+*.ris
