@@ -1,0 +1,553 @@
+TY  - JOUR
+TI  - Linkage of Indiana State Cancer Registry and Indiana Network for Patient Care Data
+AU  - Ruppert, Laura P.
+AU  - He, Jinghua
+AU  - Martin, Joel
+AU  - Eckert, George
+AU  - Ouyang, Fangqian
+AU  - Church, Abby
+AU  - Dexter, Paul
+AU  - Hui, Siu
+AU  - Haggstrom, David
+T2  - Journal of Registry Management
+AB  - BACKGROUND: Large automated electronic health records (EHRs), if brought together in a federated data model, have the potential to serve as valuable population-based tools in studying the patterns and effectiveness of treatment. The Indiana Network for Patient Care (INPC) is a unique federated EHR data repository that contains data collected from a large population across various health care settings throughout the state of Indiana. The INPC clinical data environment allows quick access and extraction of information from medical charts. The purpose of this project was to evaluate 2 different methods of record linkage between the Indiana State Cancer Registry (ISCR) and INPC, determine the match rate for linkage between the ISCR and INPC data for patients diagnosed with cancer, and to assess the completeness of the ISCR based on additional validated cancer cases identified in the INPC EHRs. METHODS: Deterministic and probabilistic algorithms were applied to link ISCR cases to the INPC. The linkage results were validated by manual review and the accuracy assessed with positive predictive value (PPV). Medical charts of melanoma and lung cancer cases identified in INPC but not linked to ISCR were manually reviewed to identify true incidence cancers missed by the ISCR, from which the completeness of the ISCR was estimated for each cancer. RESULTS: Both deterministic and probabilistic approaches to linking ISCR and INPC had extremely high PPV (>99%) for identifying true matches for the overall cohort and each subcohort. The combined match rate for melanoma and lung cancer cases identified in the ISCR that matched to any patient occurrence in INPC (not by disease) was 85.5% for the complete cohort, 94.4% for melanoma, and 84.4% for lung cancer. The estimated completeness of capture by the ISCR was 84% for melanoma and 98% for lung cancer. Conclusion: Cancer registries can be successfully linked to patients’ EHR data from institutions participating in a regional health information organization (RHIO) with a high match rate. A pragmatic approach to data linkage may apply both deterministic and probabilistic approaches together for the diverse purposes of cancer control research. The RHIO has the potential to add value to the state cancer registry through the identification of additional true incident cases, but more advanced approaches, such as natural language processing, are needed.
+DA  - 2016///
+PY  - 2016
+DP  - PubMed
+VL  - 43
+IS  - 4
+SP  - 174
+EP  - 178
+J2  - J Registry Manag
+LA  - eng
+SN  - 1945-6123
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/29595920
+KW  - Aged
+KW  - Algorithms
+KW  - Electronic Health Records
+KW  - Female
+KW  - Humans
+KW  - Indiana
+KW  - Lung Neoplasms
+KW  - Male
+KW  - Medical Record Linkage
+KW  - Melanoma
+KW  - Middle Aged
+KW  - Neoplasms
+KW  - Registries
+ER  - 
+
+TY  - JOUR
+TI  - A Comparison of Data Driven-based Measures of Adherence to Oral Hypoglycemic Agents in Medicaid Patients
+AU  - Zhu, Vivienne J.
+AU  - Tu, Wanzhu
+AU  - Rosenman, Marc B.
+AU  - Overhage, J. Marc
+T2  - AMIA ... Annual Symposium proceedings. AMIA Symposium
+AB  - We evaluated and compared different methods for measuring adherence to Oral Antihyperglycemic Agents (OHA), based on the correlation between these measures and glycated hemoglobin A1C (HbA1c) levels in Medicaid patients with Type 2 diabetes. An observational sample of 831 Medicaid patients with Type 2 diabetes who had HbA1c test results recorded between January 1, 2001 and December 31, 2005 was identified in the Indiana Network of Patient Care (INPC). OHA adherence was measured by medication possession ratio (MPR), proportion of days covered (PDC), and the number of gaps (GAP) for 3, 6, and 12-month intervals prior to the HbA1c test date. All three OHA adherence measurements showed consistent and significant correlation with HbA1c level. The 6-month PDC showed the strongest association with HbA1c levels in both unadjusted (-1.07, P<0.0001) and adjusted (-1.12, P<0.0001) models.
+DA  - 2014///
+PY  - 2014
+DP  - PubMed
+VL  - 2014
+SP  - 1294
+EP  - 1301
+J2  - AMIA Annu Symp Proc
+LA  - eng
+SN  - 1942-597X
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/25954441
+KW  - Administration, Oral
+KW  - Diabetes Mellitus, Type 2
+KW  - Glycated Hemoglobin
+KW  - Health Information Exchange
+KW  - Humans
+KW  - Hypoglycemic Agents
+KW  - Medicaid
+KW  - Medication Adherence
+KW  - United States
+ER  - 
+
+TY  - JOUR
+TI  - Nonadherence to Oral Antihyperglycemic Agents: Subsequent Hospitalization and Mortality among Patients with Type 2 Diabetes in Clinical Practice
+AU  - Zhu, Vivienne J.
+AU  - Tu, Wanzhu
+AU  - Rosenman, Marc B.
+AU  - Overhage, J. Marc
+T2  - Studies in Health Technology and Informatics
+AB  - Using real-world clinical data from the Indiana Network for Patient Care, we analyzed the associations between non-adherence to oral antihyperglycemic agents (OHA) and subsequent diabetes-related hospitalization and all-cause mortality for patients with type 2 diabetes. OHA adherence was measured by the annual proportion of days covered (PDC) for 2008 and 2009. Among 24,067 eligible patients, 35,507 annual PDCs were formed. Over 90% (n=21,798) of the patients had a PDC less than 80%. In generalized linear mixed model analyses, OHA non-adherence is significantly associated with diabetes related hospitalizations (OR: 1.2; 95% CI [1.1,1.3]; p&lt;0.0001). Older patients, white patients, or patients who had ischemic heart disease, stroke, or renal disease had higher odds of hospitalization. Similarly, OHA non-adherence increased subsequent mortality (OR: 1.3; 95% CI [1.02, 1.61]; p&lt;0.0001). Patient age, male gender, income and presence of ischemic heart diseases, stroke, and renal disease were also significantly associated with subsequent all-cause death.
+DA  - 2015///
+PY  - 2015
+DP  - PubMed
+VL  - 216
+SP  - 60
+EP  - 63
+J2  - Stud Health Technol Inform
+LA  - eng
+SN  - 1879-8365
+ST  - Nonadherence to Oral Antihyperglycemic Agents
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/26262010
+KW  - Administration, Oral
+KW  - Aged
+KW  - Data Mining
+KW  - Diabetes Mellitus, Type 2
+KW  - Electronic Health Records
+KW  - Female
+KW  - Hospital Mortality
+KW  - Hospitalization
+KW  - Humans
+KW  - Hypoglycemic Agents
+KW  - Indiana
+KW  - Male
+KW  - Medication Adherence
+KW  - Natural Language Processing
+KW  - Prevalence
+KW  - Retrospective Studies
+KW  - Risk Assessment
+KW  - Survival Rate
+KW  - Treatment Outcome
+ER  - 
+
+TY  - JOUR
+TI  - An Evaluation of Two Methods for Generating Synthetic HL7 Segments Reflecting Real-World Health Information Exchange Transactions
+AU  - Mwogi, Thomas S.
+AU  - Biondich, Paul G.
+AU  - Grannis, Shaun J.
+T2  - AMIA ... Annual Symposium proceedings. AMIA Symposium
+AB  - Motivated by the need for readily available data for testing an open-source health information exchange platform, we developed and evaluated two methods for generating synthetic messages. The methods used HL7 version 2 messages obtained from the Indiana Network for Patient Care. Data from both methods were analyzed to assess how effectively the output reflected original 'real-world' data. The Markov Chain method (MCM) used an algorithm based on transitional probability matrix while the Music Box model (MBM) randomly selected messages of particular trigger type from the original data to generate new messages. The MBM was faster, generated shorter messages and exhibited less variation in message length. The MCM required more computational power, generated longer messages with more message length variability. Both methods exhibited adequate coverage, producing a high proportion of messages consistent with original messages. Both methods yielded similar rates of valid messages.
+DA  - 2014///
+PY  - 2014
+DP  - PubMed
+VL  - 2014
+SP  - 1855
+EP  - 1863
+J2  - AMIA Annu Symp Proc
+LA  - eng
+SN  - 1942-597X
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/25954458
+KW  - Algorithms
+KW  - Health Information Exchange
+KW  - Health Level Seven
+KW  - Humans
+KW  - Markov Chains
+KW  - Random Allocation
+ER  - 
+
+TY  - JOUR
+TI  - Machine Learning Approaches to Identify Nicknames from A Statewide Health Information Exchange
+AU  - Kasthurirathne, Suranga N.
+AU  - Grannis, Shaun J.
+T2  - AMIA Joint Summits on Translational Science proceedings. AMIA Joint Summits on Translational Science
+AB  - Patient matching is essential to minimize fragmentation of patient data. Existing patient matching efforts often do not account for nickname use. We sought to develop decision models that could identify true nicknames using features representing the phonetical and structural similarity of nickname pairs. We identified potential male and female name pairs from the Indiana Network for Patient Care (INPC), and developed a series of features that represented their phonetical and structural similarities. Next, we used the XGBoost classifier and hyperparameter tuning to build decision models to identify nicknames using these feature sets and a manually reviewed gold standard. Decision models reported high precision/positive predictive value and accuracy scores for both male and female name pairs despite the low number of true nickname matches in the datasets under study. Ours is one of the first efforts to identify patient nicknames using machine learning approaches.
+DA  - 2019///
+PY  - 2019
+DP  - PubMed
+VL  - 2019
+SP  - 639
+EP  - 647
+J2  - AMIA Jt Summits Transl Sci Proc
+LA  - eng
+SN  - 2153-4063
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/31259019
+ER  - 
+
+TY  - JOUR
+TI  - Lower provider volume is associated with higher failure rates for endoscopic retrograde cholangiopancreatography
+AU  - Coté, Gregory A.
+AU  - Imler, Timothy D.
+AU  - Xu, Huiping
+AU  - Teal, Evgenia
+AU  - French, Dustin D.
+AU  - Imperiale, Thomas F.
+AU  - Rosenman, Marc B.
+AU  - Wilson, Jeffrey S.
+AU  - Hui, Siu L.
+AU  - Sherman, Stuart
+AB  - BACKGROUND: Among physicians who perform endoscopic retrograde cholangiopancreatography (ERCP), the relationship between procedure volume and outcome is unknown. OBJECTIVE: Quantify the ERCP volume-outcome relationship by measuring provider-specific failure rates, hospitalization rates, and other quality measures. RESEARCH DESIGN: Retrospective cohort. SUBJECTS: A total of 16,968 ERCPs performed by 130 physicians between 2001 and 2011, identified in the Indiana Network for Patient Care. MEASURES: Physicians were classified by their average annual Indiana Network for Patient Care volume and stratified into low (<25/y) and high (≥25/y). Outcomes included failed procedures, defined as repeat ERCP, percutaneous transhepatic cholangiography or surgical exploration of the bile duct≤7 days after the index procedure, hospitalization rates, and 30-day mortality. RESULTS: Among 15,514 index ERCPs, there were 1163 (7.5%) failures; the failure rate was higher among low (9.5%) compared with high volume (5.7%) providers (P<0.001). A second ERCP within 7 days (a subgroup of failure rate) occurred more frequently when the original ERCP was performed by a low-volume (4.1%) versus a high-volume physician (2.3%, P=0.013). Patients were more frequently hospitalized within 24 hours when the ERCP was performed by a low-volume (28.3%) versus high-volume physician (14.8%, P=0.002). Mortality within 30 days was similar (low=1.9%, high=1.9%). Among low-volume physicians and after adjusting, the odds of having a failed procedure decreased 3.3% (95% confidence interval, 1.6%-5.0%, P<0.001) with each additional ERCP performed per year. CONCLUSIONS: Lower provider volume is associated with higher failure rate for ERCP, and greater need for postprocedure hospitalization.
+DA  - 2013/12//
+PY  - 2013
+DP  - scholarworks.iupui.edu
+LA  - en_US
+SN  - 1537-1948
+UR  - https://hdl.handle.net/1805/9153
+Y2  - 2023/08/16/20:10:18
+ER  - 
+
+TY  - JOUR
+TI  - Database queries for hospitalizations for acute congestive heart failure: flexible methods and validation based on set theory
+AU  - Rosenman, Marc
+AU  - He, Jinghua
+AU  - Martin, Joel
+AU  - Nutakki, Kavitha
+AU  - Eckert, George
+AU  - Lane, Kathleen
+AU  - Gradus-Pizlo, Irmina
+AU  - Hui, Siu L.
+AB  - Background and objective Electronic health records databases are increasingly used for identifying cohort populations, covariates, or outcomes, but discerning such clinical ‘phenotypes’ accurately is an ongoing challenge. We developed a flexible method using overlapping (Venn diagram) queries. Here we describe this approach to find patients hospitalized with acute congestive heart failure (CHF), a sampling strategy for one-by-one ‘gold standard’ chart review, and calculation of positive predictive value (PPV) and sensitivities, with SEs, across different definitions. Materials and methods We used retrospective queries of hospitalizations (2002–2011) in the Indiana Network for Patient Care with any CHF ICD-9 diagnoses, a primary diagnosis, an echocardiogram performed, a B-natriuretic peptide (BNP) drawn, or BNP >500 pg/mL. We used a hybrid between proportional sampling by Venn zone and over-sampling non-overlapping zones. The acute CHF (presence/absence) outcome was based on expert chart review using a priori criteria. Results Among 79 091 hospitalizations, we reviewed 908. A query for any ICD-9 code for CHF had PPV 42.8% (SE 1.5%) for acute CHF and sensitivity 94.3% (1.3%). Primary diagnosis of 428 and BNP >500 pg/mL had PPV 90.4% (SE 2.4%) and sensitivity 28.8% (1.1%). PPV was <10% when there was no echocardiogram, no BNP, and no primary diagnosis. ‘False positive’ hospitalizations were for other heart disease, lung disease, or other reasons. Conclusions This novel method successfully allowed flexible application and validation of queries for patients hospitalized with acute CHF.
+DA  - 2014/03/01/
+PY  - 2014
+DP  - scholarworks.iupui.edu
+LA  - en_US
+ST  - Database queries for hospitalizations for acute congestive heart failure
+UR  - https://hdl.handle.net/1805/8994
+Y2  - 2023/08/16/20:11:04
+ER  - 
+
+TY  - JOUR
+TI  - Identification and Mechanistic Investigation of Drug-Drug Interactions Associated With Myopathy: A Translational Approach
+AU  - Han, X.
+AU  - Quinney, S. K.
+AU  - Wang, Z.
+AU  - Zhang, P.
+AU  - Duke, J.
+AU  - Desta, Z.
+AU  - Elmendorf, J. S.
+AU  - Flockhart, D. A.
+AU  - Li, L.
+T2  - Clinical Pharmacology and Therapeutics
+AB  - Myopathy is a group of muscle diseases that can be induced or exacerbated by drug-drug interactions (DDIs). We sought to identify clinically important myopathic DDIs and elucidate their underlying mechanisms. Five DDIs were found to increase the risk of myopathy based on analysis of observational data from the Indiana Network of Patient Care. Loratadine interacted with simvastatin (relative risk 95% confidence interval [CI] = [1.39, 2.06]), alprazolam (1.50, 2.31), ropinirole (2.06, 5.00), and omeprazole (1.15, 1.38). Promethazine interacted with tegaserod (1.94, 4.64). In vitro investigation showed that these DDIs were unlikely to result from inhibition of drug metabolism by CYP450 enzymes or from inhibition of hepatic uptake via the membrane transporter OATP1B1/1B3. However, we did observe in vitro synergistic myotoxicity of simvastatin and desloratadine, suggesting a role in loratadine-simvastatin interaction. This interaction was epidemiologically confirmed (odds ratio 95% CI = [2.02, 3.65]) using the data from the US Food and Drug Administration Adverse Event Reporting System.
+DA  - 2015/09//
+PY  - 2015
+DO  - 10.1002/cpt.150
+DP  - PubMed
+VL  - 98
+IS  - 3
+SP  - 321
+EP  - 327
+J2  - Clin Pharmacol Ther
+LA  - eng
+SN  - 1532-6535
+ST  - Identification and Mechanistic Investigation of Drug-Drug Interactions Associated With Myopathy
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/25975815
+KW  - Adverse Drug Reaction Reporting Systems
+KW  - Animals
+KW  - Biological Transport
+KW  - Biotransformation
+KW  - Cell Line
+KW  - Cytochrome P-450 Enzyme Inhibitors
+KW  - Dose-Response Relationship, Drug
+KW  - Drug Interactions
+KW  - Drug Synergism
+KW  - Drug-Related Side Effects and Adverse Reactions
+KW  - Humans
+KW  - Muscle, Skeletal
+KW  - Muscular Diseases
+KW  - Odds Ratio
+KW  - Organic Anion Transporters
+KW  - Rats
+KW  - Risk Assessment
+KW  - Risk Factors
+KW  - Translational Research, Biomedical
+KW  - United States
+KW  - United States Food and Drug Administration
+ER  - 
+
+TY  - JOUR
+TI  - Preparing a collection of radiology examinations for distribution and retrieval
+AU  - Demner-Fushman, Dina
+AU  - Kohli, Marc D.
+AU  - Rosenman, Marc B.
+AU  - Shooshan, Sonya E.
+AU  - Rodriguez, Laritza
+AU  - Antani, Sameer
+AU  - Thoma, George R.
+AU  - McDonald, Clement J.
+T2  - Journal of the American Medical Informatics Association: JAMIA
+AB  - OBJECTIVE: Clinical documents made available for secondary use play an increasingly important role in discovery of clinical knowledge, development of research methods, and education. An important step in facilitating secondary use of clinical document collections is easy access to descriptions and samples that represent the content of the collections. This paper presents an approach to developing a collection of radiology examinations, including both the images and radiologist narrative reports, and making them publicly available in a searchable database.
+MATERIALS AND METHODS: The authors collected 3996 radiology reports from the Indiana Network for Patient Care and 8121 associated images from the hospitals' picture archiving systems. The images and reports were de-identified automatically and then the automatic de-identification was manually verified. The authors coded the key findings of the reports and empirically assessed the benefits of manual coding on retrieval.
+RESULTS: The automatic de-identification of the narrative was aggressive and achieved 100% precision at the cost of rendering a few findings uninterpretable. Automatic de-identification of images was not quite as perfect. Images for two of 3996 patients (0.05%) showed protected health information. Manual encoding of findings improved retrieval precision.
+CONCLUSION: Stringent de-identification methods can remove all identifiers from text radiology reports. DICOM de-identification of images does not remove all identifying information and needs special attention to images scanned from film. Adding manual coding to the radiologist narrative reports significantly improved relevancy of the retrieved clinical documents. The de-identified Indiana chest X-ray collection is available for searching and downloading from the National Library of Medicine (http://openi.nlm.nih.gov/).
+DA  - 2016/03//
+PY  - 2016
+DO  - 10.1093/jamia/ocv080
+DP  - PubMed
+VL  - 23
+IS  - 2
+SP  - 304
+EP  - 310
+J2  - J Am Med Inform Assoc
+LA  - eng
+SN  - 1527-974X
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/26133894
+KW  - abstracting and indexing
+KW  - biometric identification
+KW  - Data Anonymization
+KW  - Humans
+KW  - information storage and retrieval
+KW  - Information Storage and Retrieval
+KW  - medical records
+KW  - radiography
+KW  - Radiography, Thoracic
+KW  - Radiology Information Systems
+ER  - 
+
+TY  - JOUR
+TI  - Noncompaction cardiomyopathy and heterotaxy syndrome
+AU  - Martinez, Hugo R.
+AU  - Ware, Stephanie M.
+AU  - Schamberger, Marcus S.
+AU  - Parent, John J.
+AB  - Left ventricular noncompaction cardiomyopathy (LVNC) is characterized by compact and trabecular layers of the left ventricular myocardium. This cardiomyopathy may occur with congenital heart disease (CHD). Single cases document co-occurrence of LVNC and heterotaxy, but no data exist regarding the prevalence of this association. This study sought to determine whether a non-random association of LVNC and heterotaxy exists by evaluating the prevalence of LVNC in patients with heterotaxy. In a retrospective review of the Indiana Network for Patient Care, we identified 172 patients with heterotaxy (69 male, 103 female). Echocardiography and cardiac magnetic resonance imaging results were independently reviewed by two cardiologists to ensure reproducibility of LVNC. A total of 13/172 (7.5%) patients met imaging criteria for LVNC. The CHD identified in this subgroup included atrioventricular septal defects [11], dextrocardia [10], systemic and pulmonary venous return abnormalities [7], and transposition of the great arteries [5]. From this subgroup, 61% (n = 8) of the patients developed arrhythmias; and 61% (n = 8) required medical management for chronic heart failure. This study indicates that LVNC has increased prevalence among patients with heterotaxy when compared to the general population (0.014–1.3%) suggesting possible common genetic mechanisms. Interestingly, mice with a loss of function of Scrib or Vangl2 genes showed abnormal compaction of the ventricles, anomalies in cardiac looping, and septation defects in previous studies. Recognition of the association between LVNC and heterotaxy is important for various reasons. First, the increased risk of arrhythmias demonstrated in our population. Secondly, theoretical risk of thromboembolic events remains in any LVNC population. Finally, many patients with heterotaxy undergo cardiac surgery (corrective and palliative) and when this is associated with LVNC, patients should be presumed to incur a higher peri-operative morbidity based on previous studies. Further research will continue to determine long-term and to corroborate genetic pathways.
+DA  - 2017///
+PY  - 2017
+DP  - scholarworks.iupui.edu
+LA  - en
+UR  - https://hdl.handle.net/1805/13935
+Y2  - 2023/08/16/20:13:39
+ER  - 
+
+TY  - JOUR
+TI  - Anticholinergics Influence Transition from Normal Cognition to Mild Cognitive Impairment in Older Adults in Primary Care
+AU  - Campbell, Noll L.
+AU  - Lane, Kathleen A.
+AU  - Gao, Sujuan
+AU  - Boustani, Malaz A.
+AU  - Unverzagt, Fred
+T2  - Pharmacotherapy
+AB  - STUDY OBJECTIVE: To determine the influence of anticholinergic medications on transitions in cognitive diagnosis of older adults in primary care.
+DESIGN: This observational cohort study was conducted over a mean follow-up of 3.2 years. Anticholinergic exposure was defined by pharmacy dispensing and claims records. Cognitive diagnosis was performed by an expert panel at baseline and annually up to 4 years.
+DATA SOURCE: Medication exposure and other clinical data were extracted from the Indiana Network for Patient Care (INPC). The cognitive diagnosis was derived from a cognitive screening and diagnosis study.
+PARTICIPANTS: A total of 350 adults 65 years and older without dementia and receiving primary care in a safety net health care system.
+MEASUREMENT AND MAIN RESULTS: Cognitive diagnosis followed a two-phase screening and consensus-based neuropsychiatric examination to determine a baseline diagnosis as normal cognition, mild cognitive impairment (MCI), or dementia, with a follow-up neuropsychiatric examination and consensus-based diagnosis repeated annually. The Anticholinergic Cognitive Burden scale was used to identify anticholinergics dispensed up to 10 years before enrollment and annually throughout the study. A total standard daily dose of anticholinergics was calculated by using pharmacy dispensing data from the INPC. Among 350 participants, a total of 978 diagnostic assessments were completed over a mean follow-up of 3.2 years. Compared with stable cognition, increasing use of strong anticholinergics calculated by total standard daily dose increased the odds of transition from normal cognition to MCI (odds ratio [OR] 1.15, 95% confidence interval [CI] 1.01-1.31, p = 0.0342). Compared with stable MCI, strong anticholinergics did not influence the reversion of MCI to normal cognition (OR 0.95, 95% CI 0.86-1.05, p = 0.3266).
+CONCLUSION: De-prescribing interventions in older adults with normal cognition should test anticholinergics as potentially modifiable risk factors for cognitive impairment.
+DA  - 2018/05//
+PY  - 2018
+DO  - 10.1002/phar.2106
+DP  - PubMed
+VL  - 38
+IS  - 5
+SP  - 511
+EP  - 519
+J2  - Pharmacotherapy
+LA  - eng
+SN  - 1875-9114
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/29600808
+KW  - adverse drug reaction
+KW  - Aged
+KW  - anticholinergic
+KW  - Cholinergic Antagonists
+KW  - Cognition
+KW  - Cognitive Dysfunction
+KW  - Cohort Studies
+KW  - dementia
+KW  - Dementia
+KW  - Deprescriptions
+KW  - Female
+KW  - Follow-Up Studies
+KW  - Humans
+KW  - Male
+KW  - mild cognitive impairment
+KW  - modifiable risk factors
+KW  - pharmacoepidemiology
+KW  - primary care
+KW  - Primary Health Care
+KW  - Prospective Studies
+KW  - Risk Factors
+ER  - 
+
+TY  - JOUR
+TI  - Association Between Medication Adherence and the Outcomes of Heart Failure
+AU  - Hood, Sarah R.
+AU  - Giazzon, Anthony J.
+AU  - Seamon, Gwen
+AU  - Lane, Kathleen A.
+AU  - Wang, Jane
+AU  - Eckert, George J.
+AU  - Tu, Wanzhu
+AU  - Murray, Michael D.
+T2  - Pharmacotherapy
+AB  - BACKGROUND: Previous studies of heart failure patients demonstrated an association between cardiovascular medication adherence and hospitalizations or a composite end point of hospitalization and death. Few studies have assessed the impact of treatment adherence within large general medical populations that distinguish the health outcomes of emergency department visits, hospitalization, and death.
+OBJECTIVE: To determine the association of incremental cardiovascular medication adherence on emergency department visits, hospitalization, and death in adult heart failure patients in Indiana.
+DESIGN: Retrospective cohort study conducted using electronic health record data from the statewide Indiana Network for Patient Care between 2004 and 2009.
+METHODS: Patients were at least 18 years of age with a diagnosis of heart failure and prescribed at least one cardiovascular medication for heart failure. Adherence was measured as the proportion of days covered (PDC) using pharmacy transaction data. Clinical end points included emergency department visits, hospital admissions, length of hospital stay, and mortality. Generalized linear models were used to determine the effect of a 10% increase in PDC on clinical end points adjusting for age, sex, race, Charlson Comorbidity Index, and medications.
+RESULTS: Electronic health records were available for 55,312 patients (mean age ± standard deviation 68 ± 16 yrs; 54% women; 65% white). Mean PDC for all heart failure medications was 63% ± 23%. For every 10% increase in PDC, emergency department visits decreased 11% (rate ratio [RR] 0.89, 95% confidence interval [CI] 0.89-0.89), hospital admissions decreased 6% (RR 0.94, 95% CI 0.94-0.94), total length of hospital stay decreased 1% (RR 0.99, 95% CI 0.99-1.00), and all-cause mortality decreased 9% (odds ratio 0.91; 95% CI 0.90-0.92).
+CONCLUSION: Incremental medication adherence was associated with reductions in emergency department visits, hospital admissions, length of hospital stay, and all-cause mortality.
+DA  - 2018/05//
+PY  - 2018
+DO  - 10.1002/phar.2107
+DP  - PubMed
+VL  - 38
+IS  - 5
+SP  - 539
+EP  - 545
+J2  - Pharmacotherapy
+LA  - eng
+SN  - 1875-9114
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/29600819
+KW  - Aged
+KW  - Aged, 80 and over
+KW  - Cardiovascular Agents
+KW  - Cohort Studies
+KW  - Electronic Health Records
+KW  - electronic medical records
+KW  - Emergency Service, Hospital
+KW  - Female
+KW  - health information exchange
+KW  - health outcomes
+KW  - heart failure
+KW  - Heart Failure
+KW  - Hospitalization
+KW  - Humans
+KW  - Indiana
+KW  - Length of Stay
+KW  - Linear Models
+KW  - Male
+KW  - medication adherence
+KW  - Medication Adherence
+KW  - Middle Aged
+KW  - mortality
+KW  - Retrospective Studies
+ER  - 
+
+TY  - JOUR
+TI  - Evaluation of the pulmonary embolism rule out criteria (PERC rule) in children evaluated for suspected pulmonary embolism
+AU  - Kline, Jeffrey A.
+AU  - Ellison, Angela M.
+AU  - Kanis, Jessica
+AU  - Pike, Jonathan W.
+AU  - Hall, Cassandra L.
+T2  - Thrombosis Research
+AB  - BACKGROUND: The pulmonary embolism rule out criteria (PERC) reliably predicts a low probability of PE in adults. We examine the diagnostic accuracy of the objective components of the PERC rule in children previously tested for PE.
+METHODS: Children aged 5-17 who had a D-dimer or pulmonary vascular imaging ordered from 2004 to 2014 in a large multicenter hospital network were identified by query of administrative databases. Using explicit, predefined methods, trained abstracters selected charts of children clearly tested for PE, collected the 8 objective variables for PERC, and determined PE criterion standard status (image or autopsy confirmed PE or deep vein thrombosis within 30 days by query of the Indiana Network for Patient Care (INPC)).
+RESULTS: We identified 543 patients, including 56 (10.3%, 95% CI: 7.8-13.1%) who were PE+, with a mean and median age of 15 years. All 8 objective criteria from PERC were negative in 170 patients (31%), including one with PE (false negative rate 0.6%, 0-3.2%). Diagnostic sensitivity and specificity were 98.2% (90.5-100%), and 34.7 (30.5-39.1%), respectively, leading to a likelihood ratio negative = 0.05 (0.1-0.27). When treated as a diagnostic test based upon sum of criteria positive, PERC had good discrimination between PE+ vs PE- with an area under receiver operating characteristic curve 0.81 (0.75-0.86).
+CONCLUSIONS: In this sample of children and teenagers with suspected PE, the PERC rule was negative in 31%, and demonstrated good overall diagnostic accuracy, including a low false negative rate. These data support the need for a large, prospective diagnostic validation study of PERC in children.
+DA  - 2018/08//
+PY  - 2018
+DO  - 10.1016/j.thromres.2018.05.026
+DP  - PubMed
+VL  - 168
+SP  - 1
+EP  - 4
+J2  - Thromb Res
+LA  - eng
+SN  - 1879-2472
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/29864629
+KW  - Adolescent
+KW  - Characteristics
+KW  - Child
+KW  - Child, Preschool
+KW  - Children
+KW  - Clinical decision rules
+KW  - Clinical prediction rules
+KW  - D-dimer
+KW  - Decision Support Techniques
+KW  - Female
+KW  - Humans
+KW  - Male
+KW  - Medical malpractice
+KW  - Pretest probability
+KW  - Pulmonary embolism
+KW  - Pulmonary Embolism
+ER  - 
+
+TY  - JOUR
+TI  - Assessing outpatient follow-up care compliance, complications, and sequelae in children hospitalized for isolated traumatic abdominal injuries
+AU  - Ogbemudia, Blessing
+AU  - Raymond, Jodi
+AU  - Hatcher, LaRanna S.
+AU  - Vetor, Ashley N.
+AU  - Rouse, Thomas
+AU  - Carroll, Aaron E.
+AU  - Bell, Teresa M.
+T2  - Journal of Pediatric Surgery
+AB  - BACKGROUND: Currently there is limited knowledge on compliance with follow-up care in pediatric patients after abdominal trauma. The Indiana Network for Patient Care (INPC) is a large regional health information exchange with both structured clinical data (e.g., diagnosis codes) and unstructured data (e.g., provider notes). The objective of this study is to determine if regional health information exchanges can be used to evaluate whether patients receive all follow-up care recommended by providers.
+METHODS: We identified 61 patients treated at a Pediatric Level I Trauma Center who were admitted for isolated abdominal injuries. We analyzed medical records for two years following initial hospital discharge for injury using the INPC. The encounters were classified by the type of encounter: outpatient, emergency department, unplanned readmission, surgery, imaging studies, and inpatient admission; then further categorized into injury- and non-injury-related care, based on provider notes. We determined compliance with follow-up care instructions given at discharge and subsequent outpatient visits, as well as the prevalence of complications and sequelae.
+RESULTS: After reviewing patient records, we found that 78.7% of patients received all recommended follow-up care, 6.6% received partial follow-up care, and 11.5% did not receive follow-up care. We found that 4.9% of patients developed complications after abdominal trauma and 9.8% developed sequelae in the two years following their initial hospitalization.
+CONCLUSIONS: Our findings suggest that health information exchanges such as the INPC are useful in evaluation of follow-up care compliance and prevalence of complications/sequelae after abdominal trauma in pediatric patients.
+LEVEL OF EVIDENCE: Level IV.
+DA  - 2019/08//
+PY  - 2019
+DO  - 10.1016/j.jpedsurg.2018.09.001
+DP  - PubMed
+VL  - 54
+IS  - 8
+SP  - 1617
+EP  - 1620
+J2  - J Pediatr Surg
+LA  - eng
+SN  - 1531-5037
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/30293634
+KW  - Abdominal Injuries
+KW  - Abdominal trauma
+KW  - Adolescent
+KW  - Child
+KW  - Female
+KW  - Follow-up care compliance
+KW  - Hospitalization
+KW  - Humans
+KW  - Male
+KW  - Outpatient complications
+KW  - Patient Compliance
+KW  - Patient Discharge
+KW  - Pediatric healthcare utilization
+KW  - Retrospective Studies
+KW  - Secondary health conditions
+ER  - 
+
+TY  - JOUR
+TI  - Trends in Characteristics, Mortality, and Other Outcomes of Patients With Newly Diagnosed Cirrhosis
+AU  - Orman, Eric S.
+AU  - Roberts, Anna
+AU  - Ghabril, Marwan
+AU  - Nephew, Lauren
+AU  - Desai, Archita
+AU  - Patidar, Kavish
+AU  - Chalasani, Naga
+AB  - Importance: Changes in the characteristics of patients with cirrhosis are likely to affect future outcomes and are important to understand in planning for the care of this population. Objective: To identify changes in demographic and clinical characteristics and outcomes in patients with newly diagnosed cirrhosis. Design, Setting, and Participants: A retrospective cohort study of patients with a new diagnosis of cirrhosis was conducted using the Indiana Network for Patient Care, a large statewide regional health information exchange, between 2004 and 2014. Patients with at least 1 year of continuous follow-up before the cirrhosis diagnosis were followed up through August 1, 2015. The analysis was conducted from December 2018 to January 2019. Exposures: Age, cause of cirrhosis, and year of diagnosis. Main Outcomes and Measures: Overall rates for mortality, liver transplant, hepatocellular carcinoma, and hepatic decompensation (composite of ascites, hepatic encephalopathy, or variceal bleeding). Results: A total of 9261 patients with newly diagnosed cirrhosis were identified (mean [SD] age, 57.9 [12.6] years; 5109 [55.2%] male). A 69% increase in new diagnoses occurred over the course of the study period (620 in 2004 vs 1045 in 2014). The proportion of those younger than 40 years increased by 0.20% per year (95% CI, 0.04% to 0.36%; P for trend = .02), and the proportion of those aged 65 years and older increased by 0.81% per year (95% CI, 0.51% to 1.11%; P for trend < .001). The proportion of patients with alcoholic cirrhosis increased by 0.80% per year (95% CI, 0.49% to 1.12%), and the proportion with nonalcoholic steatohepatitis increased by 0.59% per year (95% CI, 0.30% to 0.87%), whereas the proportion with viral hepatitis decreased by 1.36% per year (95% CI, -1.68% to -1.03%) (P < .001 for all). In patients younger than 40 years, 40 to 64 years, and 65 years and older, mortality rates were 6.4 (95% CI, 5.4 to 7.6), 9.9 (95% CI, 9.5 to 10.4), and 16.2 (95% CI, 15.2 to 17.2) per 100 person-years, respectively (P < .001). Mortality rates decreased during the study period (11.9 [95% CI, 10.7-13.1] per 100 person-years in 2004 vs 10.0 [95% CI, 8.1-12.2] per 100 person-years in 2014; annual adjusted hazard ratio, 0.87 [95% CI, 0.86 to 0.88]) and were lower in those with alcoholic cirrhosis compared with patients with viral hepatitis (adjusted hazard ratio, 0.89 [95% CI, 0.80 to 0.98]). Rates of hepatocellular carcinoma were low in patients younger than 40 years (0.5 [95% CI, 0.2 to 0.9] per 100 person-years). Liver transplant rates were low throughout the study period (0.3 [95% CI, 0.3-0.4] per 100 person-years). In patients with compensated cirrhosis, rates of hepatic decompensation were lower in patients younger than 40 years (adjusted subhazard ratio 0.78; 95% CI, 0.62 to 0.99) and in patients with nonalcoholic steatohepatitis (adjusted subhazard ratio, 0.51; 95% CI, 0.43 to 0.60). Conclusions and Relevance: The population of patients with newly diagnosed cirrhosis in Indiana has experienced changes in the age distribution and cause of cirrhosis, with decreasing mortality rates. These findings support investment in the prevention and treatment of alcoholic liver disease and nonalcoholic steatohepatitis, particularly in younger and older patients. Additional study is needed to identify the reasons for decreasing mortality rates.
+DA  - 2019/06/05/
+PY  - 2019
+DP  - scholarworks.iupui.edu
+LA  - en_US
+UR  - https://hdl.handle.net/1805/20728
+Y2  - 2023/08/16/20:16:17
+ER  - 
+
+TY  - JOUR
+TI  - Measuring and Visualizing Chlamydia and Gonorrhea Inequality: An Informatics Approach Using Geographical Information Systems
+AU  - Lai, Patrick T. S.
+AU  - Wilson, Jeffrey
+AU  - Wu, Huanmei
+AU  - Jones, Josette
+AU  - Dixon, Brian E.
+T2  - Online Journal of Public Health Informatics
+AB  - BACKGROUND: Health inequality measurements are vital in understanding disease patterns in identifying high-risk patients and implementing effective intervention programs to treat and manage sexually transmitted diseases.
+OBJECTIVES: To measure and identify inequalities among chlamydia and gonorrhea rates using Gini coefficient measurements and spatial visualization mapping from geographical information systems. Additionally, we seek to examine trends of disease rate distribution longitudinally over a ten-year period for an urbanized county.
+METHODS: Chlamydia and gonorrhea data from January 2005 to December 2014 were collected from the Indiana Network for Patient Care, a health information exchange system that gathers patient data from electronic health records. The Gini coefficient was used to calculate the magnitude of inequality in disease rates. Spatial visualization mapping and decile categorization of disease rates were conducted to identify locations where high and low rates of disease persisted and to visualize differences in inequality. A multiple comparisons ANOVA test was conducted to determine if Gini coefficient values were statistically different between townships and time periods during the study.
+RESULTS: Our analyses show that chlamydia and gonorrhea rates are not evenly distributed. Inequalities in disease rates existed for different areas of the county with higher disease rates occurring near the center of the county. Inequality in gonorrhea rates were higher than chlamydia rates. Disease rates were statistically different when geographical locations or townships were compared to each other (p < 0.0001) but not for different years or time periods (p = 0.5152).
+CONCLUSION: The ability to use Gini coefficients combined with spatial visualization techniques presented a valuable opportunity to analyze information from health information systems in investigating health inequalities. Knowledge from this study can benefit and improve health quality, delivery of services, and intervention programs while managing healthcare costs.
+DA  - 2019///
+PY  - 2019
+DO  - 10.5210/ojphi.v11i2.10155
+DP  - PubMed
+VL  - 11
+IS  - 2
+SP  - e8
+J2  - Online J Public Health Inform
+LA  - eng
+SN  - 1947-2579
+ST  - Measuring and Visualizing Chlamydia and Gonorrhea Inequality
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/31632602
+KW  - Data analysis
+KW  - Data visualization
+KW  - Gini coefficient
+KW  - Health inequalities
+KW  - Sexually transmitted diseases
+ER  - 
+
+TY  - JOUR
+TI  - Sarcopenia, frailty and cachexia patients detected in a multisystem electronic health record database
+AU  - Moorthi, Ranjani N.
+AU  - Liu, Ziyue
+AU  - El-Azab, Sarah A.
+AU  - Lembcke, Lauren R.
+AU  - Miller, Matthew R.
+AU  - Broyles, Andrea A.
+AU  - Imel, Erik A.
+AB  - Background: Sarcopenia, cachexia and frailty have overlapping features and clinical consequences, but often go unrecognized. The objective was to detect patients described by clinicians as having sarcopenia, cachexia or frailty within electronic health records (EHR) and compare clinical variables between cases and matched controls. Methods: We conducted a case-control study using retrospective data from the Indiana Network for Patient Care multi-health system database from 2016 to 2017. The computable phenotype combined ICD codes for sarcopenia, cachexia and frailty, with clinical note text terms for sarcopenia, cachexia and frailty detected using natural language processing. Cases with these codes or text terms were matched to controls without these codes or text terms matched on birth year, sex and race. Two physicians reviewed EHR for all cases and a subset of controls. Comorbidity codes, laboratory values, and other coded clinical variables were compared between groups using Wilcoxon matched-pair sign-rank test for continuous variables and conditional logistic regression for binary variables. Results: Cohorts of 9594 cases and 9594 matched controls were generated. Cases were 59% female, 69% white, and a median (1st, 3rd quartiles) age 74.9 (62.2, 84.8) years. Most cases were detected by text terms without ICD codes n = 8285 (86.4%). All cases detected by ICD codes (total n = 1309) also had supportive text terms. Overall 1496 (15.6%) had concurrent terms or codes for two or more of the three conditions (sarcopenia, cachexia or frailty). Of text term occurrence, 97% were used positively for sarcopenia, 90% for cachexia, and 95% for frailty. The remaining occurrences were negative uses of the terms or applied to someone other than the patient. Cases had lower body mass index, albumin and prealbumin, and significantly higher odds ratios for diabetes, hypertension, cardiovascular and peripheral vascular diseases, chronic kidney disease, liver disease, malignancy, osteoporosis and fractures (all p < 0.05). Cases were more likely to be prescribed appetite stimulants and caloric supplements. Conclusions: Patients detected with a computable phenotype for sarcopenia, cachexia and frailty differed from controls in several important clinical variables. Potential uses include detection among clinical cohorts for targeting recruitment for research and interventions.
+DA  - 2020/07/31/
+PY  - 2020
+DP  - scholarworks.iupui.edu
+LA  - en_US
+SN  - 1471-2474
+UR  - https://hdl.handle.net/1805/25566
+Y2  - 2023/08/16/20:16:59
+ER  - 
+

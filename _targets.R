@@ -110,6 +110,15 @@ list(
             reduce(bind_unique_records) |> 
             filter_for_pubmed_pmc_or_doaj() |> 
             add_ris()
+    ),
+    tar_target(
+        name = A_2023_09_12,
+        command = 
+            oa_inpc_raw |> 
+            filter_for_pubmed_pmc_or_doaj() |> 
+            export_ris_file("2023-09-12-A"),
+        format = "file"
+        
     )
     
 )

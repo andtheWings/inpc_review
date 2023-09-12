@@ -1,0 +1,65 @@
+---
+title: "Loading INPC articles for review"
+format: html
+---
+
+```{r}
+library(tidyverse)
+library(openalexR)
+library(RefManageR)
+library(rcrossref)
+
+inpc_since_2013 <- arrow::read_parquet("data/inpc_since_2013.parquet")
+```
+
+```{r}
+
+query_cr_cn_for_ris <- function(doi_char) {
+    output <- 
+        tryCatch(
+            expr = {
+                cr_cn(
+                        dois = doi_char, 
+                        format = "ris", 
+                        cache = TRUE,
+                        .progress = "text",
+                        raw = TRUE
+                    )
+            },
+            error = {return("error")},
+            warning = {return("warning")}
+        )
+    return(output)
+}
+
+GetBibEntryWithDOI("https://doi.org/10.1093/jamia/ocv080") |> 
+    toBibtex()
+
+test_ris <-
+    inpc_since_2013 |> 
+    select(id, url, doi) |> 
+    filter(!is.na(doi))
+    # view()
+    mutate(
+        ris = 
+            map_chr(
+                .x = doi,
+                .f =
+                    ~cr_cn(
+                        dois = .x, 
+                        format = "ris", 
+                        cache = TRUE,
+                        .progress = "text",
+                        raw = TRUE
+                    )
+            )
+    )
+    
+inpc_since_2013 |> 
+    select(id, url, doi) |> 
+    filter(is.na(doi)) |> 
+    view()
+
+cat(test_ris$ris, file = "inpc_since_2013_with_doi.ris", sep = "\n")
+```
+

@@ -202,13 +202,13 @@
     },
     "askpass": {
       "Package": "askpass",
-      "Version": "1.1",
+      "Version": "1.2.0",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Requirements": [
         "sys"
       ],
-      "Hash": "e8a22846fff485f0be3770c2da758713"
+      "Hash": "cad6cf7f1d5f6e906700b9d3e718c796"
     },
     "assertthat": {
       "Package": "assertthat",
@@ -592,9 +592,9 @@
     },
     "dplyr": {
       "Package": "dplyr",
-      "Version": "1.1.2",
+      "Version": "1.1.3",
       "Source": "Repository",
-      "Repository": "CRAN",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "R6",
@@ -611,7 +611,7 @@
         "utils",
         "vctrs"
       ],
-      "Hash": "dea6970ff715ca541c387de363ff405e"
+      "Hash": "e85ffbebaad5f70e1a2e2ef4302b4949"
     },
     "dtplyr": {
       "Package": "dtplyr",
@@ -1229,14 +1229,9 @@
     },
     "openalexR": {
       "Package": "openalexR",
-      "Version": "1.2.0.9000",
-      "Source": "GitHub",
-      "RemoteType": "github",
-      "RemoteHost": "api.github.com",
-      "RemoteRepo": "openalexR",
-      "RemoteUsername": "ropensci",
-      "RemoteRef": "institution-lineage",
-      "RemoteSha": "b450fe26a8e08e44f8af95643a4c0d9e53560a26",
+      "Version": "1.2.1",
+      "Source": "Repository",
+      "Repository": "RSPM",
       "Requirements": [
         "R",
         "httr",
@@ -1244,7 +1239,7 @@
         "progress",
         "tibble"
       ],
-      "Hash": "3df430429c4ffabcb6c5d22cad71a7ea"
+      "Hash": "a0cd364535df61280021f9d35969ed11"
     },
     "openssl": {
       "Package": "openssl",
