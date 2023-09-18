@@ -1,0 +1,1589 @@
+TY  - CHAP
+DO  - 10.1016/b978-0-12-398476-0.00005-1
+UR  - https://doi.org/10.1016/b978-0-12-398476-0.00005-1
+TI  - Regenstrief Medical Informatics
+T2  - Elsevier eBooks
+AU  - Paul G. Biondich
+AU  - Brian E. Dixon
+AU  - Jon Duke
+AU  - Burke W. Mamlin
+AU  - Shaun J. Grannis
+AU  - Blaine Y. Takesue
+AU  - Steve Downs
+AU  - William M. Tierney
+PY  - 2014
+DA  - 2014-01-01
+AB  - The discipline of clinical informatics endeavors to improve the process and outcomes of health care by enabling efficient access to information. Care providers can then use this information, both in the form of medical knowledge and in the form of patient data collected during clinical practice, to make decisions and comply with appropriate standards of care. The Regenstrief Institute began work on clinical information systems in 1972, when Dr. Clement McDonald and colleagues conceptualized and began construction of a computerized patient management system for outpatient diabetes care, developed to meet three primary goals: first, it was built to eliminate the problems inherent in paper records by making clinical data available to authorized users “just-in-time” as medical decisions are made; second, it was designed to aid in the recognition of diagnoses and adoption of pertinent care practices by assisting clinicians during their record-keeping activities; third, the system was designed to aggregate and analyze clinical information to be used in health care support systems, such as those for public health, health services research, and quality improvement. The first installation of the Regenstrief Medical Record System (RMRS) at Wishard Memorial Hospital occurred in 1974 and, over the next few years, the use of this system expanded outside of the diabetic clinic into a few of the hospital’s many general medicine clinics. From early in its history, the Regenstrief system has included mechanisms for tailoring rules based on the data, to generate reminders and alerts to care providers. This chapter provides a history of the development and growth of the RMRS into a region-wide source of clinical data, the Indiana Network for Patient Care (INPC), and a summary of the research on the decision support interventions themselves, made possible by this infrastructure. Additionally, lessons learned throughout the more than 30 years of experience in both building and maintaining this system are detailed, alongside some reflections that may be useful for future system builders.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/cvpr.2017.369
+UR  - https://doi.org/10.1109/cvpr.2017.369
+TI  - ChestX-Ray8: Hospital-Scale Chest X-Ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases
+T2  - NA
+AU  - Xiaosong Wang
+AU  - Yifan Peng
+AU  - Le Lu
+AU  - Zhiyong Lu
+AU  - Mohammadhadi Bagheri
+AU  - Ronald M. Summers
+PY  - 2017
+DA  - 2017-07-01
+AB  - The chest X-ray is one of the most commonly accessible radiological examinations for screening and diagnosis of many lung diseases. A tremendous number of X-ray imaging studies accompanied by radiological reports are accumulated and stored in many modern hospitals' Picture Archiving and Communication Systems (PACS). On the other side, it is still an open question how this type of hospital-size knowledge database containing invaluable imaging informatics (i.e., loosely labeled) can be used to facilitate the data-hungry deep learning paradigms in building truly large-scale high precision computer-aided diagnosis (CAD) systems. In this paper, we present a new chest X-ray database, namely "ChestX-ray8", which comprises 108,948 frontal-view X-ray images of 32,717 unique patients with the text-mined eight disease image labels (where each image can have multi-labels), from the associated radiological reports using natural language processing. Importantly, we demonstrate that these commonly occurring thoracic diseases can be detected and even spatially-located via a unified weakly-supervised multi-label image classification and disease localization framework, which is validated using our proposed dataset. Although the initial quantitative results are promising as reported, deep convolutional neural network based "reading chest X-rays" (i.e., recognizing and locating the common disease patterns trained with only image-level labels) remains a strenuous task for fully-automated high precision CAD systems. Data download link: https://nihcc.app.box.com/v/ChestXray-NIHCC
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.1609/aaai.v33i01.3301590
+UR  - https://doi.org/10.1609/aaai.v33i01.3301590
+TI  - CheXpert: A Large Chest Radiograph Dataset with Uncertainty Labels and Expert Comparison
+T2  - Proceedings of the ... AAAI Conference on Artificial Intelligence
+AU  - Jeremy Irvin
+AU  - Pranav Rajpurkar
+AU  - Michael Ko
+AU  - Yifan Yu
+AU  - Silviana Ciurea-Ilcus
+AU  - Chris Chute
+AU  - Henrik Marklund
+AU  - Behzad Haghgoo
+AU  - Robyn L. Ball
+AU  - Katie Shpanskaya
+AU  - Jayne Seekins
+AU  - David A. Mong
+AU  - Safwan Halabi
+AU  - Jesse K. Sandberg
+AU  - Ricky Jones
+AU  - David B. Larson
+AU  - Curtis P. Langlotz
+AU  - Bhavik N. Patel
+AU  - Matthew P. Lungren
+AU  - Andrew Y. Ng
+PY  - 2019
+DA  - 2019-07-17
+AB  - Large, labeled datasets have driven deep learning methods to achieve expert-level performance on a variety of medical imaging tasks. We present CheXpert, a large dataset that contains 224,316 chest radiographs of 65,240 patients. We design a labeler to automatically detect the presence of 14 observations in radiology reports, capturing uncertainties inherent in radiograph interpretation. We investigate different approaches to using the uncertainty labels for training convolutional neural networks that output the probability of these observations given the available frontal and lateral radiographs. On a validation set of 200 chest radiographic studies which were manually annotated by 3 board-certified radiologists, we find that different uncertainty approaches are useful for different pathologies. We then evaluate our best model on a test set composed of 500 chest radiographic studies annotated by a consensus of 5 board-certified radiologists, and compare the performance of our model to that of 3 additional radiologists in the detection of 5 selected pathologies. On Cardiomegaly, Edema, and Pleural Effusion, the model ROC and PR curves lie above all 3 radiologist operating points. We release the dataset to the public as a standard benchmark to evaluate performance of chest radiograph interpretation models.
+PB  - NA
+SP  - 590
+EP  - 597
+IS  - 01
+VL  - 33
+SN  - 2159-5399
+ER  - 
+
+TY  - CHAP
+DO  - 10.1016/b978-0-323-90802-3.00022-8
+UR  - https://doi.org/10.1016/b978-0-323-90802-3.00022-8
+TI  - The Indiana Health Information Exchange
+T2  - Elsevier eBooks
+AU  - J. Marc Overhage
+AU  - John P. Kansky
+PY  - 2023
+DA  - 2023-01-01
+AB  - From what began as a research project at the Regenstrief Institute to improve the clinical care of patients, the Indiana Network for Patient Care has evolved technologically, economically, and organizationally to become the largest and most sophisticated health information exchange (HIE) in the world. While developing the technology on a pragmatic pathway, the community-based HIE focused significant energy on stakeholder engagement, creating value, and sustainable economic value. This approach has resulted in the creation of enduring and valuable assets—system interfaces and data normalization that free the data supporting connectivity and collaboration across more than 50,000 physicians in dozens of states and every health system and hospital facility in Indiana, as well as laboratories, imaging centers, pharmacies, and public health agencies, among others. This case study examines the origins and current state of the Indiana HIE along with its lessons learned along the way.
+PB  - NA
+SP  - 471
+EP  - 487
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/ichi.2019.8904731
+UR  - https://doi.org/10.1109/ichi.2019.8904731
+TI  - Improving information retrieval from electronic health records using dynamic and multi-collaborative filtering
+T2  - NA
+AU  - Ziwei Fan
+AU  - Evan Burgun
+AU  - Titus Schleyer
+AU  - Xia Ning
+PY  - 2019
+DA  - 2019-06-01
+AB  - Due to the rapid growth of information available about individual patients, most physicians suffer from information overload when they review patient information in health information technology systems. In this manuscript, we present a novel hybrid dynamic and multi-collaborative filtering method to improve information retrieval from electronic health records. This method recommends relevant information from electronic health records for physicians during patient visits. It models information search dynamics using a Markov model. It also leverages the key idea of collaborative filtering, originating from Recommender Systems, to prioritize information based on various similarities among physicians, patients and information items We tested this new method using real electronic health record data from the Indiana Network for Patient Care. Our experimental results demonstrated that for 46.7% of test cases, this new method is able to correctly prioritize relevant information among top-5 recommendations that physicians are truly interested in.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.1504/ijcmh.2019.104365
+UR  - https://doi.org/10.1504/ijcmh.2019.104365
+TI  - Extraction of breast cancer biomarker status using natural language processing
+T2  - International journal of computational medicine and healthcare
+AU  - Paul Dexter
+AU  - He Jian
+AU  - Jarod Baker
+AU  - George J. Eckert
+AU  - Abby Church
+AU  - Ning Jackie Zhang
+PY  - 2019
+DA  - 2019-01-01
+AB  - We employed natural language processing (NLP) algorithms to extract estrogen receptor (ER), progesterone receptor (PR), and human epidermal growth factor 2 (HER2) receptor status for females with breast cancer using unstructured (free text) EMR data, and to determine the prevalence of triple negative breast cancer in the Indiana network for patient care (INPC) population. We identified female patients in INPC with a history of breast cancer over a ten year period who had at least five oncology notes or one related pathology document. Based on manual chart review, our NLP algorithms for extracting ER, PR, and HER2 receptor status performed well with sensitivity 87.5% to 92.6%, specificity 88.6% to 95.8%, positive predictive values (PPV) 82.4% to 99.0%, and negative predictive values (NPV) 85.2% to 97.7%. This study confirmed our primary hypothesis that NLP algorithms are effective in identifying important breast cancer biomarkers in patients with breast cancer using unstructured data.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - 1755-4500
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/j.jagp.2019.01.031
+UR  - https://doi.org/10.1016/j.jagp.2019.01.031
+TI  - ASSOCIATION BETWEEN INFLAMMATORY BIOMARKERS IN PATIENTS WITH ICU DELIRIUM AND TWO-YEAR DIAGNOSIS OF MCI OR ADRD
+T2  - American Journal of Geriatric Psychiatry
+AU  - Patricia Serrano
+AU  - Sophia Wang
+AU  - Anthony J. Perkins
+AU  - Sujuan Gao
+AU  - Sikandar Khan
+AU  - Heidi Lindroth
+AU  - Malaz Boustani
+AU  - Babar Khan
+PY  - 2019
+DA  - 2019-03-01
+AB  - Introduction Delirium is characterized by acute onset of fluctuation in attention and cognition and is present in 60–87% of older adults in the intensive care unit (ICU).1 Delirium is associated with subsequent Alzheimer's disease (AD) and other related dementias (ADRD), but underlying mechanisms connecting the two disorders are poorly understood.2 Previous work has established a relationship between inflammatory biomarkers and delirium. Our study tested the hypothesis that inflammatory biomarkers measured during an episode of delirium would correlate with a diagnosis of mild cognitive impairment (MCI) or ADRD within two years of discharge from the ICU. Methods We performed a secondary data analysis of delirious patients enrolled in the Pharmacologic Management of Delirium (PMD) Trial l.3 ICD-9 codes for MCI and ADRD in the two years after discharge were obtained from the Indiana Network for Patient Care database. Prescriptions for memantine or anti-cholinesterase inhibitors were counted as evidence of MCI or ADRD. Patients who died at discharge or who had a prior diagnosis of MCI or dementia were excluded. To test for the association of the biomarkers, we used proportional hazards regression to model the time to dementia/MCI diagnosis. Patients who died were censored at their time of death. We performed a sensitivity analysis with logistic regression for patients who did not die during follow-up. Results were similar to the survival analysis, so we only report results from the proportional hazards regression. Models were adjusted for age, gender, race, Apache II, Charlson score, sepsis diagnosis, and usual care. Results A total of 251 patients were included in the analysis. Of these, 231 patients had blood samples collected on Day 1 post randomization to the PMD study, and 149 patients had blood samples collected on Day 8 or upon discharge, whichever was sooner. Within two years of ICU discharge, 12 patients were diagnosed with ADRD, and 43 were diagnosed with MCI. There was no association between inflammatory biomarkers (IL-6, IL-8, IL-10, TNF-Alpha, CRP) drawn on Day 1 and a diagnosis of MCI or ADRD. There was a trend toward significance for higher levels of interleukin-6 (IL-6) drawn at Day 8/discharge and a diagnosis of MCI or ADRD (p = 0.077). Conclusions This preliminary study suggests that higher levels of IL-6 may be associated with a diagnosis of MCI or ADRD after ICU discharge in patients with delirium. However, future larger-scale studies are needed to study the relationship between inflammatory biomarkers in patients with delirium and the subsequent development of MCI and ADRD. This research was funded by S.W. is supported by NIA 2P30AG010133 and NCATS UL1TR001108 (Project Development Team). L.S. is supported by NIA P30AG024827. B.K. is supported by NHLBI R01HL131730, and NIA R01AG055391. M.B. is supported by NIA R01AG034205. The authors declare no relevant financial interests related to this manuscript.
+PB  - Elsevier BV
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - 1064-7481
+ER  - 
+
+TY  - JOUR
+DO  - 10.1200/jco.2018.36.15_suppl.e21599
+UR  - https://doi.org/10.1200/jco.2018.36.15_suppl.e21599
+TI  - Prognostic role of BRAF mutation in malignant cutaneous melanoma.
+T2  - Journal of Clinical Oncology
+AU  - Amikar Sehdev
+AU  - Ross Hayden
+AU  - Mathew Joseph Kuhar
+AU  - Cheng Liu
+AU  - Simon Warren
+AU  - Lawrence A. Mark
+AU  - William A. Wooden
+AU  - Douglas J. Schwartzentruber
+AU  - Theodore F. Logan
+PY  - 2018
+DA  - 2018-05-20
+AB  - e21599 Background: Prognostic role of BRAF mutation is not well-studied in malignant cutaneous melanoma. We conducted a large retrospective study using a state-wide database to assess the clinical characteristics and prognostic role of BRAF mutations. Methods: The Indiana Network for Patient Care (INPC) was used to identify patients diagnosed with malignant melanoma and who underwent BRAF testing between 1995-2016. The INPC represents the largest and longest tenured clinical data warehouse of the Indiana Health Information Exchange in the USA. Using natural language processing, we extracted the date of diagnosis, age, gender, race, Breslow thickness, ulceration, mitotic rate, stage, primary site, smoking, body mass index (BMI), LDH, BRAF status, date and cause of death. Chi-square or t-test was used for univariate analyses. Overall survival (OS) was estimated by Kaplan-Meier method. Logistic and Cox regression was used for multivariate analyses (adjusted for all variables except LDH and BMI). Results: Of 1971 study patients, 920 (46.7%) had BRAF mutation. On univariate analyses, male gender, non-Caucasian race, higher Breslow thickness ( > 1 mm), higher mitotic rate ( > 1/mm2), primary site, smoking and advanced stage (III and IV) were associated with BRAF mutation (p < 0.05). Multivariate logistic regression showed that the BRAF mutation is significantly (p < 0.05) associated with advanced stage (AOR 1.22, 95% CI [1.10-1.34]), male gender (1.15 [1.06-1.26]), presence of ulceration (1.22 [1.07-1.39]), higher Breslow thickness (1.03 [1.01-1.04]), higher mitotic rate (1.11 [1.01-1.22]), primary melanoma of trunk (0.85 [0.76-0.96]) and smoking (1.27 [1.17-1.39]). Kaplan-Meier analysis revealed that the BRAF mutant patients have significantly better OS as compared to BRAF wild-type patients (144 vs. 85 months; HR 0.72 [0.59-0.88], p = 0.001). However, BRAF mutation was not predictive of OS in multivariate Cox model (HR 1.28 [0.68-2.41], p = 0.43) unlike advanced stage, male gender and higher Breslow thickness. Conclusions: BRAF mutation in malignant cutaneous melanoma is associated with more aggressive clinical features however BRAF mutation is not an independent prognostic factor when adjusted for other prognostic variables.
+PB  - American Society of Clinical Oncology
+SP  - e21599
+EP  - e21599
+IS  - 15_suppl
+VL  - 36
+SN  - 0732-183X
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/cvpr.2016.274
+UR  - https://doi.org/10.1109/cvpr.2016.274
+TI  - Learning to Read Chest X-Rays: Recurrent Neural Cascade Model for Automated Image Annotation
+T2  - NA
+AU  - Hoo-Chang Shin
+AU  - Kirk Roberts
+AU  - Le Lu
+AU  - Dina Demner-Fushman
+AU  - Jianhua Yao
+AU  - Ronald M. Summers
+PY  - 2016
+DA  - 2016-06-01
+AB  - Despite the recent advances in automatically describing image contents, their applications have been mostly limited to image caption datasets containing natural images (e.g., Flickr 30k, MSCOCO). In this paper, we present a deep learning model to efficiently detect a disease from an image and annotate its contexts (e.g., location, severity and the affected organs). We employ a publicly available radiology dataset of chest x-rays and their reports, and use its image annotations to mine disease names to train convolutional neural networks (CNNs). In doing so, we adopt various regularization techniques to circumvent the large normalvs-diseased cases bias. Recurrent neural networks (RNNs) are then trained to describe the contexts of a detected disease, based on the deep CNN features. Moreover, we introduce a novel approach to use the weights of the already trained pair of CNN/RNN on the domain-specific image/text dataset, to infer the joint image/text contexts for composite image labeling. Significantly improved image annotation results are demonstrated using the recurrent neural cascade model by taking the joint image/text contexts into account.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.1101/2021.03.03.21252826
+UR  - https://doi.org/10.1101/2021.03.03.21252826
+TI  - Disparities in outcomes among patients diagnosed with cancer associated with emergency department visits
+T2  - medRxiv (Cold Spring Harbor Laboratory)
+AU  - Nicholas Pettit
+AU  - Elisa Sarmiento
+AU  - Jeffrey A. Kline
+PY  - 2021
+DA  - 2021-03-05
+AB  - Abstract Importance Diagnosis of cancer in the emergency department (ED) may be associated with poor outcomes, related to socioeconomic (SES) disparities, however data are limited. Objective To examine the morality and associated disparities for cancer diagnoses made less than six months after an ED visit. Design This study is case-control analysis of the Indiana State Department of Health Cancer Registry, and the Indiana Network for Patient Care. First time diagnoses of ICD-“cancer” appearing in the registry between January 2013 and December 2017 were included. Cases were patients who had an ED visit in the 6 months before their cancer diagnosis; controls had no recent ED visits. Main Outcome(s) and Measure(s) Primary outcome was mortality, comparing ED-associated mortality to non-ED-associated. Secondary outcomes include SES and demographic disparities. Results 134,761 first-time cancer patients were identified, including 15,432 (11.5%) cases. In cases and controls, the mean age was same at 65 and the Charlson Comorbidity Index (CCI) was the same at 2.0 in both groups. More of the ED cohort were Black than the non-ED cohort (12.4% vs 7.4%, P&lt;.0001, Chi Square) and more were low income (36.4%. vs 29.3%). The top 3 ED-associated cancer diagnoses were lung (18.4%), breast (8.9%), and colorectal cancer (8.9%), vs. the non-ED cohort were breast (17%), lung (14.9%), and prostate cancer (10.1%). Regardless of type, all ED-associated cancers had an over three-fold higher mortality, with cumulative death rate of 32.9% for cases vs 9.0% for controls (P&lt;.0001) over the entire study period. Regression analysis predicting mortality, clustering by city, controlling for age, gender, race, SES, drug/alcohol/tobacco use, and CCI score, produced an odds ratio of 4.12 (95% CI 3.72-4.56 for ED associated cancers). Conclusion and Relevance This study found that an ED visit within 6 months prior to the first time of ICD-coded cancer is associated with Black race, low income and an overall three-fold increased risk of death. The mortality rates for ED-associated cancers are uniformly worse for all cancer types. These data suggest that additional work is needed in order to reduce disparities among ED-associated cancer diagnoses, including increased surveillance and improved transitions of care. Key Points Question Do patients diagnosed with cancer, shortly after an emergency department (ED) visit have worsened outcomes than patients with diagnoses not associated with an ED visit. Findings In this retrospective, epidemiological assessment, 134,761 patients were diagnosed with cancer, 11.5% (15,432) were seen in the ED within 6 months prior to their diagnosis. They had increased mortality, associated with racial and socioeconomic disparities. Meaning These findings imply an urgent need for improved transitions of care for minority and low-income patients with suspected cancer in the ED.
+PB  - Cold Spring Harbor Laboratory
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - CHAP
+DO  - 10.1007/978-3-030-00928-1_52
+UR  - https://doi.org/10.1007/978-3-030-00928-1_52
+TI  - Multimodal Recurrent Model with Attention for Automated Radiology Report Generation
+T2  - Lecture Notes in Computer Science
+AU  - Yuan Xue
+AU  - Tao Xu
+AU  - L. Rodney Long
+AU  - Zhiyun Xue
+AU  - Sameer Antani
+AU  - George R. Thoma
+AU  - Xiaolei Huang
+PY  - 2018
+DA  - 2018-01-01
+AB  - Radiologists routinely examine medical images such as X-Ray, CT, or MRI and write reports summarizing their descriptive findings and conclusive impressions. A computer-aided radiology report generation system can lighten the workload for radiologists considerably and assist them in decision making. Although the rapid development of deep learning technology makes the generation of a single conclusive sentence possible, results produced by existing methods are not sufficiently reliable due to the complexity of medical images. Furthermore, generating detailed paragraph descriptions for medical images remains a challenging problem. To tackle this problem, we propose a novel generative model which generates a complete radiology report automatically. The proposed model incorporates the Convolutional Neural Networks (CNNs) with the Long Short-Term Memory (LSTM) in a recurrent way. It is capable of not only generating high-level conclusive impressions, but also generating detailed descriptive findings sentence by sentence to support the conclusion. Furthermore, our multimodal model combines the encoding of the image and one generated sentence to construct an attention input to guide the generation of the next sentence, and henceforth maintains coherence among generated sentences. Experimental results on the publicly available Indiana U. Chest X-rays from the Open-i image collection show that our proposed recurrent attention model achieves significant improvements over baseline models according to multiple evaluation metrics.
+PB  - NA
+SP  - 457
+EP  - 466
+IS  - NA
+VL  - NA
+SN  - 0302-9743
+ER  - 
+
+TY  - CHAP
+DO  - 10.1007/978-3-030-20351-1_10
+UR  - https://doi.org/10.1007/978-3-030-20351-1_10
+TI  - Improved Disease Classification in Chest X-Rays with Transferred Features from Report Generation
+T2  - Lecture Notes in Computer Science
+AU  - Yuan Xue
+AU  - Xiaolei Huang
+PY  - 2019
+DA  - 2019-01-01
+AB  - Radiology includes using medical images for detection and diagnosis of diseases as well as guiding further interventions. Chest X-rays are commonly used radiological examinations to help spot thoracic abnormalities or diseases, especially lung-related diseases. However, the reporting of chest x-rays requires experienced radiologists who are often in shortage in many regions of the world. In this paper, we first develop an automatic radiology report generation system. Due to the lack of large annotated radiology report datasets and the difficulty of evaluating the generated reports, the clinical value of such systems is often limited. To this end, we train our report generation network on the small IU Chest X-ray dataset then transfer the learned visual features to classification networks trained on the large ChestX-ray14 dataset and use a novel attention guided feature fusion strategy to improve the detection performance of 14 common thoracic diseases. Through learning the correspondences between different types of feature representations, common features learned by both the report generation and the classification model are assigned with higher attention weights and the weighted visual features boost the performance of state-of-the-art baseline thoracic disease classification networks without altering any learned features. Our work not only offers a new way to evaluate the effectiveness of the learned radiology report generation network, but also proves the possibility of transferring different types of visual representations learned on a small dataset for one task to complement features learned on another large dataset for a different task and improve the model performance.
+PB  - NA
+SP  - 125
+EP  - 138
+IS  - NA
+VL  - NA
+SN  - 0302-9743
+ER  - 
+
+TY  - CHAP
+DO  - 10.1016/b978-0-12-803135-3.00027-x
+UR  - https://doi.org/10.1016/b978-0-12-803135-3.00027-x
+TI  - The Indiana Health Information Exchange
+T2  - Elsevier eBooks
+AU  - J. Marc Overhage
+PY  - 2016
+DA  - 2016-01-01
+AB  - 
+PB  - NA
+SP  - 267
+EP  - 279
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/ichi.2017.76
+UR  - https://doi.org/10.1109/ichi.2017.76
+TI  - Predicting High-Order Directional Drug-Drug Interaction Relations
+T2  - NA
+AU  - Xia Ning
+AU  - Li Shen
+AU  - Lang Li
+PY  - 2017
+DA  - 2017-08-01
+AB  - High-order Drug-Drug Interactions (DDI) are common particularly for elderly people. It is highly non-trivial to detect such interactions via in vivo/in vitro experiments. In this paper, we present SVM-based classification methods to predict whether a high-order directional drug-drug interaction (HoDDDI) instance is associated with adverse drug reactions (ADRs) and induced side effects. Specifically, we developed kernels for HoDDDI instances of arbitrary orders that are constructed from various single-drug information. The experiments over datasets extracted from electronic health records demonstrate that our classification methods can achieve the best F1 as 0.793.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/j.gie.2015.03.207
+UR  - https://doi.org/10.1016/j.gie.2015.03.207
+TI  - Sa1436 G-EYE Advanced Colonoscopy for Increased Polyp Detection Rate- Randomized Tandem Study With Different Endoscopist -
+T2  - Gastrointestinal Endoscopy
+AU  - Johannes W. Rey
+AU  - Jafer Haschemi
+AU  - Achim Tresch
+AU  - Sebastian Dümcke
+AU  - Dietmar Borger
+AU  - Ann-Christin Kirchner
+AU  - Ralf Kiesslich
+AU  - Arthur Hoffman
+PY  - 2015
+DA  - 2015-05-01
+AB  - An apparently leading cause of missed polyps during colonoscopy is attributed to polyps that are located behind haustral folds in the colon, and are therefore hidden from the conventional, forward-viewing endoscope optics. The new G-Eye system is a balloon-colonoscope (NaviAidTM G-EYE, Smart Medical Systems, Israel), comprising a standard colonoscope having a re-processable, permanently integrated balloon at its distal tip.
+PB  - Elsevier BV
+SP  - AB215
+EP  - AB215
+IS  - 5
+VL  - 81
+SN  - 0016-5107
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/bibm.2016.7822626
+UR  - https://doi.org/10.1109/bibm.2016.7822626
+TI  - Implementation of a city-wide Health Information Exchange solution in the largest metropolitan region in China
+T2  - NA
+AU  - Guangjun Yu
+AU  - Wei Cui
+AU  - Li Zhou
+AU  - David W. Bates
+AU  - Jianlei Gu
+AU  - Hui Lu
+PY  - 2016
+DA  - 2016-12-01
+AB  - Objective: Health Information Exchange (HIE) enables providers to share healthcare information electronically across different organizations to promote safer, more efficient, and less costly patient-centered care. This paper describes the development and implementation of a city-wide HIE system in Shanghai, China. Methods: In 2006, as a product of the Chinese healthcare reform, the Health Information Exchange and Sharing Platform was proposed as a means to facilitate HIE within Shanghai. In collaboration with the Shanghai Hospital Development Center, a state-run nonprofit corporate, the HIE project was implemented across multiple levels within the city. The HIE system is based on the Service-oriented Architecture and complies with industry standards. Results: On September 2010, the first and largest Chinese HIE system was established. As of 2016 the system includes all of Shanghai's 38 tertiary hospitals (highest level hospitals in China), plus 6 district hospitals, and 40 community health centers, with coverage for 39 million patients. The system currently provides a rich source of patient information including encounter history, medication history, laboratory results, radiology images and reports, and clinical notes. Initial outcomes indicate a significant reduction in medication errors and duplication of tests, saving at least 48 million RMB a year, with overall improvement in the quality of care following implementation. Conclusion: The adoption of HIE in Shanghai resulted in improved access to accurate, complete, and relevant clinical information in real time, thus facilitating delivery of high-quality, cost-effective, and efficient care.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.1080/24709360.2017.1381300
+UR  - https://doi.org/10.1080/24709360.2017.1381300
+TI  - Joint modeling of longitudinal cholesterol measurements and time to onset of dementia in an elderly African American Cohort
+T2  - Biostatistics & epidemiology
+AU  - Shanshan Li
+AU  - Mengjie Zheng
+AU  - Sujuan Gao
+PY  - 2017
+DA  - 2017-01-01
+AB  - This paper presents a statistical method for analyzing the association between longitudinal cholesterol measurements and the timing of onset of dementia. The proposed approach jointly models the longitudinal and survival processes for each individual on the basis of a shared random effect, where a linear mixed effects model is assumed for the longitudinal component and an extended Cox regression model is employed for the survival component. A dynamic prediction model is built based on the joint model, which provides prediction of the conditional survival probabilities at different time points using available longitudinal measurements as well as baseline characteristics. We apply our method to the Indianapolis-Ibadan Dementia project, a 20-year study of dementia in elderly African Americans living in Indianapolis, Indiana. We find that with baseline covariates and comorbidities adjusted, the risk of dementia decreases by 1% per one mg/dl increase in total cholesterol. Therefore we conclude that, in...
+PB  - Taylor & Francis
+SP  - 148
+EP  - 160
+IS  - 1
+VL  - 1
+SN  - 2470-9360
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/j.jagp.2019.01.030
+UR  - https://doi.org/10.1016/j.jagp.2019.01.030
+TI  - PATIENT VERSUS CLINICIAN RATED DEPRESSION SCORES: A COMPARISON OF PARTICIPANT SCORES ON THE CARROLL DEPRESSION SCALE AND THE HAMILTON DEPRESSION RATING SCALE
+T2  - American Journal of Geriatric Psychiatry
+AU  - Danielle Tolton
+AU  - David C. Steffens
+AU  - Grace Chan
+PY  - 2019
+DA  - 2019-03-01
+AB  - Introduction In clinical practice, physicians and other medical providers rely heavily on self-assessment tools to screen and assess severity of psychiatric illness, including depression. Ensuring that these self-rating depression scales correlate to investigator rated depression scales is important for diagnosis, validity, and patient care. Several studies have demonstrated a strong correlation between adult patient rated scales compared to clinician completed depression scales which served to establish the validity of self-reported tests. To the best of our knowledge, no studies have been performed in depressed older adults to compare the correlation of self-report versus clinician completed depression scales. We hypothesized that older adults would rate depression higher on self-reported scales compared to clinician completed depression scales and that variables such as cognition would contribute to these findings. Methods Using data collected from the Neurobiology of Late Life Depression (NBOLD) study, we compared the 61-item self-report Carroll Depression Scale – Revised (CDS-R) scores against the 17-item clinician rated Hamilton Depression Rating Scale (HAM-D) scores in 100 depressed patients that were obtained on the same day as part of the study baseline assessment battery. Based on the crosswalk between CDS-R and HAM-D, the first 52 questions from the CDS-R were compared with the HAM-D. Spearman correlation, weighted kappa coefficient (κ), scatter plot, and linear regression were used to determine the agreement between CDS-R scores and HAM-D scores, and evaluate potential influencing factors for any discrepancy. Both total score and the 17 individual domain-specific subscale scores were examined. Results Consistent with the hypothesis, CDS-R total score (mean 19.6, SD 6.8) were found to be, on average, six points higher than HAM-D total score (mean 13.4, SD 3.9). This six point difference between CDS-R and HAM-D was consistent along the range of depression severity, as demonstrated in figure 1. Comparing domains within each assessment tool, suicidal tendency, weight loss, early insomnia had the highest correlation, while agitation, insight, and general somatic symptoms had lower correlations. The relationship between CDS-R total score and HAM-D total score was not affected by age, gender, Montgomery and Ǻsberg Depression Rating Scale (MADRS), and Cumulative Illness Rating Scale (CIRS) total scores. Cognition, as indicated by CERAD total score, was the only statistically significant covariate for predicting CDS-R total score in a model that included HAM-D score, which supported the hypothesis. Conclusions Self-assessment screening tools, including those for depression, are important tools for researchers and clinicians alike. These screening tools, such as the Carroll Depression Scale, have demonstrated positive correlation compared with clinician completed scales, such as the Hamilton Depression Rating Scale. Similarly, this data analysis demonstrated positive correlation between the CDS-R and HAM-D in older adults. Limitations of this study include small sample size and mild to moderate depression scores in this ambulatory population. Additional studies would be beneficial to compare other depression rating scales, especially in older adults. Other research is needed to investigate variables that may attribute to higher rates of self-reported depression symptoms. This research was funded by Not Applicable
+PB  - Elsevier BV
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - 1064-7481
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/s0016-5085(15)31674-7
+UR  - https://doi.org/10.1016/s0016-5085(15)31674-7
+TI  - Su1403 Medical, Social, and Legal Risks to Predict Alcoholic Liver Disease Using Natural Language Processing and Advanced Analytics
+T2  - Gastroenterology
+AU  - Timothy D. Imler
+AU  - Nathaniel S. Ring
+AU  - David W. Crabb
+PY  - 2015
+DA  - 2015-04-01
+AB  - 
+PB  - Elsevier BV
+SP  - S
+EP  - 499
+IS  - 4
+VL  - 148
+SN  - 0016-5085
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/s0016-5085(16)30410-3
+UR  - https://doi.org/10.1016/s0016-5085(16)30410-3
+TI  - 385 Impact of an Education Program on IBD Patient's Skills: One Year Results of the ECIPE Randomized, Controlled Multicenter Study
+T2  - Gastroenterology
+AU  - Jacques Moreau
+AU  - Lysiane Marthey
+AU  - Caroline Trang-Poisson
+AU  - Maria Nachury
+AU  - Romain Altwegg
+AU  - Jean-Charles Grimaud
+AU  - Sandra Orempuller
+AU  - Jérôme Filippi
+AU  - Alexandre Aubourg
+AU  - Clotilde Baudry
+AU  - Philippe Seksik
+AU  - Xavier Roblin
+AU  - Stéphane Nahon
+AU  - Guillaume Savoye
+AU  - B Mesnard
+AU  - Carmen Stefanescu
+AU  - M Simon
+AU  - Benoit Coffin
+AU  - Jean-Louis Dupas
+AU  - Sylvie Chevret
+AU  - Matthieu Allez
+PY  - 2016
+DA  - 2016-04-01
+AB  - 
+PB  - Elsevier BV
+SP  - S87
+EP  - S88
+IS  - 4
+VL  - 150
+SN  - 0016-5085
+ER  - 
+
+TY  - CHAP
+DO  - 10.1016/b978-0-12-803135-3.00003-7
+UR  - https://doi.org/10.1016/b978-0-12-803135-3.00003-7
+TI  - Drivers and Barriers to Adoption
+T2  - NA
+AU  - Saurabh Rahurkar
+AU  - Brian E. Dixon
+AU  - Nir Menachemi
+PY  - 2016
+DA  - 2016-01-01
+AB  - The need for health care reform and governmental health policy in both the United States and globally influences the adoption and use of health information exchange (HIE). The US government and ministries of health around the world are investing in health information technologies, including HIE. This chapter provides an overview of the current adoption and use of HIE. In addition, this chapter examines barriers to adoption and how current policies as well as health reform activities are addressing some of these barriers. Furthermore, this chapter examines emerging trends in population health, Big Data, natural language processing, and information blocking that are shaping the future adoption and use of HIE among health systems, health care professionals, and governmental public health agencies.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - CHAP
+DO  - 10.1016/b978-0-12-803135-3.00004-9
+UR  - https://doi.org/10.1016/b978-0-12-803135-3.00004-9
+TI  - Engaging and Sustaining Stakeholders
+T2  - Elsevier eBooks
+AU  - Keith W. Kelley
+AU  - Sue S. Feldman
+AU  - Steven D. Gravely
+PY  - 2016
+DA  - 2016-01-01
+AB  - Abstract Governance is one of the most challenging aspects of health information exchange (HIE). Effective governance cannot be imposed; it must be accepted by all stakeholders involved in HIE. Governance begins with the establishment of a governing body with broad representation drawn from stakeholders to facilitate consensus regarding data access and use. Data sharing agreements among the stakeholders enforce data access and use policies, forming a governance framework. This framework is essential to define what data will be shared, how it will be shared, to whom it will be shared, and when it will be shared. A governance framework promotes trust, supports additional stakeholders and approved use cases, and provides flexibility to adapt to a changing environment. This chapter outlines the core components of an effective governance framework and discusses the challenges to building and sustaining governance for HIE.
+PB  - NA
+SP  - 59
+EP  - 76
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/cic.2017.00026
+UR  - https://doi.org/10.1109/cic.2017.00026
+TI  - Access Control for Distributed Processing Systems: Use Cases and General Considerations
+T2  - NA
+AU  - Ang Li
+AU  - Qinghua Li
+AU  - Vincent C. Hu
+PY  - 2017
+DA  - 2017-10-01
+AB  - Access control (AC) is critical for preventing sensitive information from unauthorized access. Various AC systems have been proposed and enforced in different types of information systems (e.g., bank and military). However, existing AC systems cannot thoroughly address the challenges in emerging distributed processing systems (DPS), such as Big Data (BD) and Cloud, due to their dynamic and complex architecture. Generally, AC for DPS needs to consider the protection for collaboration among distributed processing domains. Even though some DPS architectures were proposed to address DPS challenges, most of them only focus on processing capabilities without consideration of AC. Even with some inclusion of security in recent DPS, they are mostly ad hoc and patch efforts. In this paper, we analyze the general features and use cases of BD and Cloud, which are two of most widely applied DPS applications, and propose a set of general and comprehensive considerations for AC in DPS, which can provide a guideline for designing AC systems for DPS.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - NA
+UR  - https://scholarworks.iupui.edu/handle/1805/9153
+TI  - Lower provider volume is associated with higher failure rates for endoscopic retrograde cholangiopancreatography
+T2  - PMC
+AU  - Gregory A. Cote
+AU  - Timothy D. Imler
+AU  - Huiping Xu
+AU  - Evgenia Teal
+AU  - Dustin D. French
+AU  - Thomas F. Imperiale
+AU  - Marc B. Rosenman
+AU  - J.F. Wilson
+AU  - Siu L. Hui
+AU  - Stuart Sherman
+PY  - 2013
+DA  - 2013-12-01
+AB  - BACKGROUND Among physicians who perform endoscopic retrograde cholangiopancreatography (ERCP), the relationship between procedure volume and outcome is unknown. OBJECTIVE Quantify the ERCP volume-outcome relationship by measuring provider-specific failure rates, hospitalization rates, and other quality measures. RESEARCH DESIGN Retrospective cohort. SUBJECTS A total of 16,968 ERCPs performed by 130 physicians between 2001 and 2011, identified in the Indiana Network for Patient Care. MEASURES Physicians were classified by their average annual Indiana Network for Patient Care volume and stratified into low (<25/y) and high (≥25/y). Outcomes included failed procedures, defined as repeat ERCP, percutaneous transhepatic cholangiography or surgical exploration of the bile duct≤7 days after the index procedure, hospitalization rates, and 30-day mortality. RESULTS Among 15,514 index ERCPs, there were 1163 (7.5%) failures; the failure rate was higher among low (9.5%) compared with high volume (5.7%) providers (P<0.001). A second ERCP within 7 days (a subgroup of failure rate) occurred more frequently when the original ERCP was performed by a low-volume (4.1%) versus a high-volume physician (2.3%, P=0.013). Patients were more frequently hospitalized within 24 hours when the ERCP was performed by a low-volume (28.3%) versus high-volume physician (14.8%, P=0.002). Mortality within 30 days was similar (low=1.9%, high=1.9%). Among low-volume physicians and after adjusting, the odds of having a failed procedure decreased 3.3% (95% confidence interval, 1.6%-5.0%, P<0.001) with each additional ERCP performed per year. CONCLUSIONS Lower provider volume is associated with higher failure rate for ERCP, and greater need for postprocedure hospitalization.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.4172/2167-1052.1000156
+UR  - https://doi.org/10.4172/2167-1052.1000156
+TI  - A Comparison of Data Driven-based Measures of Adherence to Oral Hypoglycemic Agents in Medicaid Patients
+T2  - Advances in Pharmacoepidemiology and Drug Safety
+AU  - J. Marc Overhage
+PY  - 2014
+DA  - 2014-01-01
+AB  - Objective: Using observational clinical data from our local operational health information exchange, we evaluated different methods for measuring adherence to Oral Antihyperglycemic Agents (OHA) in patients with Type 2 diabetes. The primary objective is to compare different OHA adherence measures based on their associations with glycated hemoglobin A1c (HbA1c) levels. The secondary objective is to examine the relationship between patient demographic and clinical characteristics and HbA1c level. Methods: An observational sample of 831 Medicaid patients with Type 2 diabetes who had HbA1c test results recorded between January 1, 2001 and December 31, 2005 was identified in the Indiana Network of Patient Care (INPC). OHA adherence was measured by medication possession ratio (MPR), proportion of days covered (PDC), and the number of gaps (GAP) for 3, 6, and 12-month intervals prior to the HbA1c test date. The associations between these nine OHA adherence measures and HbA1c levels were examined and compared using mixed effects generalized linear models. Patient age, gender, race, duration of OHA treatment, number of concurrent OHAs, and OHA class were used to control the possible confounders in the analyses. Results: All three OHA adherence definitions showed consistent and significant association with HbA1c control. Unadjusted coefficients ranged -0.98 to -1.07 for PDC, -0.90 to -0.92 for MPR, and 0.25 to 0.19 for GAP. The 6-month PDC showed the strongest association with HbA1c levels in both unadjusted (-1.07, p<0.0001) and adjusted (-1.12, p<0.0001) models. Conclusion: Better OHA adherence is significantly associated with lower HbA1c level in Medicaid patients with Type 2 diabetes. The 6-month PDC is more highly correlated with the outcome than other OHA adherence measurements.
+PB  - OMICS Publishing Group
+SP  - NA
+EP  - NA
+IS  - 03
+VL  - 03
+SN  - 2167-1052
+ER  - 
+
+TY  - JOUR
+DO  - NA
+UR  - NA
+TI  - An Evaluation of Two Methods for Generating Synthetic HL7 Segments Reflecting Real-World Health Information Exchange Transactions
+T2  - NA
+AU  - Thomas Mwogi
+AU  - Paul G. Biondich
+AU  - Shaun J. Grannis
+PY  - 2014
+DA  - 2014-01-01
+AB  - Motivated by the need for readily available data for testing an open-source health information exchange platform, we developed and evaluated two methods for generating synthetic messages. The methods used HL7 version 2 messages obtained from the Indiana Network for Patient Care. Data from both methods were analyzed to assess how effectively the output reflected original ‘real-world’ data. The Markov Chain method (MCM) used an algorithm based on transitional probability matrix while the Music Box model (MBM) randomly selected messages of particular trigger type from the original data to generate new messages. The MBM was faster, generated shorter messages and exhibited less variation in message length. The MCM required more computational power, generated longer messages with more message length variability. Both methods exhibited adequate coverage, producing a high proportion of messages consistent with original messages. Both methods yielded similar rates of valid messages.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - NA
+UR  - https://scholarworks.iupui.edu/handle/1805/8994
+TI  - Database queries for hospitalizations for acute congestive heart failure: flexible methods and validation based on set theory
+T2  - PMC
+AU  - Marc B. Rosenman
+AU  - He Jian
+AU  - J. C. Martin
+AU  - Kavitha Nutakki
+AU  - George J. Eckert
+AU  - Kathleen A. Lane
+AU  - Irmina Gradus-Pizlo
+AU  - Siu L. Hui
+PY  - 2014
+DA  - 2014-03-01
+AB  - Background and objective Electronic health records databases are increasingly used for identifying cohort populations, covariates, or outcomes, but discerning such clinical ‘phenotypes’ accurately is an ongoing challenge. We developed a flexible method using overlapping (Venn diagram) queries. Here we describe this approach to find patients hospitalized with acute congestive heart failure (CHF), a sampling strategy for one-by-one ‘gold standard’ chart review, and calculation of positive predictive value (PPV) and sensitivities, with SEs, across different definitions.
+
+Materials and methods We used retrospective queries of hospitalizations (2002–2011) in the Indiana Network for Patient Care with any CHF ICD-9 diagnoses, a primary diagnosis, an echocardiogram performed, a B-natriuretic peptide (BNP) drawn, or BNP >500 pg/mL. We used a hybrid between proportional sampling by Venn zone and over-sampling non-overlapping zones. The acute CHF (presence/absence) outcome was based on expert chart review using a priori criteria.
+
+Results Among 79 091 hospitalizations, we reviewed 908. A query for any ICD-9 code for CHF had PPV 42.8% (SE 1.5%) for acute CHF and sensitivity 94.3% (1.3%). Primary diagnosis of 428 and BNP >500 pg/mL had PPV 90.4% (SE 2.4%) and sensitivity 28.8% (1.1%). PPV was <10% when there was no echocardiogram, no BNP, and no primary diagnosis. ‘False positive’ hospitalizations were for other heart disease, lung disease, or other reasons.
+
+Conclusions This novel method successfully allowed flexible application and validation of queries for patients hospitalized with acute CHF.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - NA
+UR  - https://scholarworks.iupui.edu/bitstream/1805/10435/1/Zhu_2015_nonadherence.pdf
+TI  - Nonadherence to Oral Antihyperglycemic Agents: Subsequent Hospitalization and Mortality among Patients with Type 2 Diabetes in Clinical Practice
+T2  - Publisher
+AU  - Vivienne J. Zhu
+AU  - Wanzhu Tu
+AU  - Marc B. Rosenman
+AU  - J. Marc Overhage
+PY  - 2015
+DA  - 2015-01-01
+AB  - Using real-world clinical data from the Indiana Network for Patient Care, we analyzed the associations between non-adherence to oral antihyperglycemic agents (OHA) and subsequent diabetes-related hospitalization and all-cause mortality for patients with type 2 diabetes. OHA adherence was measured by the annual proportion of days covered (PDC) for 2008 and 2009. Among 24,067 eligible patients, 35,507 annual PDCs were formed. Over 90% (n=21,798) of the patients had a PDC less than 80%. In generalized linear mixed model analyses, OHA non-adherence is significantly associated with diabetes related hospitalizations (OR: 1.2; 95% CI [1.1,1.3]; p<0.0001). Older patients, white patients, or patients who had ischemic heart disease, stroke, or renal disease had higher odds of hospitalization. Similarly, OHA non-adherence increased subsequent mortality (OR: 1.3; 95% CI [1.02, 1.61]; p<0.0001). Patient age, male gender, income and presence of ischemic heart diseases, stroke, and renal disease were also significantly associated with subsequent all-cause death.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/s0016-5085(15)33300-x
+UR  - https://doi.org/10.1016/s0016-5085(15)33300-x
+TI  - Tu2034 FISH, Stents, and Cancer
+T2  - Gastroenterology
+AU  - Utpal K. Mondal
+AU  - Rosita D. Frazier
+AU  - Hari Sayana
+AU  - Gurtej Malhi
+AU  - Shazli N. Malik
+AU  - David Henkes
+AU  - Sandeep Patel
+AU  - Laura Rosenkranz
+PY  - 2015
+DA  - 2015-04-01
+AB  - 
+PB  - Elsevier BV
+SP  - S
+EP  - 966
+IS  - 4
+VL  - 148
+SN  - 0016-5085
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/s0016-5085(15)31671-1
+UR  - https://doi.org/10.1016/s0016-5085(15)31671-1
+TI  - Su1400 An Open Labelled, Active Controlled Study If Safety and Efficacy of Iodine Complex Renessans in Chronic HCV Patients
+T2  - Gastroenterology
+AU  - Ghias ul Hassan
+PY  - 2015
+DA  - 2015-04-01
+AB  - Introduction: Chronic HCV related disease is one of the commonest ailment in pakistani community and genotype 3 is the common subtype. Iodine polymers like Renessans have long been used in central asian states for the management of chronic HCV. No clinical data is available to prove this claim. This study has been conducted to evaluate the safety and efficacy of Renessans in HCV related CAH. Material and Methods : In this randomized, active controlled study we have divided patients in three groups. Group I recieved only Renessans, Group II a recieved interferon+ribavirin+renessans and group II b received interferon + ribavirin.. 30 patients for each arm have been randomized in response guided therapy by checking the RVR, EVR and SVR. Results: SVR Achieved in 86.6 %in Group II And 76.9 % Patients in group II b while niether of the patient in group I achieved SVR. Four patients had serious adverse events which was managed and had uneventful recovery. Conclusion : It is concluded that iodine complex Renessans is safe and has beneficial role when added to standard of care therapy for patients suffering from HCV related disease.
+PB  - Elsevier BV
+SP  - S
+EP  - 499
+IS  - 4
+VL  - 148
+SN  - 0016-5085
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/s0016-5085(15)33299-6
+UR  - https://doi.org/10.1016/s0016-5085(15)33299-6
+TI  - Tu2033 The Use of a Genetic Database to Determine the Etiologies of Biphenotypic Hepatocellular Carcinoma-Cholangiocarcinoma
+T2  - Gastroenterology
+AU  - Shaffer Mok
+AU  - Sachin Mohan
+AU  - Navjot Grewal
+AU  - Adam Elfant
+AU  - Thomas A. Judge
+PY  - 2015
+DA  - 2015-04-01
+AB  - 
+PB  - Elsevier BV
+SP  - S
+EP  - 965
+IS  - 4
+VL  - 148
+SN  - 0016-5085
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/s0016-5085(15)33296-0
+UR  - https://doi.org/10.1016/s0016-5085(15)33296-0
+TI  - Tu2030 Predictors of Malignancy in Biliary Mucin-Producing Cystic Neoplasms
+T2  - Gastroenterology
+AU  - Sung Yong Han
+AU  - Dong Uk Kim
+PY  - 2015
+DA  - 2015-04-01
+AB  - 
+PB  - Elsevier BV
+SP  - S
+EP  - 965
+IS  - 4
+VL  - 148
+SN  - 0016-5085
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/s0016-5085(15)33298-4
+UR  - https://doi.org/10.1016/s0016-5085(15)33298-4
+TI  - Tu2032 Can Endoscopic Ultrasound-Guided Fine Needle Aspiration (EUS-FNA) Offer Clinical Benefit for Tumors of the Ampulla of Vater?
+T2  - Gastroenterology
+AU  - Akira Imoto
+AU  - Takeshi Ogura
+AU  - Wataru Takagi
+AU  - Saori Onda
+AU  - Tsuyoshi Sano
+AU  - Mohamed M. Malak
+AU  - Abeer A. Hassan
+AU  - Daisuke Masuda
+AU  - Michiaki Takii
+AU  - Yoshitaka Kurisu
+AU  - Kazuhide Higuchi
+PY  - 2015
+DA  - 2015-04-01
+AB  - 
+PB  - Elsevier BV
+SP  - S
+EP  - 965
+IS  - 4
+VL  - 148
+SN  - 0016-5085
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/s0016-5085(15)33297-2
+UR  - https://doi.org/10.1016/s0016-5085(15)33297-2
+TI  - Tu2031 Cohort Identification of Hepatocellular Adenoma by Natural Language Processing
+T2  - Gastroenterology
+AU  - Timothy D. Imler
+AU  - Craig Lammert
+PY  - 2015
+DA  - 2015-04-01
+AB  - 
+PB  - Elsevier BV
+SP  - S
+EP  - 965
+IS  - 4
+VL  - 148
+SN  - 0016-5085
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/s0016-5085(15)31672-3
+UR  - https://doi.org/10.1016/s0016-5085(15)31672-3
+TI  - Su1401 Treatment of HCV Using Combination DAAs Can Be Successfully Managed by Trained Healthcare Extenders
+T2  - Gastroenterology
+AU  - Anna Marie Hefner
+AU  - Idrees Suliman
+AU  - Roukaya Hassanein
+AU  - Catherine M. Hill
+AU  - Renee Pozza
+AU  - Thomas Couturier
+AU  - Preeti A. Reshamwala
+AU  - Tarek Hassanein
+PY  - 2015
+DA  - 2015-04-01
+AB  - Introduction: Chronic HCV related disease is one of the commonest ailment in pakistani community and genotype 3 is the common subtype. Iodine polymers like Renessans have long been used in central asian states for the management of chronic HCV. No clinical data is available to prove this claim. This study has been conducted to evaluate the safety and efficacy of Renessans in HCV related CAH. Material and Methods : In this randomized, active controlled study we have divided patients in three groups. Group I recieved only Renessans, Group II a recieved interferon+ribavirin+renessans and group II b received interferon + ribavirin.. 30 patients for each arm have been randomized in response guided therapy by checking the RVR, EVR and SVR. Results: SVR Achieved in 86.6 %in Group II And 76.9 % Patients in group II b while niether of the patient in group I achieved SVR. Four patients had serious adverse events which was managed and had uneventful recovery. Conclusion : It is concluded that iodine complex Renessans is safe and has beneficial role when added to standard of care therapy for patients suffering from HCV related disease.
+PB  - Elsevier BV
+SP  - S
+EP  - 499
+IS  - 4
+VL  - 148
+SN  - 0016-5085
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/s0016-5085(15)31673-5
+UR  - https://doi.org/10.1016/s0016-5085(15)31673-5
+TI  - Su1402 Etiology and Natural Course of End-Stage Liver Disease in the Real World Setting
+T2  - Gastroenterology
+AU  - Xheni Deda
+AU  - Cagdas Kalkan
+AU  - Onur Keskin
+AU  - Ali Tüzün
+AU  - Mustafa Yakut
+AU  - Güner Kılıç
+AU  - Fatih Karakaya
+AU  - Ramazan Idilman
+PY  - 2015
+DA  - 2015-04-01
+AB  - 
+PB  - Elsevier BV
+SP  - S
+EP  - 499
+IS  - 4
+VL  - 148
+SN  - 0016-5085
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/s0016-5085(15)31670-x
+UR  - https://doi.org/10.1016/s0016-5085(15)31670-x
+TI  - Su1399 Rationale for Antiviral Therapy for Hepatitis C Even After HCC
+T2  - Gastroenterology
+AU  - Keisuke Hamamura
+AU  - Kenjiro Kodaka
+AU  - Shunsuke Horitani
+AU  - Kanehiko Suwa
+AU  - Takahiro Kondo
+AU  - Kengo Kuroishi
+AU  - Keishi Yoshikawa
+AU  - Kazuya Ohno
+AU  - Yuya Takahashi
+AU  - Toshio Tanaka
+AU  - Tatsuki Oyaizu
+PY  - 2015
+DA  - 2015-04-01
+AB  - 
+PB  - Elsevier BV
+SP  - S
+EP  - 499
+IS  - 4
+VL  - 148
+SN  - 0016-5085
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/j.gie.2015.03.206
+UR  - https://doi.org/10.1016/j.gie.2015.03.206
+TI  - Sa1435 Is There an Easy Way to Check the Detection Rate of Colon Polyps?: A Simple Colonoscopy Reporting System
+T2  - Gastrointestinal Endoscopy
+AU  - Jae Hyun Kim
+AU  - Seun Ja Park
+AU  - Moo In Park
+AU  - Won Moon
+AU  - Sung Eun Kim
+AU  - Kwang Il Seo
+AU  - Youn Jung Choi
+PY  - 2015
+DA  - 2015-05-01
+AB  - Detecting the rate of colon polyps, such as the adenoma detection rate (ADR) is an important quality indicator during colonoscopy exams. However, reporting the detection rate in daily practice is not easy because manual reporting is time consuming and requires effort. To our knowledge, reporting systems for detecting the rate of colon polyps are rare. This study describes a simple colonoscopy reporting system that can be used to detect the rate of colon polyps.
+PB  - Elsevier BV
+SP  - AB214
+EP  - AB215
+IS  - 5
+VL  - 81
+SN  - 0016-5107
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/j.gie.2015.03.208
+UR  - https://doi.org/10.1016/j.gie.2015.03.208
+TI  - Sa1437 Indexed Natural Language Processing to Identify Adenoma Detection RATES
+T2  - Gastrointestinal Endoscopy
+AU  - Timothy D. Imler
+AU  - Thomas F. Imperiale
+PY  - 2015
+DA  - 2015-05-01
+AB  - Quality monitoring is of increasing importance in procedural fields, especially for colonoscopy. Adenoma detection rate (ADR) predicts the risk for developing colorectal cancer (CRC) following a negative screening colonoscopy, however, finding the ADR using automation is challenging because it is tied to text reports and is not easily accessible without manual review. Natural language processing (NLP) has been used to obtain ADR, although with significant customized effort, cost, and has been limited to single institutions. Boolean searching allows the combination of keywords along with AND, NOT, and OR functions to obtain information. However, it is unknown whether a Boolean-based search that uses indexed terms from NLP could accurately and efficiently provide ADR.
+PB  - Elsevier BV
+SP  - AB215
+EP  - AB216
+IS  - 5
+VL  - 81
+SN  - 0016-5107
+ER  - 
+
+TY  - JOUR
+DO  - NA
+UR  - NA
+TI  - Identification and Mechanistic Investigation of Drug-Drug Interactions Associated With Myopathy: A Translational Approach
+T2  - NA
+AU  - Xiaogang Han
+AU  - Sara K. Quinney
+AU  - Z. Wang
+AU  - P. Zhang
+AU  - Jon Duke
+AU  - Z. Desta
+AU  - Jeffrey S. Elmendorf
+AU  - D. A. Flockhart
+AU  - L. Li
+PY  - 2015
+DA  - 2015-09-01
+AB  - Myopathy is a group of muscle diseases that can be induced or exacerbated by drug–drug interactions (DDIs). We sought to identify clinically important myopathic DDIs and elucidate their underlying mechanisms. Five DDIs were found to increase the risk of myopathy based on analysis of observational data from the Indiana Network of Patient Care. Loratadine interacted with simvastatin (relative risk 95% confidence interval [CI] = [1.39, 2.06]), alprazolam (1.50, 2.31), ropinirole (2.06, 5.00), and omeprazole (1.15, 1.38). Promethazine interacted with tegaserod (1.94, 4.64). In vitro investigation showed that these DDIs were unlikely to result from inhibition of drug metabolism by CYP450 enzymes or from inhibition of hepatic uptake via the membrane transporter OATP1B1/1B3. However, we did observe in vitro synergistic myotoxicity of simvastatin and desloratadine, suggesting a role in loratadine–simvastatin interaction. This interaction was epidemiologically confirmed (odds ratio 95% CI = [2.02, 3.65]) using the data from the US Food and Drug Administration Adverse Event Reporting System.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - NA
+UR  - NA
+TI  - Preparing a collection of radiology examinations for distribution and retrieval
+T2  - NA
+AU  - Dina Demner-Fushman
+AU  - Marc D. Kohli
+AU  - Marc B. Rosenman
+AU  - Sonya E. Shooshan
+AU  - Laritza Rodriguez
+AU  - Sameer Antani
+AU  - George R. Thoma
+AU  - Clement J. McDonald
+PY  - 2016
+DA  - 2016-03-01
+AB  - Objective Clinical documents made available for secondary use play an increasingly important role in discovery of clinical knowledge, development of research methods, and education. An important step in facilitating secondary use of clinical document collections is easy access to descriptions and samples that represent the content of the collections. This paper presents an approach to developing a collection of radiology examinations, including both the images and radiologist narrative reports, and making them publicly available in a searchable database.
+
+Materials and Methods The authors collected 3996 radiology reports from the Indiana Network for Patient Care and 8121 associated images from the hospitals’ picture archiving systems. The images and reports were de-identified automatically and then the automatic de-identification was manually verified. The authors coded the key findings of the reports and empirically assessed the benefits of manual coding on retrieval.
+
+Results The automatic de-identification of the narrative was aggressive and achieved 100% precision at the cost of rendering a few findings uninterpretable. Automatic de-identification of images was not quite as perfect. Images for two of 3996 patients (0.05%) showed protected health information. Manual encoding of findings improved retrieval precision.
+
+Conclusion Stringent de-identification methods can remove all identifiers from text radiology reports. DICOM de-identification of images does not remove all identifying information and needs special attention to images scanned from film. Adding manual coding to the radiologist narrative reports significantly improved relevancy of the retrieved clinical documents. The de-identified Indiana chest X-ray collection is available for searching and downloading from the National Library of Medicine ( ).
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/s0016-5085(16)32074-1
+UR  - https://doi.org/10.1016/s0016-5085(16)32074-1
+TI  - Su1976 Endoscopic Treatment of Obesity With a Duodenal-Jejunal Bypass Sleeve: Does Impairment of Fat Absorption Explain Weight Loss?
+T2  - Gastroenterology
+AU  - Graeme Rich
+AU  - Jessica McMaster
+AU  - Moritz T. von Wulffen
+AU  - Arjun Gandhi
+AU  - Linda M. Fletcher
+AU  - Saurabh Gupta
+AU  - Anthony Russell
+AU  - Viral Chikani
+AU  - Chachay Veronique
+AU  - Gerald Holtmann
+PY  - 2016
+DA  - 2016-04-01
+AB  - 
+PB  - Elsevier BV
+SP  - S604
+EP  - S604
+IS  - 4
+VL  - 150
+SN  - 0016-5085
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/s0016-5085(16)30408-5
+UR  - https://doi.org/10.1016/s0016-5085(16)30408-5
+TI  - 383 Comparative Efficacy and Tolerability of Long-Term Pharmacological Interventions for Obesity: A Systematic Review and Network Meta-Analysis
+T2  - Gastroenterology
+AU  - Rohan Khera
+AU  - Mohammad Hassan Murad
+AU  - Apoorva K. Chandar
+AU  - Parambir S. Dulai
+AU  - Zhen Wang
+AU  - Larry J. Prokop
+AU  - Rohit Loomba
+AU  - Michael Camilleri
+AU  - Siddharth Singh
+PY  - 2016
+DA  - 2016-04-01
+AB  - 
+PB  - Elsevier BV
+SP  - S87
+EP  - S87
+IS  - 4
+VL  - 150
+SN  - 0016-5085
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/s0016-5085(16)32076-5
+UR  - https://doi.org/10.1016/s0016-5085(16)32076-5
+TI  - Su1978 Anti-Obesity Medication Utilization in Patients with Suspected Non-Alcoholic Fatty Liver Disease
+T2  - Gastroenterology
+AU  - A. Flores Cuéllar
+AU  - Ross Hayden
+AU  - Timothy D. Imler
+PY  - 2016
+DA  - 2016-04-01
+AB  - 
+PB  - Elsevier BV
+SP  - S604
+EP  - S604
+IS  - 4
+VL  - 150
+SN  - 0016-5085
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/s0016-5085(16)30409-7
+UR  - https://doi.org/10.1016/s0016-5085(16)30409-7
+TI  - 384 Geographic Variation in Anti-Obesity Medication Utilization
+T2  - Gastroenterology
+AU  - A. Flores Cuéllar
+AU  - Ross Hayden
+AU  - Timothy D. Imler
+PY  - 2016
+DA  - 2016-04-01
+AB  - 
+PB  - Elsevier BV
+SP  - S87
+EP  - S87
+IS  - 4
+VL  - 150
+SN  - 0016-5085
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/s0016-5085(16)32075-3
+UR  - https://doi.org/10.1016/s0016-5085(16)32075-3
+TI  - Su1977 Genetic Predictors of Weight Loss From a Behavior Modification Therapy
+T2  - Gastroenterology
+AU  - Cecilia Dalle Ore
+AU  - Mandy L. Kenyon
+AU  - Thomas Rutledge
+AU  - Samuel B. Ho
+AU  - Amir Zarrinpar
+PY  - 2016
+DA  - 2016-04-01
+AB  - 
+PB  - Elsevier BV
+SP  - S604
+EP  - S604
+IS  - 4
+VL  - 150
+SN  - 0016-5085
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/j.cardfail.2016.06.302
+UR  - https://doi.org/10.1016/j.cardfail.2016.06.302
+TI  - Utilization of Guideline Documented Medical Therapy in Patients with New Onset Heart Failure with Reduced Ejection Fraction: A Veteran's Affairs Study
+T2  - Journal of Cardiac Failure
+AU  - Purvi Parwani
+AU  - Mubasher Abbas
+AU  - Huzair Ali
+AU  - Pedro Lozano
+AU  - Udho Thadani
+AU  - Tarun W. Dasari
+PY  - 2016
+DA  - 2016-08-01
+AB  - Introduction:Utilization of maximal Guideline Documented Medical Therapy(GDMT) significantly reduce long-term mortality in patients with HFrEF (Heart Failure with reduced Ejection Fraction). Previous studies have documented underutilization of the GDMT in HFrEF. The aim of this study was to determine utilization and achievement of target doses of GDMT in patients with HFrEF. Methods: Patients presenting to the VA medical center with new onset HFrEF (Jan 2011–December 2013) were included in the analysis. Baseline demographic, clinical & echocardiographic data were collected. Utilization of GDMT at the time of the discharge and at 1,3,6 & 12 months during follow-up was assessed. Results: Of the 95 patients that presented with symptoms and signs suggestive of acute heart failure, 48 met the criteria for LVEF < 40% (baseline characteristics in Table). 44 (90%) were discharged on Beta-blockers while 38 (79%) were discharged on ACE inhibitors/ARB. A clinical follow-up with a healthcare provider occurred in 77% at 1 month, 52% at 3 months, 54% at 6 months and 58% at 1 year. Dose titration of either Beta-Blocker or ACEi/ARB was attempted in 42% at 1 month, 44% at 3 months, 27% at 6 months and 29% at 12 months. Reasons for underutilization of target doses of GDMT are listed in Table 2. Conclusion: Utilization and achievement of target doses of GDMT was suboptimal among patients discharged with newly diagnosed HFrEF during a 1 year follow up. Concerted efforts need to be made to further improve adherence to target doses of GDMT in patients with HFrEF.
+PB  - Elsevier BV
+SP  - S95
+EP  - S95
+IS  - 8
+VL  - 22
+SN  - 1071-9164
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/j.cardfail.2016.06.303
+UR  - https://doi.org/10.1016/j.cardfail.2016.06.303
+TI  - Inflammatory Bowel Disease is Associated with Risk of Mortality and Hospitalization in Patients with Heart Failure
+T2  - Journal of Cardiac Failure
+AU  - Daniel W. Hugenberg
+AU  - Marc B. Rosenman
+AU  - Yaron Hellman
+AU  - Azam Hadi
+PY  - 2016
+DA  - 2016-08-01
+AB  - 
+PB  - Elsevier BV
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - 1071-9164
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/j.cardfail.2016.06.300
+UR  - https://doi.org/10.1016/j.cardfail.2016.06.300
+TI  - Obesity: A Risk Factor for Thrombotic Complications in LVAD Recipients
+T2  - Journal of Cardiac Failure
+AU  - Haroon Yousaf
+AU  - Andrew Keibel
+AU  - Christiane Abouzeid
+AU  - Andrew Yoon
+AU  - Michael W. Fong
+AU  - Luanda Grazette
+PY  - 2016
+DA  - 2016-08-01
+AB  - 
+PB  - Elsevier BV
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - 1071-9164
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/j.cardfail.2016.06.301
+UR  - https://doi.org/10.1016/j.cardfail.2016.06.301
+TI  - Correlates of Health-Related Quality of Life in Patients with Hypertrophic Cardiomyopathy
+T2  - Journal of Cardiac Failure
+AU  - John L. Jefferies
+AU  - Ian Kudel
+AU  - Lisa Salberg
+PY  - 2016
+DA  - 2016-08-01
+AB  - 
+PB  - Elsevier BV
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - 1071-9164
+ER  - 
+
+TY  - CHAP
+DO  - NA
+UR  - https://scholarworks.iupui.edu/handle/1805/13935
+TI  - Noncompaction cardiomyopathy and heterotaxy syndrome
+T2  - Author eBooks
+AU  - Hugo R. Martinez
+AU  - Stephanie M. Ware
+AU  - Marcus S. Schamberger
+AU  - John J. Parent
+PY  - 2017
+DA  - 2017-01-01
+AB  - Left ventricular noncompaction cardiomyopathy (LVNC) is characterized by compact and trabecular layers of the left ventricular myocardium. This cardiomyopathy may occur with congenital heart disease (CHD). Single cases document co-occurrence of LVNC and heterotaxy, but no data exist regarding the prevalence of this association. This study sought to determine whether a non-random association of LVNC and heterotaxy exists by evaluating the prevalence of LVNC in patients with heterotaxy. In a retrospective review of the Indiana Network for Patient Care, we identified 172 patients with heterotaxy (69 male, 103 female). Echocardiography and cardiac magnetic resonance imaging results were independently reviewed by two cardiologists to ensure reproducibility of LVNC. A total of 13/172 (7.5%) patients met imaging criteria for LVNC. The CHD identified in this subgroup included atrioventricular septal defects [11], dextrocardia [10], systemic and pulmonary venous return abnormalities [7], and transposition of the great arteries [5]. From this subgroup, 61% (n = 8) of the patients developed arrhythmias; and 61% (n = 8) required medical management for chronic heart failure. This study indicates that LVNC has increased prevalence among patients with heterotaxy when compared to the general population (0.014-1.3%) suggesting possible common genetic mechanisms. Interestingly, mice with a loss of function of Scrib or Vangl2 genes showed abnormal compaction of the ventricles, anomalies in cardiac looping, and septation defects in previous studies. Recognition of the association between LVNC and heterotaxy is important for various reasons. First, the increased risk of arrhythmias demonstrated in our population. Secondly, theoretical risk of thromboembolic events remains in any LVNC population. Finally, many patients with heterotaxy undergo cardiac surgery (corrective and palliative) and when this is associated with LVNC, patients should be presumed to incur a higher peri-operative morbidity based on previous studies. Further research will continue to determine long-term and to corroborate genetic pathways.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.1200/jco.2017.35.4_suppl.554
+UR  - https://doi.org/10.1200/jco.2017.35.4_suppl.554
+TI  - Demographic, clinical, and outcomes characteristics associated with screening colonoscopy in colorectal cancer patients.
+T2  - Journal of Clinical Oncology
+AU  - Samantha Armstrong
+AU  - Safi Shahda
+AU  - Amikar Sehdev
+PY  - 2017
+DA  - 2017-02-01
+AB  - 554 Background: Screening colonoscopy has well established role in CRC prevention. Factors associated with underutilization of screening colonoscopy, and how underutilization affects the CRC outcomes is unclear. We conducted a retrospective study with an aim to identify demographic, clinical and outcome characteristics associated with screening colonoscopy in patients with CRC. Methods: The Indiana Network for Patient Care (INPC) was used to identify patients diagnosed with CRC between 2001-2015. The INPC is the largest and longest tenured clinical data warehouse of the Indiana Health Information Exchange in the USA. Patient demographic (age, race, gender, median household income, insurance type, geographical location), clinical (BMI, year of diagnosis, stage, tumor location, CEA, surgery, chemotherapy, comorbidity) and outcome characteristics were obtained. Only patients who had colonoscopy prior to diagnosis were included, and divided those who received screening colonoscopy versus diagnostic colonoscopy. Chi-square was used for univariate analysis. Multivariate logistic regression was used to model the association of colonoscopy with overall mortality, and CRC-specific mortality. Results: A total of 1546 patients were identified, of which 361 (23.3%) and 1185 (76.6%) had screening and diagnostic colonoscopy, respectively. On univariate analyses, older age, female gender, Caucasian race, lower BMI and lack of insurance, were significantly associated with screening colonoscopy (P &lt; 0.05). Additionally, patients receiving screening colonoscopy had higher likelihood to undergo surgery and receive chemotherapy (P &lt; 0.05). Multivariate analyses adjusted for age, gender, race, surgery, chemotherapy and insurance status showed that screening colonoscopy (as compared with diagnostic colonoscopy) is associated with a 38% lower odds of overall mortality (adjusted OR = 0.62, 95% CI, 0.46-0.83, p &lt; 0.001), and 68% lower odds of CRC-specific mortality (adjusted OR = 0.32, 95% CI, 0.19-0.51, p &lt; 0.001). Conclusions: Screening colonoscopy is associated with decreased odds of overall and CRC-specific mortality and individuals with older age are more likely to receive it.
+PB  - American Society of Clinical Oncology
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - 0732-183X
+ER  - 
+
+TY  - CHAP
+DO  - 10.1016/b978-0-12-811635-7.00004-x
+UR  - https://doi.org/10.1016/b978-0-12-811635-7.00004-x
+TI  - Small Data, Big Data, and Data Analytics
+T2  - NA
+AU  - Paul Cerrato
+AU  - John Halamka
+PY  - 2018
+DA  - 2018-01-01
+AB  - This chapter summarizes basic concepts involved in data analytics, including natural language processing, Hadoop, relational databases, machine learning, and MapReplace. It then applies these concepts to health-care analytics, including a classical data analysis that changed the practice of medicine, and more recent analyses that are currently changing medicine. Finally, this chapter delves into the controversy about randomized clinical trials and data-driven observational studies.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - CHAP
+DO  - NA
+UR  - https://scholarworks.iupui.edu/bitstream/1805/15944/1/Campbell_2018_anticholinergics.pdf
+TI  - Anticholinergics Influence Transition from Normal Cognition to Mild Cognitive Impairment in Older Adults in Primary Care
+T2  - Author eBooks
+AU  - Noll L. Campbell
+AU  - Kathleen A. Lane
+AU  - Sujuan Gao
+AU  - Malaz Boustani
+AU  - Fred Unverzagt
+PY  - 2018
+DA  - 2018-01-01
+AB  - STUDY OBJECTIVE To determine the influence of anticholinergic medications on transitions in cognitive diagnosis of older adults in primary care. DESIGN This observational cohort study was conducted over a mean follow-up of 3.2 years. Anticholinergic exposure was defined by pharmacy dispensing and claims records. Cognitive diagnosis was performed by an expert panel at baseline and annually up to 4 years. DATA SOURCE Medication exposure and other clinical data were extracted from the Indiana Network for Patient Care (INPC). The cognitive diagnosis was derived from a cognitive screening and diagnosis study. PARTICIPANTS A total of 350 adults 65 years and older without dementia and receiving primary care in a safety net health care system. MEASUREMENT AND MAIN RESULTS Cognitive diagnosis followed a two-phase screening and consensus-based neuropsychiatric examination to determine a baseline diagnosis as normal cognition, mild cognitive impairment (MCI), or dementia, with a follow-up neuropsychiatric examination and consensus-based diagnosis repeated annually. The Anticholinergic Cognitive Burden scale was used to identify anticholinergics dispensed up to 10 years before enrollment and annually throughout the study. A total standard daily dose of anticholinergics was calculated by using pharmacy dispensing data from the INPC. Among 350 participants, a total of 978 diagnostic assessments were completed over a mean follow-up of 3.2 years. Compared with stable cognition, increasing use of strong anticholinergics calculated by total standard daily dose increased the odds of transition from normal cognition to MCI (odds ratio [OR] 1.15, 95% confidence interval [CI] 1.01-1.31, p = 0.0342). Compared with stable MCI, strong anticholinergics did not influence the reversion of MCI to normal cognition (OR 0.95, 95% CI 0.86-1.05, p = 0.3266). CONCLUSION De-prescribing interventions in older adults with normal cognition should test anticholinergics as potentially modifiable risk factors for cognitive impairment.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - CHAP
+DO  - NA
+UR  - https://scholarworks.iupui.edu/bitstream/1805/15945/1/Hood_2018_association.pdf
+TI  - Association Between Medication Adherence and the Outcomes of Heart Failure
+T2  - Author eBooks
+AU  - Sarah R. Hood
+AU  - Anthony J. Giazzon
+AU  - Gwen Seamon
+AU  - Kathleen A. Lane
+AU  - Jane Wang
+AU  - George J. Eckert
+AU  - Wanzhu Tu
+AU  - Michael D. Murray
+PY  - 2018
+DA  - 2018-01-01
+AB  - Background Previous studies of heart failure patients demonstrated an association between cardiovascular medication adherence and hospitalizations or a composite end point of hospitalization and death. Few studies have assessed the impact of treatment adherence within large general medical populations that distinguish the health outcomes of emergency department visits, hospitalization, and death. Objective To determine the association of incremental cardiovascular medication adherence on emergency department visits, hospitalization, and death in adult heart failure patients in Indiana. Design Retrospective cohort study conducted using electronic health record data from the statewide Indiana Network for Patient Care between 2004 and 2009. Methods Patients were at least 18 years of age with a diagnosis of heart failure and prescribed at least one cardiovascular medication for heart failure. Adherence was measured as the proportion of days covered (PDC) using pharmacy transaction data. Clinical end points included emergency department visits, hospital admissions, length of hospital stay, and mortality. Generalized linear models were used to determine the effect of a 10% increase in PDC on clinical end points adjusting for age, sex, race, Charlson Comorbidity Index, and medications. Results Electronic health records were available for 55,312 patients (mean age ± standard deviation 68 ± 16 yrs; 54% women; 65% white). Mean PDC for all heart failure medications was 63% ± 23%. For every 10% increase in PDC, emergency department visits decreased 11% (rate ratio [RR] 0.89, 95% confidence interval [CI] 0.89-0.89), hospital admissions decreased 6% (RR 0.94, 95% CI 0.94-0.94), total length of hospital stay decreased 1% (RR 0.99, 95% CI 0.99-1.00), and all-cause mortality decreased 9% (odds ratio 0.91; 95% CI 0.90-0.92). Conclusion Incremental medication adherence was associated with reductions in emergency department visits, hospital admissions, length of hospital stay, and all-cause mortality.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - CHAP
+DO  - NA
+UR  - https://scholarworks.iupui.edu/bitstream/1805/16516/1/Kline-2018-evaluation.pdf
+TI  - Evaluation of the pulmonary embolism rule out criteria (PERC rule) in children evaluated for suspected pulmonary embolism
+T2  - Author eBooks
+AU  - Jeffrey A. Kline
+AU  - Angela M. Ellison
+AU  - Jessica Kanis
+AU  - Jonathan Pike
+AU  - Cassandra L. Hall
+PY  - 2018
+DA  - 2018-08-01
+AB  - Abstract Background The pulmonary embolism rule out criteria (PERC) reliably predicts a low probability of PE in adults. We examine the diagnostic accuracy of the objective components of the PERC rule in children previously tested for PE. Methods Children aged 5–17 who had a D-dimer or pulmonary vascular imaging ordered from 2004 to 2014 in a large multicenter hospital network were identified by query of administrative databases. Using explicit, predefined methods, trained abstracters selected charts of children clearly tested for PE, collected the 8 objective variables for PERC, and determined PE criterion standard status (image or autopsy confirmed PE or deep vein thrombosis within 30 days by query of the Indiana Network for Patient Care (INPC)). Results We identified 543 patients, including 56 (10.3%, 95% CI: 7.8–13.1%) who were PE+, with a mean and median age of 15 years. All 8 objective criteria from PERC were negative in 170 patients (31%), including one with PE (false negative rate 0.6%, 0–3.2%). Diagnostic sensitivity and specificity were 98.2% (90.5–100%), and 34.7 (30.5–39.1%), respectively, leading to a likelihood ratio negative = 0.05 (0.1–0.27). When treated as a diagnostic test based upon sum of criteria positive, PERC had good discrimination between PE+ vs PE− with an area under receiver operating characteristic curve 0.81 (0.75–0.86). Conclusions In this sample of children and teenagers with suspected PE, the PERC rule was negative in 31%, and demonstrated good overall diagnostic accuracy, including a low false negative rate. These data support the need for a large, prospective diagnostic validation study of PERC in children.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - NA
+UR  - https://scholarworks.iupui.edu/handle/1805/25733
+TI  - Assessing outpatient follow-up care compliance, complications, and sequelae in children hospitalized for isolated traumatic abdominal injuries
+T2  - PMC
+AU  - Blessing Ogbemudia
+AU  - Jodi Raymond
+AU  - LaRanna S. Hatcher
+AU  - Ashley Vetor
+AU  - Thomas M. Rouse
+AU  - Aaron E. Carroll
+AU  - Teresa M. Bell
+PY  - 2018
+DA  - 2018-10-05
+AB  - Abstract Background Currently there is limited knowledge on compliance with follow-up care in pediatric patients after abdominal trauma. The Indiana Network for Patient Care (INPC) is a large regional health information exchange with both structured clinical data (e.g., diagnosis codes) and unstructured data (e.g., provider notes). The objective of this study is to determine if regional health information exchanges can be used to evaluate whether patients receive all follow-up care recommended by providers. Methods We identified 61 patients treated at a Pediatric Level I Trauma Center who were admitted for isolated abdominal injuries. We analyzed medical records for two years following initial hospital discharge for injury using the INPC. The encounters were classified by the type of encounter: outpatient, emergency department, unplanned readmission, surgery, imaging studies, and inpatient admission; then further categorized into injury- and non-injury-related care, based on provider notes. We determined compliance with follow-up care instructions given at discharge and subsequent outpatient visits, as well as the prevalence of complications and sequelae. Results After reviewing patient records, we found that 78.7% of patients received all recommended follow-up care, 6.6% received partial follow-up care, and 11.5% did not receive follow-up care. We found that 4.9% of patients developed complications after abdominal trauma and 9.8% developed sequelae in the two years following their initial hospitalization. Conclusions Our findings suggest that health information exchanges such as the INPC are useful in evaluation of follow-up care compliance and prevalence of complications/sequelae after abdominal trauma in pediatric patients. Level of evidence Level IV.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.20944/preprints201901.0324.v1
+UR  - https://doi.org/10.20944/preprints201901.0324.v1
+TI  - The Impact of a Continuous Care Intervention for Treatment of Type 2 Diabetes on Health Care Utilization
+T2  - NA
+AU  - Zachary Wagner
+AU  - Bhanpuri Nh
+AU  - McCarter Jp
+AU  - Neeraj Sood
+PY  - 2019
+DA  - 2019-01-31
+AB  - Introduction: Type 2 diabetes (T2D) is a major driver of health care costs, thus treatments enabling T2D reversal may reduce expenditures. We examined the impact of a T2D continuous care intervention (CCI) on health care utilization. Previous research documented that CCI, including individualized nutrition supported by remote care, simultaneously reduced hemoglobin A1c and medication use and improved cardiovascular status after two years; however, the impact on utilization is unknown.&amp;nbsp;Methods: This study used four years of data (two years pre-intervention, two years post-intervention) from the Indiana Network for Patient Care (INPC) health record. Two methods estimated the impact of CCI on utilization. First, an interrupted time series (ITS) including only CCI participants (n=193) compared post-intervention utilization to expected utilization had the pre-intervention trend persisted. Deviation from the trend was estimated non-parametrically for each 6-month interval after the implementation of CCI . Second, a 1:3 matched comparator group (n=579) was constructed and used for a difference-in-differences (DiD) analysis. The primary outcome was annualized outpatient encounters. Secondary outcomes included emergency encounters and hospitalizations.&amp;nbsp;Results: In two years prior to intervention, CCI participants had a mean of 5.77 annualized encounters (5.62 outpatient, 0.04 hospitalizations, 0.11 emergency). The CCI group showed a reduction in outpatient utilization after intervention. In ITS analysis, 1.6 to 1.9 fewer annualized outpatient encounters occurred in each 6-month interval post-intervention relative to expected utilization based on pre-intervention trends (p&amp;lt;0.01 each 6-month period; 28-33% reduction). The DiD analysis suggested a larger reduction; 5 fewer annualized outpatient encounters in the quarter after intervention, diminishing to 2.5 fewer after 2 years (p&amp;lt;0.01 each quarter). The study was underpowered to draw conclusions about hospitalization and emergency encounters due to the limited number of CCI patients and the rarity of encounters.&amp;nbsp;Conclusions: Outpatient encounters were significantly reduced for a T2D patient population up to 2 years after receiving an individualized intervention supporting nutrition and behavior change through remote care.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - NA
+UR  - https://scholarworks.iupui.edu/handle/1805/20728
+TI  - Trends in Characteristics, Mortality, and Other Outcomes of Patients With Newly Diagnosed Cirrhosis
+T2  - PMC
+AU  - Eric Orman
+AU  - Anna Roberts
+AU  - Marwan Ghabril
+AU  - Lauren Nephew
+AU  - Archita P. Desai
+AU  - Kavish R. Patidar
+AU  - Naga Chalasani
+PY  - 2019
+DA  - 2019-06-05
+AB  - Importance Changes in the characteristics of patients with cirrhosis are likely to affect future outcomes and are important to understand in planning for the care of this population. Objective To identify changes in demographic and clinical characteristics and outcomes in patients with newly diagnosed cirrhosis. Design, Setting, and Participants A retrospective cohort study of patients with a new diagnosis of cirrhosis was conducted using the Indiana Network for Patient Care, a large statewide regional health information exchange, between 2004 and 2014. Patients with at least 1 year of continuous follow-up before the cirrhosis diagnosis were followed up through August 1, 2015. The analysis was conducted from December 2018 to January 2019. Exposures Age, cause of cirrhosis, and year of diagnosis. Main Outcomes and Measures Overall rates for mortality, liver transplant, hepatocellular carcinoma, and hepatic decompensation (composite of ascites, hepatic encephalopathy, or variceal bleeding). Results A total of 9261 patients with newly diagnosed cirrhosis were identified (mean [SD] age, 57.9 [12.6] years; 5109 [55.2%] male). A 69% increase in new diagnoses occurred over the course of the study period (620 in 2004 vs 1045 in 2014). The proportion of those younger than 40 years increased by 0.20% per year (95% CI, 0.04% to 0.36%;Pfor trend = .02), and the proportion of those aged 65 years and older increased by 0.81% per year (95% CI, 0.51% to 1.11%;Pfor trend  Conclusions and Relevance The population of patients with newly diagnosed cirrhosis in Indiana has experienced changes in the age distribution and cause of cirrhosis, with decreasing mortality rates. These findings support investment in the prevention and treatment of alcoholic liver disease and nonalcoholic steatohepatitis, particularly in younger and older patients. Additional study is needed to identify the reasons for decreasing mortality rates.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - NA
+UR  - https://scholarworks.iupui.edu/bitstream/1805/22147/1/ojphi-11-e8.pdf
+TI  - Measuring and Visualizing Chlamydia and Gonorrhea Inequality: An Informatics Approach Using Geographical Information Systems
+T2  - PMC
+AU  - Patrick T. S. Lai
+AU  - Jeffrey S. Wilson
+AU  - Huanmei Wu
+AU  - Josette Jones
+AU  - Brian E. Dixon
+PY  - 2019
+DA  - 2019-09-19
+AB  - Introduction Health inequality measurements are vital in understanding disease patterns to identify high-risk patients and implementing effective intervention programs in treating and managing sexually transmitted diseases. Our study seeks to measure and identify inequalities among chlamydia and gonorrhea rates using Gini coefficient measurements and spatial visualization mapping from geographical information systems. Additionally, we seek to examine trends of disease rate distribution longitudinally over a ten-year period for an urbanized county. Methods Chlamydia and gonorrhea data from January 2005 to December 2014 were collected from the Indiana Network for Patient Care, a health information exchange system that gathers patient data from electronic health records. The Gini coefficient was used to calculate the magnitude of inequality in disease rates. Spatial visualization mapping and decile categorization of disease rates were conducted to identify locations where high and low rates of disease persisted and to visualize differences in inequality. A multiple comparisons ANOVA test was conducted to determine if Gini coefficient values were statistically different between townships and time periods during the study. Results Our analyses show that chlamydia and gonorrhea rates are not evenly distributed. Inequalities in disease rates existed for different areas of the county with higher disease rates occurring near the center of the county. Inequality in gonorrhea rates were higher than chlamydia rates. Disease rates were statistically different when geographical locations or townships were compared to each other (p < 0.0001) but not for different years or time periods (p = 0.5152). Conclusion The ability to use Gini coefficients combined with spatial visualization techniques presented a valuable opportunity to analyze information from health information systems in investigating health inequalities. Knowledge from this study can benefit and improve health quality, delivery of services, and intervention programs while managing healthcare costs.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.1158/1538-7445.sabcs19-p2-08-11
+UR  - https://doi.org/10.1158/1538-7445.sabcs19-p2-08-11
+TI  - Abstract P2-08-11: High prevalence and incidence of new onset diabetes in metastatic breast cancer
+T2  - NA
+AU  - Tarah J. Ballinger
+AU  - Sarah A. El-Azab
+AU  - Ziyue Liu
+AU  - Theresa A. Guise
+AU  - Erik A. Imel
+PY  - 2020
+DA  - 2020-02-14
+AB  - Background: The association between pre-existing diabetes mellitus (DM) and subsequent increased incidence of breast cancer (BC), as well as worse survival after BC diagnosis, is well described. However, the reverse relationship of BC or metastases to development of new onset DM is unknown. Preclinical evidence suggests that increased bone destruction due to bone metastases or endocrine therapy impairs insulin secretion via TGFβ-mediated oxidation of the ryanodine receptor in pancreatic β- cells, predisposing patients to development of new onset DM. This analysis describes the prevalence and new onset of DM in metastatic BC compared to matched, unaffected controls and non-metastatic BC. Methods: This retrospective study collected data on women from the Indiana Network for Patient Care (INPC, a multi-health system electronic health record data warehouse), and the Indiana State Department of Health Cancer Registry from 2015 to 2017. Diagnosis of BC and metastases were established using ICD codes from INPC and confirmed in the cancer registry. DM was defined using a combination of ICD codes, diabetic medication prescriptions, and hemoglobin A1c >6.5%. Controls without BC were matched to all BC cases by birth year and race. The prevalence of DM before, or Results: Any DM diagnosis, pre-existing DM, and new onset DM were higher in breast cancer cases compared to controls (Table). While pre-existing DM was similar between those with metastatic and non-metastatic DM (35.0% vs. 32.2%, p=0.22), new onset DM was higher in metastatic disease compared to non-metastatic BC (14.4% vs. 7.0%, p Conclusions: Diabetes is highly prevalent in this Indiana BC cohort. Incidence of new onset DM after BC is higher in those with metastatic BC compared to both controls and BC cases without metastatic disease. Hemoglobin A1c was highest in those with bone metastases, further supporting the hypothesis that bone turnover may influence insulin secretion and glucose metabolism. Additional investigation will analyze the influence of medications (chemo-, endocrine, and bone protective therapy) on development of DM. As more patients live longer with metastatic BC, identification and management of DM will be imperative given its impact on BC survival, treatment delivery, healthcare costs, and quality of life. Citation Format: Tarah Ballinger, Sarah El-Azab, Ziyue Liu, Theresa Guise, Erik Imel. High prevalence and incidence of new onset diabetes in metastatic breast cancer [abstract]. In: Proceedings of the 2019 San Antonio Breast Cancer Symposium; 2019 Dec 10-14; San Antonio, TX. Philadelphia (PA): AACR; Cancer Res 2020;80(4 Suppl):Abstract nr P2-08-11.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.1136/injuryprev-2020-savir.19
+UR  - https://doi.org/10.1136/injuryprev-2020-savir.19
+TI  - 77 Identifying victims of firearm assault in Indianapolis through police and clinical data
+T2  - NA
+AU  - Lauren A. Magee
+PY  - 2020
+DA  - 2020-05-01
+AB  - Statement of Purpose The largest obstacle to advancing the scientific understanding of firearm assault is the lack of integrated and reliable data. This study links police and clinical data to fill this gap. Methods/Approach A descriptive study of firearm assault victims; Indianapolis, Indiana between 2014 – 2016 (N=1469). Clinical data were accessed from Indiana Network for Patient Care (INPC) that captures ER visit data from all hospital systems within Indianapolis. Police data were obtained from the Indianapolis Metropolitan Police Department (IMPD) and linked to INPC using individual identifiers and deterministic and probabilistic linkage. Assault victims were identified based on ICD 9/10 diagnoses and police report title (Aggravated Assault-Gun, Armed Robbery). Keywords (gunshot, person shot, etc.) were searched in both INPC and IMPD text fields. Descriptive statistics of sociodemographic characteristics were calculated for all firearm assault victims. The overlap and non-overlap within the clinical and police data systems are described and multivariable analyses conducted. Results The majority of firearm victims in both police and clinical systems were of minority race (84%) and male (89%). Results indicate that of the 1,469 firearm assaults identified in police data, 1,250 (85%) had an ED encounter within 24 hours. Of those 1,250 encounters, 1,076 (86%) included a diagnosis code indicating a gunshot wound mechanism, however, only 417 (33%) of these were coded as an assault-related diagnosis code. Conclusions These findings indicate the need to use and link both police and clinical data to better identify firearm assault victims. These linked data allow us to measure a broader set of correlates among firearm assault victims. Significance and Contributions to Injury and Violence Prevention Science This study links police and clinical data at the individual level and gives us an unprecedented ability to identify and describe characteristics of firearm assault victims in the police and clinical systems.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.2337/db20-476-p
+UR  - https://doi.org/10.2337/db20-476-p
+TI  - 476-P: Predicting the Risk of Chronic Kidney Disease in People with Diabetes (PWD) from Electronic Health Care Records (EHRs): A Validation Study
+T2  - Diabetes
+AU  - Tony Huschto
+AU  - Helena König
+AU  - Claire Marriott
+AU  - Daniel Militz
+AU  - Christian Ringemann
+PY  - 2020
+DA  - 2020-06-01
+AB  - Chronic kidney disease (CKD) is one of the most frequent complications faced by people with diabetes mellitus. The ability to accurately predict the onset of this disease at an early stage and adjust the individual therapy and lifestyle appropriately has the potential to prevent or at least slow down the progression of the disease significantly. We have previously published a 3-year CKD risk engine based on longitudinal U.S. EHRs data (Indiana Network for Patient Care and IBM Explorys) from more than 600,000 PwDs and have demonstrated a superior performance compared to previously published risk algorithms developed solely on clinical trial data (AUC = 0.794 vs. AUC = 0.718 for the best benchmark algorithm). Nevertheless, our previous analysis was limited to healthcare data from the U.S. and the risk prediction was only tested for patients at the time point of the initial diabetes diagnosis. To prove that our algorithm has a broader applicability, we have independently validated our risk engine on a dataset of general practitioners from the UK (Clinical Practice Research Datalink) including longitudinal data from more than 140,000 PwDs, thereby showing the transferability of our algorithm into a European context (AUC = 0.763 +/- 0.005 vs. AUC = 0.594 +/- 0.006 for the best benchmark). Moreover, we used this analysis to apply our risk engine at variable time points after the initial diabetes diagnosis within the U.S. and European data and could thereby demonstrate that our algorithm is not limited to the initial time of diagnosis (average AUC = 0.79 irrespective of the time after diagnosis). This validation analysis further corroborates the external validity of our approach to use Real-World-Data from EHRs in the development of CKD risk prediction algorithms and thereby supports a broader use of those algorithms in standard clinical practice. Disclosure T. Huschto: Employee; Self; Roche Diabetes Care. H. König: Employee; Self; Roche Diabetes Care. C.E. Marriott: Employee; Self; Roche Diabetes Care. D. Militz: Employee; Self; Roche Diabetes Care. C. Ringemann: Employee; Self; Roche Diabetes Care.
+PB  - American Diabetes Association
+SP  - NA
+EP  - NA
+IS  - Supplement_1
+VL  - 69
+SN  - 0012-1797
+ER  - 
+
+TY  - JOUR
+DO  - NA
+UR  - https://scholarworks.iupui.edu/handle/1805/25566
+TI  - Sarcopenia, frailty and cachexia patients detected in a multisystem electronic health record database
+T2  - PMC
+AU  - Ranjani N. Moorthi
+AU  - Ziyue Liu
+AU  - Sarah A. El-Azab
+AU  - Lauren R. Lembcke
+AU  - Matthew Miller
+AU  - Andrea A. Broyles
+AU  - Erik A. Imel
+PY  - 2020
+DA  - 2020-07-31
+AB  - Sarcopenia, cachexia and frailty have overlapping features and clinical consequences, but often go unrecognized. The objective was to detect patients described by clinicians as having sarcopenia, cachexia or frailty within electronic health records (EHR) and compare clinical variables between cases and matched controls. We conducted a case-control study using retrospective data from the Indiana Network for Patient Care multi-health system database from 2016 to 2017. The computable phenotype combined ICD codes for sarcopenia, cachexia and frailty, with clinical note text terms for sarcopenia, cachexia and frailty detected using natural language processing. Cases with these codes or text terms were matched to controls without these codes or text terms matched on birth year, sex and race. Two physicians reviewed EHR for all cases and a subset of controls. Comorbidity codes, laboratory values, and other coded clinical variables were compared between groups using Wilcoxon matched-pair sign-rank test for continuous variables and conditional logistic regression for binary variables. Cohorts of 9594 cases and 9594 matched controls were generated. Cases were 59% female, 69% white, and a median (1st, 3rd quartiles) age 74.9 (62.2, 84.8) years. Most cases were detected by text terms without ICD codes n = 8285 (86.4%). All cases detected by ICD codes (total n = 1309) also had supportive text terms. Overall 1496 (15.6%) had concurrent terms or codes for two or more of the three conditions (sarcopenia, cachexia or frailty). Of text term occurrence, 97% were used positively for sarcopenia, 90% for cachexia, and 95% for frailty. The remaining occurrences were negative uses of the terms or applied to someone other than the patient. Cases had lower body mass index, albumin and prealbumin, and significantly higher odds ratios for diabetes, hypertension, cardiovascular and peripheral vascular diseases, chronic kidney disease, liver disease, malignancy, osteoporosis and fractures (all p < 0.05). Cases were more likely to be prescribed appetite stimulants and caloric supplements. Patients detected with a computable phenotype for sarcopenia, cachexia and frailty differed from controls in several important clinical variables. Potential uses include detection among clinical cohorts for targeting recruitment for research and interventions.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.48550/arxiv.2008.05399
+UR  - http://arxiv.org/abs/2008.05399
+TI  - Improving information retrieval from electronic health records using
+  dynamic and multi-collaborative filtering
+T2  - arXiv (Cornell University)
+AU  - Ziwei Fan
+AU  - Evan Burgun
+AU  - Zhiyun Ren
+AU  - Titus Schleyer
+AU  - Xia Ning
+PY  - 2020
+DA  - 2020-08-12
+AB  - Due to the rapid growth of information available about individual patients, most physicians suffer from information overload when they review patient information in health information technology systems. In this manuscript, we present a novel hybrid dynamic and multi-collaborative filtering method to improve information retrieval from electronic health records. This method recommends relevant information from electronic health records for physicians during patient visits. It models information search dynamics using a Markov model. It also leverages the key idea of collaborative filtering, originating from Recommender Systems, to prioritize information based on various similarities among physicians, patients and information items. We tested this new method using real electronic health record data from the Indiana Network for Patient Care. Our experimental results demonstrated that for 46.7% of testing cases, this new method is able to correctly prioritize relevant information among top-5 recommendations that physicians are truly interested in.
+PB  - Cornell University
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.2196/preprints.25564
+UR  - https://doi.org/10.2196/preprints.25564
+TI  - How community health information exchanges can evolve to support population health and healthcare: The case study of the Indiana Network for Patient Care (Preprint)
+T2  - NA
+AU  - Karmen S. Williams
+AU  - Saurabh Rahurkar
+AU  - Brian E. Dixon
+AU  - Shaun J. Grannis
+AU  - Titus Schleyer
+PY  - 2020
+DA  - 2020-11-06
+AB  - <sec> <title>BACKGROUND</title> Community Health Information Exchange (HIEs) organizations were originally designed to support individual patient care, but their ability to aggregate health and non-health information about populations offers significant opportunities. </sec> <sec> <title>OBJECTIVE</title> The aim of this paper is to discuss and illustrate current opportunities for HIEs using the status and trajectory of the Indiana Network for Patient Care (INPC), the oldest and one of the largest HIEs in the United States. </sec> <sec> <title>METHODS</title> We reviewed the research and clinical applications the INPC has developed and introduced numerous innovations and initiatives. </sec> <sec> <title>RESULTS</title> HIEs have the positioning and opportunity to provide highly relevant services in today’s healthcare, and public and population health contexts, such as research-ready data sets, state registry collaborations, data commons, population health applications, clinical applications, nationwide interoperability, and support of accountable care organizations. </sec> <sec> <title>CONCLUSIONS</title> Community HIEs can help advance the practice of medicine and population health and help shift sick-focused to health-focused care. To fully take advantage of their potential, community HIEs must continue to innovate and evolve. </sec>
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.2196/preprints.31337
+UR  - https://doi.org/10.2196/preprints.31337
+TI  - Predicting COVID-19 related healthcare resource utilization across a statewide patient population (Preprint)
+T2  - NA
+AU  - Suranga Nath Kasthurirathne
+AU  - Jeremy Park
+AU  - David Wild
+AU  - Bashir M. Khan
+AU  - David A. Haggstrom
+AU  - Shaun J. Grannis
+PY  - 2021
+DA  - 2021-06-20
+AB  - <sec> <title>BACKGROUND</title> The COVID-19 pandemic has highlighted the inability of health systems to leverage existing system infrastructure to rapidly develop and apply broad analytical tools that could inform state and national-level policymaking as well as patient care delivery at hospital settings. COVID-19 has also led to highlighted systemic disparities in health outcomes and access to care based on race/ethnicity, gender, income-level and urban-rural divide. While the US seems to be recovering from the COVID-19 pandemic due to widespread vaccination efforts and increased public awareness, there is an urgent need to address the aforementioned challenges. </sec> <sec> <title>OBJECTIVE</title> Inform the feasibility of leveraging broad, statewide datasets for population-health driven decision making by developing robust analytical models that predict COVID-19 related healthcare resource utilization across patients served by Indiana’s statewide Health Information Exchange (HIE). </sec> <sec> <title>METHODS</title> We leveraged comprehensive datasets obtained from the Indiana Network for Patient Care (INPC) to train decision forest-based models that predicted patient-level need of healthcare resource utilization. To assess models for potential biases, we tested model performance against sub-populations stratified by age, race/ethnicity, gender, and residence (urban vs. rural). </sec> <sec> <title>RESULTS</title> We identified a cohort of 96,190 patients from 957 zip codes spread across the state of Indiana. We trained decision models that predicted healthcare resource utilization using the most impactful features (~100) out of a total of 1172 features created. Each model and stratified sub-population under test reported precision scores &gt; 70%, accuracy and AUC ROC scores &gt; 80%, and sensitivity scores ~&gt;90%. We noted statistically significant variations in model performance across stratified sub-populations identified by age, race/ethnicity, gender, and residence (urban vs. rural). </sec> <sec> <title>CONCLUSIONS</title> This study presents the possibility of developing decision models capable of predicting patient-level healthcare resource utilization across a broad statewide region with considerable predictive performance. However, our models present statistically significant variations in performance across stratified sub-populations of interest. Further efforts are necessary to identify root causes of these biases and to rectify them. </sec> <sec> <title>CLINICALTRIAL</title> NA </sec>
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.21203/rs.3.rs-1196542/v1
+UR  - https://doi.org/10.21203/rs.3.rs-1196542/v1
+TI  - Disparities in Outcomes Among Patients Diagnosed With Cancer in Proximity to an Emergency Department Visit
+T2  - Research Square (Research Square)
+AU  - Nicholas Pettit
+AU  - Elisa Sarmiento
+AU  - Jeffrey A. Kline
+PY  - 2022
+DA  - 2022-01-10
+AB  - Abstract A suspected diagnosis of cancer in the emergency department (ED) may be associated with poor outcomes, related to health disparities, however data are limited. This study is a case-control analysis of the Indiana State Department of Health Cancer Registry, and the Indiana Network for Patient Care. First time cancer diagnoses appearing in the registry between January 2013 and December 2017 were included. Cases were patients who had an ED visit in the 6 months before their cancer diagnosis; controls had no recent ED visits. The primary outcome was mortality, comparing ED-associated mortality to non-ED-associated. 134,761 first-time cancer patients were identified, including 15,432 (11.5%) cases. The mean age was same at 65, more of the cases were Black than the controls (12.4% vs 7.4%, P&lt;.0001) and more were low income (36.4%. vs 29.3%). The top 3 ED-associated cancer diagnoses were lung (18.4%), breast (8.9%), and colorectal cancers (8.9%), whereas the controls were breast (17%), lung (14.9%), and prostate cancers (10.1%). Cases observed an over three-fold higher mortality, with cumulative death rate of 32.9% for cases vs 9.0% for controls (P&lt;.0001). Regression analysis predicting mortality, controlling for many confounders produced an odds ratio of 4.12 (95% CI 3.72-4.56 for cases). This study found that an ED visit within 6 months prior to the first time of ICD-coded cancer is associated with Black race, low income and an overall three-fold increased adjusted risk of death. The mortality rates for ED-associated cancers are uniformly worse for all cancer types. These data suggest that additional work is needed to reduce disparities among ED-associated cancer diagnoses.
+PB  - Research Square (United States)
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.1101/2022.05.20.22275255
+UR  - https://doi.org/10.1101/2022.05.20.22275255
+TI  - Does directly integrating health information exchange (HIE) data with the electronic health record increase HIE use by clinicians in the emergency department?
+T2  - medRxiv (Cold Spring Harbor Laboratory)
+AU  - Heidi B Hosler
+AU  - Jeong Hoon Jang
+AU  - Jason T. Schaffer
+AU  - John Price
+AU  - Titus Schleyer
+AU  - Rebecca Rivera
+PY  - 2022
+DA  - 2022-05-23
+AB  - Objective: Develop and evaluate the effect of a Fast Healthcare Interoperability Resources (FHIR) app, Health Dart, integrating information from Indianas community health information exchange (HIE), the Indiana Network for Patient Care (INPC), directly with Cerner, an electronic health record (EHR) Materials and Methods: Health Dart was implemented in 14 Indiana University Health emergency departments (ED) using a stepped-wedge study design. We analyzed rates of INPC use in 286,175 ED encounters between October 1, 2019 and December 31, 2020. Logistic regression was used to model the probability of INPC use given the implementation context, such as user interface (UI) enhancements and the COVID-19 pandemic. Results: INPC use increased by 131% across all encounters (from 3.6% to 8.3%; p&lt;0.001) after Health Dart implementation. INPC use increased by144% (from 3.6% to 8.8%; p&lt;0.001) more than two months post-implementation. After UI enhancements, post-implementation INPC use increased 123% (from 3.5% to 7.8%) compared to 181% (from 3.6% to 10.1%; p&lt;0.001) in post-implementation encounters that occurred before UI enhancements. During the pandemic, post-implementation INPC use increased by 135% (from 3.4% to 8.0%; p&lt;0.001) compared to 178% (from 3.6% to 10%; p&lt;0.001) in post-implementation encounters that occurred before the pandemic. Statistical significance was determined using 95% confidence intervals (α=0.05). Discussion: Direct integration of HIE information into an EHR substantially increased frequency of HIE use, but the effect was weakened by the UI enhancements and pandemic. Conclusion: HIE information integrated into EHRs in the form of dashboards can potentially make information retrieval more efficient and effective for clinicians.
+PB  - Cold Spring Harbor Laboratory
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.1161/circ.146.suppl_1.11439
+UR  - https://doi.org/10.1161/circ.146.suppl_1.11439
+TI  - Abstract 11439: Predictors of Long-Term Heart Failure Readmissions Following PCI in Women
+T2  - Circulation
+AU  - Michelle Morris
+AU  - Elisabeth von der Lohe
+AU  - Rolf P. Kreutz
+PY  - 2022
+DA  - 2022-11-08
+AB  - Introduction: Heart failure (CHF) is a common cause of readmission following percutaneous coronary intervention (PCI), particularly within the first 30 days. Female sex has been shown to be an independent predictor of 30-day readmission following PCI, with higher rates of readmission secondary to CHF observed in women. Whether the increased risk for CHF readmission persists beyond this early period has not been well studied. Methods: In this multicenter, retrospective observational study clinical outcomes were analyzed after PCI among patients included in the Indiana University Health Multicenter Cath Registry Study. Hospital readmission for acute CHF was the primary endpoint and analyzed through use of the Indiana network for patient care. Results: Among 13,871 patients included in this study, 14.5% were readmitted for CHF after the index PCI during mean follow up of 2.8 years. Women (n=4,411) were more likely to be readmitted for CHF than men (n=9,460) [HR 1.37,95% CI: 1.26-1.5; p&lt;0.001). Women were older than men (66.1 vs. 63.8 years, p&lt;0.001) and more likely to have diabetes (49% vs. 41%, p&lt;0.001). Female sex persisted as independent predictor of CHF readmission after multivariate adjustment (p=0.004). The higher rate of CHF readmission in women continued to accrue beyond 30 days and event curves continued to diverge over the duration of follow up (Fig.).] Major predictors of CHF readmission included end stage renal disease, cardiogenic shock during index PCI, mechanical ventricular support at time of PCI, diabetes mellitus, and history of COPD, whereas discharge with ACEI or ARB was protective. Conclusions: Heart failure readmission remains a major cause of morbidity for women after undergoing PCI. The excess risk of CHF readmission in women extends beyond the early 30-day post PCI period.
+PB  - Lippincott Williams & Wilkins
+SP  - NA
+EP  - NA
+IS  - Suppl_1
+VL  - 146
+SN  - 0009-7322
+ER  - 
+
+TY  - JOUR
+DO  - 10.1161/circ.146.suppl_1.13289
+UR  - https://doi.org/10.1161/circ.146.suppl_1.13289
+TI  - Abstract 13289: Risk of QT Interval Prolongation Associated With Dofetilide and Sotalol in Patients With Heart Failure With Preserved Ejection Fraction
+T2  - Circulation
+AU  - Chien-Yu Huang
+AU  - Brian R. Overholser
+AU  - Kevin M. Sowinski
+AU  - Heather A. Jaynes
+AU  - Richard J. Kovacs
+AU  - James E. Tisdale
+PY  - 2022
+DA  - 2022-11-08
+AB  - Introduction: Heart failure (HF) with reduced ejection fraction (HFrEF) is a risk factor for drug-induced QT interval prolongation. It is unknown if HF with preserved ejection fraction (HFpEF) also increases the risk. Dofetilide (D) and sotalol (S) are potent QT interval-prolonging agents that are commonly used in patients with HFpEF, in whom atrial fibrillation is a common comorbidity. Hypothesis: The risk of QTc prolongation associated with D or S (D/S) is increased in patients with HFpEF. Methods: The data source was electronic health records from the Indiana Network for Patient Care (February 2010 to May 2021). After removing patients with overlapping diagnoses of HFpEF and HFrEF, no diagnosis code, absence of QT interval records, and no validated record of using D/S, we identified patients taking D/S among three groups: HFrEF (n=138), HFpEF (n=109), and no HF (n=729). Cochran-Mantel-Haenszel statistics were used to compare baseline characteristics. QT interval prolongation was defined as heart rate-corrected QT (QTc) &gt; 500 ms during D/S therapy. Unadjusted odds ratios (OR) of QT interval prolongation were determined by univariate analysis, and adjusted ORs were determined by generalized estimating equations (GEE) with logit link to account for an individual cluster with different times of hospitalization and covariates. Results: QTc prolongation associated with D/S occurred in 51.2% of patients with HFpEF, 70.1% of patients with HFrEF, and 29.4% of patients with no HF. After adjusting for age, sex, race, serum potassium and magnesium concentrations, kidney function, concomitant drug therapy, and comorbid conditions, the adjusted odds of QTc prolongation were significantly higher in patients with HFpEF, as well as in those with HFrEF, compared to those with no evidence of HF (Table). Conclusions: The odds of QT interval prolongation among inpatients receiving D/S were increased in patients with HFpEF and HFrEF compared to those who did not have HF.
+PB  - Lippincott Williams & Wilkins
+SP  - NA
+EP  - NA
+IS  - Suppl_1
+VL  - 146
+SN  - 0009-7322
+ER  - 
+
+TY  - JOUR
+DO  - 10.1097/01.ccm.0000906056.63716.e5
+UR  - https://doi.org/10.1097/01.ccm.0000906056.63716.e5
+TI  - 45: THE EFFECT OF HIGH-FLOW NASAL CANNULA ON HOSPITAL LENGTH OF STAY IN PEDIATRIC ASTHMA
+T2  - Critical Care Medicine
+AU  - Colin Rogerson
+AU  - Arthur H. Owora
+AU  - Tian He
+AU  - Samer Abu-Sultaneh
+AU  - Aaron E. Carroll
+AU  - Titus Schleyer
+AU  - Wanzhu Tu
+AU  - Eneida A. Mendonça
+PY  - 2022
+DA  - 2022-12-15
+AB  - Introduction: Asthma exacerbations are a common cause of hospitalizations in children. The high flow nasal cannula (HFNC) is a respiratory support device that has gained popularity in recent years for the treatment of pediatric asthma. Recent studies have shown that nebulized medications, such as albuterol, are not well-delivered to the lungs via the HFNC at high flow rates. This study sought to test the effect of HFNC use in pediatric asthma patients on total hospital length of stay. Methods: This was a retrospective case-control study using a State-wide health information exchange known as the Indiana Network for Patient Care. Cases included patients ages 2-18 years who presented to a contributing hospital between January 2010 and December 2021 with an ICD code for asthma, and were treated with HFNC. Controls were obtained using a 1:1 k nearest neighbors logistic regression propensity score matching technique. Matching variables included demographics, vital signs, medications, laboratory values, imaging, and social and environmental determinants of health. The primary outcome was total hospital length of stay. Secondary outcomes included mortality, use of non-invasive positive pressure ventilation (NIV-PPV), and need for endotracheal intubation. Results: A total of 2,289 cases were identified, with an equal number of matched controls chosen from a cohort of 96,940 total eligible patients. The standardized mean difference of the propensity score matching was between -0.1 and 0.1 for 95.8% of the matched variables. The median total hospital length of stay for study cases was significantly higher at 86 hours (IQR 58-143) compared to 55 hours (IQR 23-92) in the matched controls (p < 0.001). The use of NIV-PPV was significantly higher in the cases than the control group (22.6% vs. 7.1%, p< 0.01). The need for endotracheal intubation was significantly higher in the cases compared to the control group (9.7% vs. 6.8%, p< 0.01). No significant difference in mortality was seen (3.5% vs. 2.4%, p=0.10). Conclusions: The use of HFNC in pediatric asthma patients is associated with an increased total hospital length of stay compared to propensity score matched controls. Further studies are needed to validate these findings.
+PB  - Lippincott Williams & Wilkins
+SP  - 23
+EP  - 23
+IS  - 1
+VL  - 51
+SN  - 0090-3493
+ER  - 
+
+TY  - JOUR
+DO  - 10.1145/3555776.3578731
+UR  - https://doi.org/10.1145/3555776.3578731
+TI  - Patient-GAT: Sarcopenia Prediction using Multi-modal Data Fusion and Weighted Graph Attention Networks
+T2  - NA
+AU  - Cary Xiao
+AU  - Nam Pham
+AU  - Erik A. Imel
+AU  - Xiao Luo
+PY  - 2023
+DA  - 2023-03-27
+AB  - Graph Attention Networks (GAT) have been extensively used to perform node-level classification on data that can be represented as a graph. However, few papers have investigated the effectiveness of using GAT on graph representations of patient similarity networks. This paper proposes Patient-GAT, a novel method to predict chronic health conditions by first integrating multi-modal data fusion to generate patient vector representations using imputed lab variables with other structured data. This data representation is then used to construct a patient network by measuring patient similarity, finally applying GAT to the patient network for disease prediction. We demonstrated our framework by predicting sarcopenia using real-world EHRs obtained from the Indiana Network for Patient Care. We evaluated the performance of our system by comparing it to other baseline models, showing that our model outperforms other methods. In addition, we studied the contribution of the temporal representation of the lab data and discussed the interpretability of this model by analyzing the attention coefficients of the trained Patient-GAT model. Our code can be found on Github1
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 

@@ -24,6 +24,7 @@ tar_option_set(
 
 # End this file with a list of target objects.
 list(
+    # INPC-specific search results
     tar_target(
         name = oa_inpc_raw,
         command = oa_fetch(
@@ -34,6 +35,30 @@ list(
             search = "\"indiana network for patient care\"",
         )
     ),
+    ## Search for INPC and filter for only if in a journal index
+    tar_target(
+        name = A_2023_09_12_df,
+        command = 
+            oa_inpc_raw |> 
+            filter_for_pubmed_pmc_or_doaj(),
+    ),
+    tar_target(
+        name = A_2023_09_12,
+        command = 
+            A_2023_09_12_df |> 
+            export_ris_file("2023-09-12-A"),
+        format = "file"
+    ),
+    ## Include other INPC search results that are not in an index
+    tar_target(
+        name = A_2023_09_18,
+        command = 
+            anti_join(oa_inpc_raw, A_2023_09_12_df, by = "id") |> 
+            export_ris_file("2023-09-18-A"),
+        format = "file"
+    ),
+    
+    # IHIE-specific search results
     tar_target(
         name = oa_ihie_raw,
         command = oa_fetch(
@@ -44,6 +69,23 @@ list(
             search = "\"indiana health information exchange\"",
         )
     ),
+    tar_target(
+        name = oa_ihie_unique,
+        command = anti_join(oa_ihie_raw, oa_inpc_raw, by = "id")
+    ),
+    tar_target(
+        name = oa_inpc_ihie_cumulative,
+        command = 
+            reduce(
+                .x = list(oa_inpc_raw, oa_ihie_raw),
+                .f = bind_unique_records
+            )
+    ),
+    tar_target(
+        name = B_2023_09_18,
+        command = export_ris_file(oa_ihie_unique, "2023-09-18-B")
+    ),
+    
     tar_target(
         name = oa_regenstrief_institution_raw,
         command = oa_fetch(
@@ -110,15 +152,5 @@ list(
             reduce(bind_unique_records) |> 
             filter_for_pubmed_pmc_or_doaj() |> 
             add_ris()
-    ),
-    tar_target(
-        name = A_2023_09_12,
-        command = 
-            oa_inpc_raw |> 
-            filter_for_pubmed_pmc_or_doaj() |> 
-            export_ris_file("2023-09-12-A"),
-        format = "file"
-        
     )
-    
 )

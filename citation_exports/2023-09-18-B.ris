@@ -1,0 +1,668 @@
+TY  - JOUR
+DO  - 10.5210/ojphi.v9i2.8001
+UR  - https://doi.org/10.5210/ojphi.v9i2.8001
+TI  - Leveraging public health's participation in a Health Information Exchange to improve communicable disease reporting
+T2  - Online Journal of Public Health Informatics
+AU  - Ian Painter
+AU  - Debra Revere
+AU  - P. Joseph Gibson
+AU  - Janet Baseman
+PY  - 2017
+DA  - 2017-09-08
+AB  - Background: Infectious diseases can appear and spread rapidly. Timely information about disease patterns and trends allows public health agencies to quickly investigate and efficiently contain those diseases. But disease case reporting to public health has traditionally been paper-based, resulting in somewhat slow, burdensome processes. Fortunately, the expanding use of electronic health records and health information exchanges has created opportunities for more rapid, complete, and easily managed case reporting and investigation. To assess how this new service might impact the efficiency and quality of a public health agency's case investigations, we compared the timeliness of usual case investigation to that of case investigations based on case report forms that were partially pre-populated with electronic data. Intervention: Between September 2013-March 2014, chlamydia disease report forms for certain clinics in Indianapolis were electronically pre-populated with clinical, lab and patient data available through the Indiana Health Information Exchange, then provided to the patient’s doctor. Doctors could then sign the form and deliver it to public health for investigation and population-level disease tracking. Methods: We utilized a novel matched case analysis of timeliness changes in receipt and processing of communicable disease report forms. Each Chlamydia cases reported with the pre-populated form were matched to cases reported in usual ways. We assessed the time from receipt of the case at the public health agency: 1) inclusion of the case into the public health surveillance system and 2) to close to case. A hierarchical random effects model was used to compare mean difference in each outcome between the target cases and the matched cases, with random intercepts for case. Results: Twenty-one Chlamydia cases were reported to the public health agency using the pre-populated form. Sixteen of these pre-populated form cases were matched to at least one other case, with a mean of 23 matches per case. The mean Reporting Lag for the pre-populated form cases was 2.5 days, which was 2.7 days shorter than the mean Reporting Lag for the matched controls (p = &lt;0.001). The mean time to close a pre-populated form case was 4.7 days, which was 0.2 days shorter than time to close for the matched controls (p = 0.792). Conclusions: Use of pre-populated forms significantly decreased the time it took for the local public health agency to begin documenting and closing chlamydia case investigations. Thoughtful use of electronic health data for case reporting may decrease the per-case workload of public health agencies, and improve the timeliness of information about the pattern and spread of disease.
+PB  - University of Illinois at Chicago
+SP  - NA
+EP  - NA
+IS  - 2
+VL  - 9
+SN  - 1947-2579
+ER  - 
+
+TY  - JOUR
+DO  - 10.1186/s40537-017-0110-7
+UR  - https://doi.org/10.1186/s40537-017-0110-7
+TI  - Big healthcare data: preserving security and privacy
+T2  - Journal of Big Data
+AU  - Alamgir Karim
+AU  - Abderrahim Beni-Hessane
+AU  - Hayat Khaloufi
+PY  - 2018
+DA  - 2018-01-09
+AB  - Big data has fundamentally changed the way organizations manage, analyze and leverage data in any industry. One of the most promising fields where big data can be applied to make a change is healthcare. Big healthcare data has considerable potential to improve patient outcomes, predict outbreaks of epidemics, gain valuable insights, avoid preventable diseases, reduce the cost of healthcare delivery and improve the quality of life in general. However, deciding on the allowable uses of data while preserving security and patient’s right to privacy is a difficult task. Big data, no matter how useful for the advancement of medical science and vital to the success of all healthcare organizations, can only be used if security and privacy issues are addressed. To ensure a secure and trustworthy big data environment, it is essential to identify the limitations of existing solutions and envision directions for future research. In this paper, we have surveyed the state-of-the-art security and privacy challenges in big data as applied to healthcare industry, assessed how security and privacy issues occur in case of big healthcare data and discussed ways in which they may be addressed. We mainly focused on the recently proposed methods based on anonymization and encryption, compared their strengths and limitations, and envisioned future research directions.
+PB  - Springer Science+Business Media
+SP  - NA
+EP  - NA
+IS  - 1
+VL  - 5
+SN  - 2196-1115
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/j.procs.2017.08.292
+UR  - https://doi.org/10.1016/j.procs.2017.08.292
+TI  - Big data security and privacy in healthcare: A Review
+T2  - Procedia Computer Science
+AU  - Alamgir Karim
+AU  - Abderrahim Beni-Hssane
+AU  - Hayat Khaloufi
+AU  - Mostafa Saadi
+PY  - 2017
+DA  - 2017-01-01
+AB  - Abstract The ever-increasing integration of highly diverse enabled data generating technologies in medical, biomedical and healthcare fields and the growing availability of data at the central location that can be used in need of any organization from pharmaceutical manufacturers to health insurance companies to hospitals have primarily make healthcare organizations and all its sub-sectors in face of a flood of big data as never before experienced. While this data is being hailed as the key to improving health outcomes, gain valuable insights and lowering costs, the security and privacy issues are so overwhelming that healthcare industry is unable to take full advantage of it with its current resources. Managing and harnessing the analytical power of big data, however, is vital to the success of all healthcare organizations. It is in this context that this paper aims to present the state-of-the-art security and privacy issues in big data as applied to healthcare industry and discuss some available data privacy, data security, users’ accessing mechanisms and strategies.
+PB  - Elsevier BV
+SP  - 73
+EP  - 80
+IS  - NA
+VL  - 113
+SN  - 1877-0509
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/j.jpurol.2016.09.020
+UR  - https://doi.org/10.1016/j.jpurol.2016.09.020
+TI  - How successful is the transition to adult urology care in spina bifida? A single center 7-year experience
+T2  - Journal of Pediatric Urology
+AU  - Konrad M. Szymanski
+AU  - Mark P. Cain
+AU  - Thomas Hardacker
+AU  - Rosalia Misseri
+PY  - 2017
+DA  - 2017-02-01
+AB  - Rates of successful transition from adolescent to adult spina bifida (SB) care are unknown.We aimed to assess rates and predictors of successful transition from a multidisciplinary SB clinic to a transitional urology clinic (TUC), or a pediatric or adult urologist.We retrospectively reviewed patients discharged from a multidisciplinary SB clinic (2006-2012), collecting demographic and clinical data. At transition, all patients/families were given instructions to arrange an appointment within 12 months. Patients who followed-up within 2 years were classified as transitioned. Logistic regression was used for analysis.Of 77 patients discharged at a mean age of 19.1 years, 31 (40.3%) successfully transitioned (mean follow-up 4.7 years). Only 20/41 (48.8%) with prior bladder augmentation, urinary channel, and MACE transitioned. There was no significant change in patients transitioning over time or late catch-up presentations (p = 0.41 see Figure). Transitioned and non-transitioned groups were similar in age, gender, home-to-clinic distance, insurance, ambulation, shunt status, prior non-adherence, emergency room visits, neurosurgery appointments, hospitalizations, and surgeries (including genitourinary reconstruction) before discharge (p = 0.22). Transitioned patients had more pre-discharge appointments with services outside the SB clinic (p = 0.01) and radiographic studies (p < 0.001), but these were not significant on multivariate analysis (p = 0.16). Among those who did not transition, five (6.5%) presented after 2 years, rarely with new complaints (20.0%). Patients without urological follow-up were most likely to visit the emergency room (p = 0.03).To facilitate continued care and a smooth transition, the TUC was opened across the corridor from the multidisciplinary SB clinic. To our surprise, a low percentage of patients actually transitioned to adult care over the last 7 years. It is a sobering fact that despite offering three different transition models, <50% of patients took advantage of any of them. While none of the predictors we anticipated to be important in a successful transition were statistically significant, potentially because of low statistical power, perhaps others, such as insufficient time to coordinate care, wait times, and lack of adult coordinated care programs, may be more important. We were unable to compare the urologic health of those who did and did not transition, as we relied on medical record data.Only 40% of patients transitioned successfully from a multidisciplinary SB clinic and few presented after 2 years. Patients who transitioned tended to have more active health issues and more radiographic tests prior to discharge. Those followed by a urologist are less likely to use emergency room services.
+PB  - Elsevier BV
+SP  - 40.e1
+EP  - 40.e6
+IS  - 1
+VL  - 13
+SN  - 1477-5131
+ER  - 
+
+TY  - JOUR
+DO  - 10.1111/poms.13080
+UR  - https://doi.org/10.1111/poms.13080
+TI  - Patient Heal Thyself: Reducing Hospital Readmissions with Technology‐Enabled Continuity of Care and Patient Activation
+T2  - Production and Operations Management
+AU  - Carrie Queenan
+AU  - Kellas Cameron
+AU  - Alan Snell
+AU  - Julia Smalley
+AU  - Nitin Joglekar
+PY  - 2019
+DA  - 2019-08-11
+AB  - 
+PB  - Wiley-Blackwell
+SP  - 2841
+EP  - 2853
+IS  - 11
+VL  - 28
+SN  - 1059-1478
+ER  - 
+
+TY  - JOUR
+DO  - 10.1007/s11606-014-3055-y
+UR  - https://doi.org/10.1007/s11606-014-3055-y
+TI  - Designing a System for Patients Controlling Providers’ Access to their Electronic Health Records: Organizational and Technical Challenges
+T2  - Journal of General Internal Medicine
+AU  - Jeremy C. Leventhal
+AU  - Jonathan Cummins
+AU  - Peter H. Schwartz
+AU  - Douglas K. Martin
+AU  - William M. Tierney
+PY  - 2014
+DA  - 2014-12-06
+AB  - Electronic health records (EHRs) are proliferating, and financial incentives encourage their use. Applying Fair Information Practice principles to EHRs necessitates balancing patients’ rights to control their personal information with providers’ data needs to deliver safe, high-quality care. We describe the technical and organizational challenges faced in capturing patients’ preferences for patient-controlled EHR access and applying those preferences to an existing EHR. We established an online system for capturing patients’ preferences for who could view their EHRs (listing all participating clinic providers individually and categorically—physicians, nurses, other staff) and what data to redact (none, all, or by specific categories of sensitive data or patient age). We then modified existing data-viewing software serving a state-wide health information exchange and a large urban health system and its primary care clinics to allow patients’ preferences to guide data displays to providers. Patients could allow or restrict data displays to all clinicians and staff in a demonstration primary care clinic, categories of providers (physicians, nurses, others), or individual providers. They could also restrict access to all EHR data or any or all of five categories of sensitive data (mental and reproductive health, sexually transmitted diseases, HIV/AIDS, and substance abuse) and for specific patient ages. The EHR viewer displayed data via reports, data flowsheets, and coded and free text data displayed by Google-like searches. Unless patients recorded restrictions, by default all requested data were displayed to all providers. Data patients wanted restricted were not displayed, with no indication they were redacted. Technical barriers prevented redacting restricted information in free textnotes. The program allowed providers to hit a “Break the Glass” button to override patients’ restrictions, recording the date, time, and next screen viewed. Establishing patient-control over EHR data displays was complex and required ethical, clinical, database, and programming expertise and difficult choices to overcome technical and health system constraints. Assessing patients’ preferences for access to their EHRs and applying them in clinical practice requires wide-ranging technical, clinical, and bioethical expertise, to make tough choices to overcome significant technical and organization challenges.
+PB  - Springer Science+Business Media
+SP  - 17
+EP  - 24
+IS  - S1
+VL  - 30
+SN  - 0884-8734
+ER  - 
+
+TY  - JOUR
+DO  - 10.1093/jamia/ocy191
+UR  - https://doi.org/10.1093/jamia/ocy191
+TI  - Evaluating the effect of data standardization and validation on patient matching accuracy
+T2  - Journal of the American Medical Informatics Association
+AU  - Shaun J. Grannis
+AU  - Huiping Xu
+AU  - Joshua R. Vest
+AU  - Suranga Nath Kasthurirathne
+AU  - Na Bo
+AU  - Ben Moscovitch
+AU  - Rita Torkzadeh
+AU  - Josh Rising
+PY  - 2019
+DA  - 2019-03-08
+AB  - Abstract Objective This study evaluated the degree to which recommendations for demographic data standardization improve patient matching accuracy using real-world datasets. Materials and Methods We used 4 manually reviewed datasets, containing a random selection of matches and nonmatches. Matching datasets included health information exchange (HIE) records, public health registry records, Social Security Death Master File records, and newborn screening records. Standardized fields including last name, telephone number, social security number, date of birth, and address. Matching performance was evaluated using 4 metrics: sensitivity, specificity, positive predictive value, and accuracy. Results Standardizing address was independently associated with improved matching sensitivities for both the public health and HIE datasets of approximately 0.6% and 4.5%. Overall accuracy was unchanged for both datasets due to reduced match specificity. We observed no similar impact for address standardization in the death master file dataset. Standardizing last name yielded improved matching sensitivity of 0.6% for the HIE dataset, while overall accuracy remained the same due to a decrease in match specificity. We noted no similar impact for other datasets. Standardizing other individual fields (telephone, date of birth, or social security number) showed no matching improvements. As standardizing address and last name improved matching sensitivity, we examined the combined effect of address and last name standardization, which showed that standardization improved sensitivity from 81.3% to 91.6% for the HIE dataset. Conclusions Data standardization can improve match rates, thus ensuring that patients and clinicians have better data on which to make decisions to enhance care quality and safety.
+PB  - Oxford University Press
+SP  - 447
+EP  - 456
+IS  - 5
+VL  - 26
+SN  - 1067-5027
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/j.athoracsur.2018.04.050
+UR  - https://doi.org/10.1016/j.athoracsur.2018.04.050
+TI  - Repair of Thoracic and Thoracoabdominal Mycotic Aneurysms and Infected Aortic Grafts Using Allograft
+T2  - The Annals of Thoracic Surgery
+AU  - Joel S. Corvera
+AU  - David Blitzer
+AU  - Hannah Copeland
+AU  - Daniel Murphy
+AU  - Philip J. Hess
+AU  - Saila T. Pillai
+AU  - John W. Fehrenbacher
+PY  - 2018
+DA  - 2018-10-01
+AB  - BackgroundMycotic aneurysm of the thoracic or thoracoabdominal aorta and infection of thoracic or thoracoabdominal aortic grafts are challenging problems with high mortality. In situ reconstruction with cryopreserved allograft (CPA) avoids placement of prosthetic material in an infected field and avoids suppressive antibiotics or autologous tissue coverage.MethodsFifty consecutive patients with infection of a thoracic or thoracoabdominal aortic graft or mycotic aneurysm underwent resection and replacement with CPA from 2006 to 2016. Intravenous antibiotics were continued postoperatively for 6 weeks. Long-term suppressive antibiotics were uncommonly used (8 patients). Follow-up imaging occurred at 6, 18, and 42 months postoperatively. Initial follow-up was 93% complete.ResultsMen comprised 64% of the cohort. The mean age was 63 ± 14 years. The procedures performed included reoperations in 37 patients; replacement of the aortic root, ascending aorta, or transverse arch in 19; replacement of the descending or thoracoabdominal aorta in 27; and extensive replacement of the ascending, arch, and descending or thoracoabdominal aorta in 4. Intraoperative cultures revealed most commonly Staphylococcus (24%), Enterococcus (12%), Candida (6%), and gram-negative rods (14%). Operative mortality was 8%, stroke was 4%, paralysis was 2%, hemodialysis was 6%, and respiratory failure requiring tracheostomy was 6%. Early reoperation for pseudoaneurysm of the CPA was necessary in 4 patients. One-, 2-, and 5-year survival was 84%, 76%, and 64%, respectively.ConclusionsRadical resection and in situ reconstruction with CPA avoids placing prosthetic material in an infected field and provides good early and midterm outcomes. However, early postoperative imaging is necessary given the risk of pseudoaneurysm formation. Mycotic aneurysm of the thoracic or thoracoabdominal aorta and infection of thoracic or thoracoabdominal aortic grafts are challenging problems with high mortality. In situ reconstruction with cryopreserved allograft (CPA) avoids placement of prosthetic material in an infected field and avoids suppressive antibiotics or autologous tissue coverage. Fifty consecutive patients with infection of a thoracic or thoracoabdominal aortic graft or mycotic aneurysm underwent resection and replacement with CPA from 2006 to 2016. Intravenous antibiotics were continued postoperatively for 6 weeks. Long-term suppressive antibiotics were uncommonly used (8 patients). Follow-up imaging occurred at 6, 18, and 42 months postoperatively. Initial follow-up was 93% complete. Men comprised 64% of the cohort. The mean age was 63 ± 14 years. The procedures performed included reoperations in 37 patients; replacement of the aortic root, ascending aorta, or transverse arch in 19; replacement of the descending or thoracoabdominal aorta in 27; and extensive replacement of the ascending, arch, and descending or thoracoabdominal aorta in 4. Intraoperative cultures revealed most commonly Staphylococcus (24%), Enterococcus (12%), Candida (6%), and gram-negative rods (14%). Operative mortality was 8%, stroke was 4%, paralysis was 2%, hemodialysis was 6%, and respiratory failure requiring tracheostomy was 6%. Early reoperation for pseudoaneurysm of the CPA was necessary in 4 patients. One-, 2-, and 5-year survival was 84%, 76%, and 64%, respectively. Radical resection and in situ reconstruction with CPA avoids placing prosthetic material in an infected field and provides good early and midterm outcomes. However, early postoperative imaging is necessary given the risk of pseudoaneurysm formation.
+PB  - Elsevier BV
+SP  - 1129
+EP  - 1135
+IS  - 4
+VL  - 106
+SN  - 0003-4975
+ER  - 
+
+TY  - JOUR
+DO  - 10.1093/jamia/ocv209
+UR  - https://doi.org/10.1093/jamia/ocv209
+TI  - Early experiences of accredited clinical informatics fellowships
+T2  - Journal of the American Medical Informatics Association
+AU  - Chris Longhurst
+AU  - Natalie M. Pageler
+AU  - Jonathan P. Palma
+AU  - John T. Finnell
+AU  - Barnet M. Levy
+AU  - Thomas R. Yackel
+AU  - Vishnu Mohan
+AU  - William R. Hersh
+PY  - 2016
+DA  - 2016-05-20
+AB  - Abstract Since the launch of the clinical informatics subspecialty for physicians in 2013, over 1100 physicians have used the practice and education pathways to become board-certified in clinical informatics. Starting in 2018, only physicians who have completed a 2-year clinical informatics fellowship program accredited by the Accreditation Council on Graduate Medical Education will be eligible to take the board exam. The purpose of this viewpoint piece is to describe the collective experience of the first four programs accredited by the Accreditation Council on Graduate Medical Education and to share lessons learned in developing new fellowship programs in this novel medical subspecialty.
+PB  - Oxford University Press
+SP  - 829
+EP  - 834
+IS  - 4
+VL  - 23
+SN  - 1067-5027
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/j.procs.2015.08.387
+UR  - https://doi.org/10.1016/j.procs.2015.08.387
+TI  - Big Data Privacy in Healthcare Moroccan Context
+T2  - Procedia Computer Science
+AU  - Bouhriz Mounia
+AU  - Habiba Chaoui
+PY  - 2015
+DA  - 2015-01-01
+AB  - We live today in a world wide open, where privacy is hardly maintained, with the big data getting involved, it's only getting worse, since data is henceforth everywhere and about everyone, we can’t really tell who knows what about who, where the data is actually relying, and what uses are made out of it. Privacy though is a very important aspect that people always require in many sectors, and it's not less important in the healthcare industry, where information only gets even more personal and sensitive that any privacy breach becomes an issue of life or death. In this paper, we have focused on the benefits of big data in the healthcare sector, as well as some of the main challenges often encountered. We have then concentrated on the Moroccan context, shown the problems it has and its specificities, in order to suggest recommendations to encourage the decision makers to take the path of Big Data. And finally, we have enlightened the privacy issues in healthcare and the current methods used to ensure the patient's privacy.
+PB  - Elsevier BV
+SP  - 575
+EP  - 580
+IS  - NA
+VL  - 63
+SN  - 1877-0509
+ER  - 
+
+TY  - JOUR
+DO  - 10.1186/s12911-017-0491-8
+UR  - https://doi.org/10.1186/s12911-017-0491-8
+TI  - Completeness and timeliness of notifiable disease reporting: a comparison of laboratory and provider reports submitted to a large county health department
+T2  - BMC Medical Informatics and Decision Making
+AU  - Brian E. Dixon
+AU  - Zuoyi Zhang
+AU  - Patrick T. S. Lai
+AU  - Uzay Kirbiyik
+AU  - Jennifer L. Williams
+AU  - Rebecca Hills
+AU  - Debra Revere
+AU  - P. Joseph Gibson
+AU  - Shaun J. Grannis
+PY  - 2017
+DA  - 2017-06-23
+AB  - Most public health agencies expect reporting of diseases to be initiated by hospital, laboratory or clinic staff even though so-called passive approaches are known to be burdensome for reporters and produce incomplete as well as delayed reports, which can hinder assessment of disease and delay recognition of outbreaks. In this study, we analyze patterns of reporting as well as data completeness and timeliness for traditional, passive reporting of notifiable disease by two distinct sources of information: hospital and clinic staff versus clinical laboratory staff. Reports were submitted via fax machine as well as electronic health information exchange interfaces.Data were extracted from all submitted notifiable disease reports for seven representative diseases. Reporting rates are the proportion of known cases having a corresponding case report from a provider, a faxed laboratory report or an electronic laboratory report. Reporting rates were stratified by disease and compared using McNemar's test. For key data fields on the reports, completeness was calculated as the proportion of non-blank fields. Timeliness was measured as the difference between date of laboratory confirmed diagnosis and the date the report was received by the health department. Differences in completeness and timeliness by data source were evaluated using a generalized linear model with Pearson's goodness of fit statistic.We assessed 13,269 reports representing 9034 unique cases. Reporting rates varied by disease with overall rates of 19.1% for providers and 84.4% for laboratories (p < 0.001). All but three of 15 data fields in provider reports were more often complete than those fields within laboratory reports (p <0.001). Laboratory reports, whether faxed or electronically sent, were received, on average, 2.2 days after diagnosis versus a week for provider reports (p <0.001).Despite growth in the use of electronic methods to enhance notifiable disease reporting, there still exists much room for improvement.
+PB  - BioMed Central
+SP  - NA
+EP  - NA
+IS  - 1
+VL  - 17
+SN  - 1472-6947
+ER  - 
+
+TY  - JOUR
+DO  - 10.1007/s10257-014-0238-3
+UR  - https://doi.org/10.1007/s10257-014-0238-3
+TI  - Fit for purpose: engineering principles for selecting an appropriate type of data exchange standard
+T2  - Information Systems and E-business Management
+AU  - Arnon Rosenthal
+AU  - Len Seligman
+AU  - M. David Allen
+AU  - Adriane Chapman
+AU  - Hongwei Zhu
+PY  - 2014
+DA  - 2014-01-29
+AB  - 
+PB  - Springer Science+Business Media
+SP  - 495
+EP  - 515
+IS  - 4
+VL  - 12
+SN  - 1617-9846
+ER  - 
+
+TY  - JOUR
+DO  - 10.1186/s12911-019-0849-1
+UR  - https://doi.org/10.1186/s12911-019-0849-1
+TI  - Regional data exchange to improve care for veterans after non-VA hospitalization: a randomized controlled trial
+T2  - BMC Medical Informatics and Decision Making
+AU  - Brian E. Dixon
+AU  - Ashley L. Schwartzkopf
+AU  - Vivian M. Guerrero
+AU  - J. Russell May
+AU  - Nicholas S Koufacos
+AU  - Andrew Bean
+AU  - Joan D. Penrod
+AU  - Cathy C. Schubert
+AU  - Kenneth S. Boockvar
+PY  - 2019
+DA  - 2019-07-04
+AB  - Coordination of care, especially after a patient experiences an acute care event, is a challenge for many health systems. Event notification is a form of health information exchange (HIE) which has the potential to support care coordination by alerting primary care providers when a patient experiences an acute care event. While promising, there exists little evidence on the impact of event notification in support of reengagement into primary care. The objectives of this study are to 1) examine the effectiveness of event notification on health outcomes for older adults who experience acute care events, and 2) compare approaches to how providers respond to event notifications. In a cluster randomized trial conducted across two medical centers within the U.S. Veterans Health Administration (VHA) system, we plan to enroll older patients (≥ 65 years of age) who utilize both VHA and non-VHA providers. Patients will be enrolled into one of three arms: 1) usual care; 2) event notifications only; or 3) event notifications plus a care transitions intervention. In the event notification arms, following a non-VHA acute care encounter, an HIE-based intervention will send an event notification to VHA providers. Patients in the event notification plus care transitions arm will also receive 30 days of care transition support from a social worker. The primary outcome measure is 90-day readmission rate. Secondary outcomes will be high risk medication discrepancies as well as care transitions processes within the VHA health system. Qualitative assessments of the intervention will inform VHA system-wide implementation. While HIE has been evaluated in other contexts, little evidence exists on HIE-enabled event notification interventions. Furthermore, this trial offers the opportunity to examine the use of event notifications that trigger a care transitions intervention to further support coordination of care. ClinicalTrials.gov
+ NCT02689076. “Regional Data Exchange to Improve Care for Veterans After Non-VA Hospitalization.” Registered 23 February 2016.
+PB  - BioMed Central
+SP  - NA
+EP  - NA
+IS  - 1
+VL  - 19
+SN  - 1472-6947
+ER  - 
+
+TY  - JOUR
+DO  - 10.1177/1073110517720653
+UR  - https://doi.org/10.1177/1073110517720653
+TI  - A Study to Elicit Behavioral Health Patients' and Providers' Opinions on Health Records Consent
+T2  - Journal of Law Medicine & Ethics
+AU  - Adela Grando
+AU  - Anita C. Murcko
+AU  - Srividya Mahankali
+AU  - Michael J. Saks
+AU  - Michael R. Zent
+AU  - Darwyn Chern
+AU  - Christy Dye
+AU  - Richard R. Sharp
+AU  - Laura Young
+AU  - Patricia Davis
+AU  - Megan Hiestand
+AU  - Neda Hassanzadeh
+PY  - 2017
+DA  - 2017-01-01
+AB  - A main objective of this study is to assess the opinions of 50 behavioral health patients on selective control over their behavioral and physical health information. We explored patients' preferences regarding current consent models, what health information should be shared for care and research and whether these preferences vary based on the sensitivity of health information and/or the type of provider involved. The other objective of this study was to solicit opinions of 8 behavioral health providers on patient-driven granular control of health information and potential impact on care. Electronic surveys were implemented at an outpatient Behavioral Health facility that provides care for behavioral health patients with non-serious mental illnesses. The Patient Survey included questions regarding patients' demographics and about their concerns and preferences for data sharing for care and research. The Provider Survey included questions about their view on the current consent process and perceptions on barriers and facilitators to implement patient-controlled granular consent models. This novel study provides valuable preliminary data that can help guide future studies to better understand privacy choices of this underrepresented patient group.
+PB  - SAGE Publishing
+SP  - 238
+EP  - 259
+IS  - 2
+VL  - 45
+SN  - 1073-1105
+ER  - 
+
+TY  - JOUR
+DO  - 10.1093/jamia/ocx122
+UR  - https://doi.org/10.1093/jamia/ocx122
+TI  - Falling short: how state laws can address health information exchange barriers and enablers
+T2  - Journal of the American Medical Informatics Association
+AU  - Cason Schmit
+AU  - Sarah Wetter
+AU  - Bita A. Kash
+PY  - 2017
+DA  - 2017-11-02
+AB  - Abstract Objective Research on the implementation of health information exchange (HIE) organizations has identified both positive and negative effects of laws relating to governance, incentives, mandates, sustainability, stakeholder participation, patient engagement, privacy, confidentiality, and security. We fill a substantial research gap by describing whether comprehensive state and territorial HIE legal frameworks address identified legal facilitators and barriers. Materials and Methods We used the Westlaw database to identify state and territorial laws relating to HIEs in effect on June 7, 2016 (53 jurisdictions). We blind-coded all laws and addressed coding discrepancies in peer-review meetings. We recorded a consensus code for each law in a master database. We compared 20 HIE legal attributes with identified barriers to and enablers of HIE activity in the literature. Results Forty-two states, the District of Columbia, and 2 territories have laws relating to HIEs. On average, jurisdictions address 8.32 of the 20 criteria selected in statutes and regulations. Twenty jurisdictions unambiguously address ≤5 criteria in statutes and regulations. None of the significant legal criteria are unambiguously addressed in &amp;gt;60% of the 53 jurisdictions. Discussion Laws can be barriers to or enablers of HIEs. However, jurisdictions are not addressing many significant issues identified by researchers. Consequently, there is a substantial risk that existing legal frameworks are not adequately supporting HIEs. Conclusion The current evidence base is insufficient for comparative assessments or impact rankings of the various factors. However, the detailed Centers for Disease Control and Prevention dataset of HIE laws could enable investigations into the types of laws that promote or impede HIEs.
+PB  - Oxford University Press
+SP  - 635
+EP  - 644
+IS  - 6
+VL  - 25
+SN  - 1067-5027
+ER  - 
+
+TY  - JOUR
+DO  - 10.1097/phh.0000000000001672
+UR  - https://doi.org/10.1097/phh.0000000000001672
+TI  - A Brief History of Public Health Informatics—Lessons for Leaders and a Look Into the Future
+T2  - Journal of Public Health Management and Practice
+AU  - David A. Ross
+AU  - Edward L. Baker
+PY  - 2023
+DA  - 2023-01-01
+AB  - As the public health enterprise embarks on a Data Modernization Initiative (DMI), a national effort designed to modernize public health surveillance and related information systems,1 a brief review of the recent history of public health informatics with attention to leadership lessons is in order. In this, we will highlight the history of a series of initiatives designed to improve the capacity of the public health system to manage information. By reflecting on these periods of innovation, we will share a few guiding principles and best practices that are directly relevant to challenges faced by public health leaders today and provide a look into the future. The 1970s and 1980s—the Early Years The health care system led the way in this period with a few public health innovators beginning to move into the informatics area.2 Major vendors emerged through automating financials and later expanding to automate clinical processes. Then, technology exploded with minicomputers and personal computers leading to early/primitive clinical systems for order entry and documenting medical records. Although mainframe computing supported the automation of hospital financials and logistics processes, innovations using mini- and microcomputers accelerated automated support of the processes of care across the spectrum of patient care and eventually into departmental patient data repositories that, when interfaced with other departmental systems, could provide clinicians a more complete set of data on a patient. At this stage of evolution, the best that automation could do was provide departmental repositories that could be interfaced to provide a more comprehensive set of data on a patient. To add to this functionality, hospitals had to build 1-1 interfaces between separate clinical units (eg, laboratory, pharmacy). This process was tedious and costly to maintain because any change to a system on either end of the interface meant that you had to modify or rebuild the interface. Within the public health realm, a few innovations emerged. Practice-oriented thought leaders at the Centers for Disease Control and Prevention (CDC) developed the Epi Info system that gave epidemiologists a field-ready tool, which is still used across the world today.3 At the CDC, development of the CDC WONDER system made CDC common data sets accessible to the public health practice community and is also still in use today.4 Engagement by public health innovators with standard setting groups (eg, ANSI, HL7) also started to occur leading to the realization that public health needed to get in the health informatics game or else risk having the health care delivery world tell us what data we would get, how they would be defined, and how we could access them. The 1990s—an Era of Public Health Informatics Innovation Following the publication of the Future of Public Health report5 in 1988, the CDC, under the leadership of the CDC Director Dr Bill Roper, championed the priority of strengthening the nation's public health system.6 This challenge required that the public health enterprise should define itself, its core functions, and its goals, all of which are precursors to effective use of information systems. At that point, we began to ask how public health could use data better and transform data into information and knowledge to serve public health practice.7 In the 1990s, the bar of acceptable response to policy makers and the public began to shift toward faster and more localized, relevant data. As browsers opened the Internet to the world, public health needed to gain the capacity to participate in what came to be called the “information superhighway.” Within that context, the CDC-led Information Network for Public Health Officials (INPHO) initiative represented the CDC's first major effort to enhance the nation's public health information infrastructure with a particular emphasis on strengthening state and local health agencies informatics capabilities.8 The INPHO initiative focused on 3 goals: (1) connectivity (ie, providing Internet access for these agencies), (2) information access (eg, through the creation of online information through Web sites), and (3) data exchange (eg, surveillance data). The Comprehensive Child Immunization Act of 1993 assured long-term funding to states to vaccinate all children routinely and to create an electronic infrastructure capable of documenting every child's immunization history. The innovators at The Task Force for Global Health implemented the RWJF All Kids Count initiative to help states join together in common purpose to define, standardize, and implement electronic registries in every state,9 ultimately paving the way for Immunization Information Systems (IIS), which remain today as the singular standout as an interoperable public health information system linked to the health care sector and employing uniform national standards voluntarily adopted across all states. Within the health care services sector, the pressure for cross-provider exchange of patient data accelerated the move for nationally unifying standards that would guide creation of Health Information Exchange (HIE), such as the Indiana Health Information Exchange (IHIE). The HIE showed that the public health enterprise could benefit if public health agencies linked into their regional HIE. During this period, true clinical health care system institutional automation began to occur along with the trend toward corporate health care/consolidation of community hospitals into systems of care that required integrated data environments. The 2000s—Collaboration, Legislation, and Increased Investment The 2000-2010 period was all about public health trying to catch up, to get connected to the Internet, and to explore how to link with the emerging eHealth enterprise, which was adopting electronic health record (EHR) use at a rapid pace. Major public health advances included automation in public health laboratories and the creation of the Public Health Informatics Institute, which pioneered a range of best practices in public health informatics (eg, Collaborative Requirements Development Methodology, Infolinks initiative, and Common Ground Initiative), some of which related to the growing need to enhance public health preparedness.10 At this stage, public health agencies came to recognize that while they each existed within a legally separate and unique legal envelope, when it comes to adopting and using information systems, their path to inter- and intrajurisdictional interoperability rested in understanding that all agencies and all programs share the majority of their business processes in common and, consequently, can benefit from stressing commonalities rather than minor differences. This insight coupled with a collaborative approach to defining the end technical solution empowered the IIS enterprise as it also did the public health laboratory enterprise. Then, the terrorist attack on September 11, 2001, catalyzed the efforts of the public health enterprise to improve capacity for rapid communications and information sharing. In October 1998, the CDC initiated the Health Alert Network initiative,11 which built on the conceptual and operational successes of the earlier INPHO program to further enhance state and local public health agency informatics capacity. On September 11, 2001, the first Health Alert message was issued using the Health Alert Network infrastructure, which had been developed over previous months. As additional resources became available in subsequent months, the Health Alert Network program fulfilled its 3 goals: (1) ensure robust electronic communications at all full-function local health jurisdictions, (2) ensure capacity at every local health jurisdiction to receive distance learning offerings from the CDC, and (3) ensure a comprehensive capacity across all levels of the public health system to receive and broadcast urgent health alerts.11 Other innovations included the Connections community of practice aimed at helping states integrate child health systems by learning from one another about what approaches to cross-program data integration worked for different agencies. This initiative was the first public health effort to directly involve the medical practitioners and health care finance entities.12 In 2002/2003, the Department of Health & Human Services (HHS) created the Office of the National Coordinator for Health IT (DHHS/ONC). At its inaugural 2003 conference, delegates from health care organizations, academic informaticists, EHR companies, health insurance/payers, and public health informatics joined to declare a framework for advancing the adoption of EHRs and regional health information exchanges. This framework called for the creation of a certifying body that could measure each EHR product against a set of essential functional capabilities and standards, where applicable. Thus, the Certification Committee for Health IT (CCHIT) was born to provide objective expert determinations of each product that sought the CCHIT certification. The CCHIT certification quickly became a necessary label of excellence demanded by prospective EHR clients. The CCHIT included public health representatives who could provide the public health perspective on relevant aspects of EHRs. The 2009 American Recovery and Reinvestment Act (ARRA) established the Health Information Technology for Economic and Clinical Health Act (or ARRA HITECH Act). Through this legislation, the Centers for Medicare & Medicaid Services (CMS) provided incentive payments to health care providers to be “meaningful users” of EHRs. Public health needed to benefit from this massive investment, but to do so they needed to present a national “one public health” vision to the HHS Implementation Hearings because the HITECH Act did not specifically call out public health. To ensure that public health was included, the major public health associations joined together under the auspices of the Joint Public Health Informatics Taskforce to craft a unified argument and presentation to the CMS. Their successful work led to HITECH including funding for IIS, electronic laboratory reporting, and syndromic surveillance. Absent public health unifying its message and request under the Joint Public Health Informatics Taskforce, it is likely that public health would have been ignored completely in deference to the dramatic need to automate health care to drive overall improved outcomes at lower cost. The 2010s—Public Health Preparedness: Linking Health Care and Public Health Between 2010 and 2019, public health was challenged with marshaling an effective response to 2 major outbreaks: the HIN1 influenza epidemic13 and the 2014 Ebola virus outbreak in West Africa that led to cases in the United States.14 The response to these outbreaks demonstrated the continuing deficits of public health surveillance systems. As US health care was rapidly adopting EHRs, public health lagged because of staffing and budget cuts stemming from the great recession of 2008-2010. In 2009, the novel influenza A (H1N1) virus was detected first in the United States and spread quickly across the United States and the world. Throughout 2010, the United States mounted a complex, multifaceted, and long-term response to the pandemic. Among these efforts was the need for the CDC, its supporting partner organizations, and all public health agencies to rapidly define and implement emergency department data reporting to local, state, and federal authorities. These outbreaks demonstrated to all that public health's surveillance capabilities and related informatics infrastructure needed much more attention.15 The Ebola outbreak in particular demonstrated the fragility of handling outbreaks of national consequence in the traditional manual data-reporting manner. Furthermore, the public health workforce was ill-equipped to design, develop, and manage these new information systems needed to support outbreak response. To address this need, the Public Health Informatics Institute (with support from the de Beaumont Foundation) was incentivized to create the Public Health Informatics Academy to bring practitioner-relevant low-cost informatics education to frontline public health agencies. The Academy demonstrated that high-value informatics education priced reasonably will attract an audience. By 2015, informatics leaders in clinical medicine and public health joined forces with the Robert Wood Johnson Foundation to launch the Digital Bridge, an initiative that forged collaborative governance over data exchange between health care provider organizations and public health. Digital Bridge demonstrated the truth that “data moves at the speed of trust.”16 By the close of the decade, most public health leaders at the local, state, and federal levels understood that functions such as the Digital Bridge and future innovations were going to be essential to their ability to acquire essential data. The 2020s—the COVID Pandemic: Unprecedented Opportunity for Informatics Innovation The SARS-CoV-2 virus indelibly stamped its name on 2020. The COVID pandemic demonstrated the massive challenge of providing accurate, jurisdiction-specific data on new infections, hospitalizations, and deaths in a way that local, state, and federal health authorities and policy makers could make challenging judgments. The federated public health system struggled, in part, due to the lack of federal requirements for sharing data with the CDC. Data-sharing agreements speak directly to the sociology of informatics, a topic that has been left to crises to resolve. We remain with significant unfinished business on that data-sharing front. As we have moved into 2022, the Biden Administration passed infrastructure funding that includes a new initiative aimed at data modernization (DMI). The DMI will require national agreement on a framework for surveillance and with it eventually a collaboratively defined, endorsed, and implemented technology standards that will finally position public health as a 21st century data enterprise.17 The HHS DMI speaks mostly, maybe exclusively, to public health surveillance systems, which ultimately tie to broader health information systems. Now, the public health community must proceed to create a framework that unites the states under a common way of understanding not only the who, what, when, and why of surveillance but most importantly the how. The “how” will consist of the essential systems architecture (ie, data and transmission standards, transfer protocols, data management protocols, etc). Lessons Learned From the Past From these experiences, we offer a few guiding principles to foster a mindset for future innovation. Public health leaders need to know that investments in informatics, be that in personnel, tools (systems, apps, etc), or innovation, should be logically associated with end health outcomes and health impact. Furthermore, having a complete and comprehensive map of the work of public health (ie, business process workflows) can lead to improved efficiency and effectiveness while also helping one be clear about how much improvement in the current workstreams should result from the informatics investment.10 Therefore, these are investments for which leaders should demand a clear return of investment. A Look Into the Future Recently, public health practice has moved from a mindset of rigid categoricalism to necessary systematization. Past history of rigid categorical funding established highly functional single-purpose programs (aka silos) and prevented more logical cross-functional system development. As a result, the public health system now faces a new decade of investment in public health data and information infrastructure, beginning with a laser focus on essential surveillance systems.1 Leaders should make the most of it by being a constructive part of the national partners coalition formed by the CDC and by helping your health agency work toward forging, accepting, and adopting standards-based systems and adopting cloud-based solutions that your IT department does not own and control. Public health leaders should embrace and lobby on behalf of cloud-based solutions that will be vastly more powerful yet less costly. The future of public health rests in its use of data and not in its management of hardware technologies. The future of public health will likely lead us to a shared data analytics capability wherein a jurisdiction's data can be held confidential subject to their control while also benefitting from the power that major cloud computing platforms bring. Clearly, for many states this may require state legislative rethinking about how a state's data assets are managed. To make the DMI investment payoff, states will necessarily adopt many more common methods and standards. To be very clear, the most important of all investments must be those in the workforce. The public health workforce of the 2020 to 2050 time frame must be capable of delivering near real-time, highly granular, and rapidly trending facts and analysis to their public across the range of environmental hazards, weather-related, infectious, and noninfectious threats to health. Failure to do this well will relegate public health to the side bench and allow information providers whose interest may not be assuring improved health for all people to have a controlling voice in shaping health policy.
+PB  - Lippincott Williams & Wilkins
+SP  - 101
+EP  - 104
+IS  - 1
+VL  - 29
+SN  - 1078-4659
+ER  - 
+
+TY  - JOUR
+DO  - 10.1111/hdi.12445
+UR  - https://doi.org/10.1111/hdi.12445
+TI  - A comparison between physicians and computer algorithms for form CMS-2728 data reporting
+T2  - Hemodialysis International
+AU  - Mohammed Said Malas
+AU  - Jay B. Wish
+AU  - Ranjani N. Moorthi
+AU  - Shaun J. Grannis
+AU  - Paul Dexter
+AU  - Jon Duke
+AU  - Sharon M. Moe
+PY  - 2016
+DA  - 2016-06-29
+AB  - CMS-2728 form (Medical Evidence Report) assesses 23 comorbidities chosen to reflect poor outcomes and increased mortality risk. Previous studies questioned the validity of physician reporting on forms CMS-2728. We hypothesize that reporting of comorbidities by computer algorithms identifies more comorbidities than physician completion, and, therefore, is more reflective of underlying disease burden.We collected data from CMS-2728 forms for all 296 patients who had incident ESRD diagnosis and received chronic dialysis from 2005 through 2014 at Indiana University outpatient dialysis centers. We analyzed patients' data from electronic medical records systems that collated information from multiple health care sources. Previously utilized algorithms or natural language processing was used to extract data on 10 comorbidities for a period of up to 10 years prior to ESRD incidence. These algorithms incorporate billing codes, prescriptions, and other relevant elements. We compared the presence or unchecked status of these comorbidities on the forms to the presence or absence according to the algorithms.Computer algorithms had higher reporting of comorbidities compared to forms completion by physicians. This remained true when decreasing data span to one year and using only a single health center source. The algorithms determination was well accepted by a physician panel. Importantly, algorithms use significantly increased the expected deaths and lowered the standardized mortality ratios.Using computer algorithms showed superior identification of comorbidities for form CMS-2728 and altered standardized mortality ratios. Adapting similar algorithms in available EMR systems may offer more thorough evaluation of comorbidities and improve quality reporting.
+PB  - Wiley-Blackwell
+SP  - 117
+EP  - 124
+IS  - 1
+VL  - 21
+SN  - 1492-7535
+ER  - 
+
+TY  - JOUR
+DO  - 10.1093/labmed/lmw038
+UR  - https://doi.org/10.1093/labmed/lmw038
+TI  - Handling Big Data in Modern Healthcare
+T2  - Labmedicine
+AU  - Hassan A. Aziz
+PY  - 2016
+DA  - 2016-10-04
+AB  - The constant growth of medical knowledge and the increases in specialization in clinical practice have created a significant need to share and access patient information with speed and efficiency. However, current technology is centered on processing data, rather than gathering information. To realize the potential of modern technology in improving patient health, merely collecting and storing data are insufficient: one must convert these data into information and knowledge. In this article, I present an overview of 2 recent advances in technology and their assimilation into the practice of medicine, in the attempt to make clinical data meaningful and then to learn from aggregated clinical data. We address the emergence of clinical data warehouses (CDWs) and health information exchanges (HIEs), as features of the Health Information Technology for Economic and Clinical Health (HITECH) Act. This act, enacted in the United States as part of the American Recovery and Reinvestment Act of 2009, was signed into law on February 17, 2009, to promote the adoption and meaningful use of health information technology.
+PB  - Oxford University Press
+SP  - e38
+EP  - e41
+IS  - 4
+VL  - 47
+SN  - 0007-5027
+ER  - 
+
+TY  - JOUR
+DO  - 10.1109/sose.2017.20
+UR  - https://doi.org/10.1109/sose.2017.20
+TI  - A Service-Oriented Approach to Interoperable and Secure Personal Health Record Systems
+T2  - NA
+AU  - Jingquan Li
+PY  - 2017
+DA  - 2017-04-01
+AB  - Personal health records (PHRs) have received increased attention in the health care industry. PHR systems allow individuals to collect, store, use, and share all or part of their medical records, lab results, medications, and self-entered health information. Today PHRs are provided by a broad array of players, including health care providers, health plans, employers, and technology vendors. Many existing PHR systems are institution-specific and have not been concerned with data interoperability and data protection with other vender systems. The paper reported here seeks to address this challenge by presenting an interoperable and secure service-oriented architecture (SOA) approach. We first analyze interoperability issues for contemporary electronic medical record (EMR) systems and health information exchanges (HIEs). We then present a SOA-based approach for the integration of EHR systems and PHR systems and identify the primary focus areas for interoperable and secure PHR systems. We further discuss functional services of a SOA-based PHR system and present a practical case study that demonstrates how interoperability and data security can be incorporated in a large PHR system. The paper concludes by discussing practical implications and future research in SOA-based PHR systems.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.1007/s12553-019-00348-x
+UR  - https://doi.org/10.1007/s12553-019-00348-x
+TI  - Current issues regarding artificial intelligence in cancer and health care. Implications for medical physicists and biomedical engineers
+T2  - Health and technology
+AU  - Loredana G. Marcu
+AU  - Chris Boyd
+AU  - Eva Bezak
+PY  - 2019
+DA  - 2019-07-22
+AB  - 
+PB  - Springer Science+Business Media
+SP  - 375
+EP  - 381
+IS  - 4
+VL  - 9
+SN  - 2190-7196
+ER  - 
+
+TY  - JOUR
+DO  - 10.1136/amiajnl-2013-001689
+UR  - https://doi.org/10.1136/amiajnl-2013-001689
+TI  - The pattern of name tokens in narrative clinical text and a comparison of five systems for redacting them
+T2  - Journal of the American Medical Informatics Association
+AU  - Mehmet Kayaalp
+AU  - Allen C. Browne
+AU  - Fiona Callaghan
+AU  - Zeyno A. Dodd
+AU  - Guy Divita
+AU  - Selcuk Ozturk
+AU  - Clement J. McDonald
+PY  - 2014
+DA  - 2014-05-01
+AB  - Objective To understand the factors that influence success in scrubbing personal names from narrative text. Materials and methods We developed a scrubber, the NLM Name Scrubber (NLM-NS), to redact personal names from narrative clinical reports, hand tagged words in a set of gold standard narrative reports as personal names or not, and measured the scrubbing success of NLM-NS and that of four other scrubbing/name recognition tools (MIST, MITdeid, LingPipe, and ANNIE/GATE) against the gold standard reports. We ran three comparisons which used increasingly larger name lists. Results The test reports contained more than 1 million words, of which 2388 were patient and 20 160 were provider name tokens. NLM-NS failed to scrub only 2 of the 2388 instances of patient name tokens. Its sensitivity was 0.999 on both patient and provider name tokens and missed fewer instances of patient name tokens in all comparisons with other scrubbers. MIST produced the best all token specificity and F-measure for name instances in our most relevant study (study 2), with values of 0.997 and 0.938, respectively. In that same comparison, NLM-NS was second best, with values of 0.986 and 0.748, respectively, and MITdeid was a close third, with values of 0.985 and 0.796 respectively. With the addition of the Clinical Center name list to their native name lists, Ling Pipe, MITdeid, MIST, and ANNIE/GATE all improved substantially. MITdeid and Ling Pipe gained the most—reaching patient name sensitivity of 0.995 (F-measure=0.705) and 0.989 (F-measure=0.386), respectively. Discussion The privacy risk due to two name tokens missed by NLM-NS was statistically negligible, since neither individual could be distinguished among more than 150 000 people listed in the US Social Security Registry. Conclusions The nature and size of name lists have substantial influences on scrubbing success. The use of very large name lists with frequency statistics accounts for much of NLM-NS scrubbing success.
+PB  - Oxford University Press
+SP  - 423
+EP  - 431
+IS  - 3
+VL  - 21
+SN  - 1067-5027
+ER  - 
+
+TY  - JOUR
+DO  - 10.1007/s40471-014-0020-6
+UR  - https://doi.org/10.1007/s40471-014-0020-6
+TI  - Use of Data from Electronic Health Records for Pharmacoepidemiology
+T2  - Current Epidemiology Reports
+AU  - Michael D. Murray
+PY  - 2014
+DA  - 2014-09-06
+AB  - The increased availability of digital data from electronic health records (EHR) systems has created heightened interest in their use in pharmacoepidemiology. Sources of such data have been somewhat restrictive and not generally accessible to scientists because of institutional policies. However, these data-access restrictions appear to be diminishing. The recent thrust by the Institute of Medicine and other policy-influencing groups to establish learning health systems has argued for broader use of digital data from health systems for the growing needs of researchers who seek out best evidence in health care. Pharmacoepidemiologists are especially well poised to contribute to this new era because of their long-standing use of digital data in their research. While EHR data will increase in terms of volume, it is important for investigators to spend time understanding the data, including verifying format and quality. Unlike claims data that often follow a standard format, EHR data, particularly from disparate health systems such as contained in health information exchanges, often vary in terms of completeness, format, and quality. It is therefore helpful for investigators to work closely with individuals who are tuned into each data source being considered for research. EHR data are at the core of the exciting new thrust to analyze big healthcare data for pharmacoepidemiology.
+PB  - Springer Science+Business Media
+SP  - 186
+EP  - 193
+IS  - 4
+VL  - 1
+SN  - 2196-2995
+ER  - 
+
+TY  - JOUR
+DO  - 10.1016/j.cmpb.2013.07.002
+UR  - https://doi.org/10.1016/j.cmpb.2013.07.002
+TI  - A new tool for sharing and querying of clinical documents modeled using HL7 Version 3 standard
+T2  - Computer Methods and Programs in Biomedicine
+AU  - Vasil Slavov
+AU  - Praveen Rao
+AU  - Srivenu Paturi
+AU  - Tivakar Komara Swami
+AU  - Michael Barnes
+AU  - Deepthi Rao
+AU  - Raghuvarun Palvai
+PY  - 2013
+DA  - 2013-12-01
+AB  - We present a new software tool called CDN (Collaborative Data Network) for sharing and querying of clinical documents modeled using HL7 v3 standard (e.g., Clinical Document Architecture (CDA), Continuity of Care Document (CCD)). Similar to the caBIG initiative, CDN aims to foster innovations in cancer treatment and diagnosis through large-scale, sharing of clinical data. We focus on cancer because it is the second leading cause of deaths in the US. CDN is based on the synergistic combination of peer-to-peer technology and the extensible markup language XML and XQuery. Using CDN, a user can pose both structured queries and keyword queries on the HL7 v3 documents hosted by data providers. CDN is unique in its design--it supports location oblivious queries in a large-scale, network wherein a user does not explicitly provide the location of the data for a query. A location service in CDN discovers data of interest in the network at query time. CDN uses standard cryptographic techniques to provide security to data providers and protect the privacy of patients. Using CDN, a user can pose clinical queries pertaining to cancer containing aggregations and joins across data hosted by multiple data providers. CDN is implemented with open-source software for web application development and XML query processing. We ran CDN in a distributed environment using Amazon EC2 as a testbed. We report its performance on real and synthetic datasets of discharge summaries. We show that CDN can achieve good performance in a setup with large number of data providers and documents.
+PB  - Elsevier BV
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - 0169-2607
+ER  - 
+
+TY  - JOUR
+DO  - 10.18043/ncm.80.4.229
+UR  - https://doi.org/10.18043/ncm.80.4.229
+TI  - NC HealthConnex and Value-based Care
+T2  - North Carolina medical journal
+AU  - Christy Revels
+AU  - Christie Burris
+PY  - 2019
+DA  - 2019-07-01
+AB  - A statewide health information exchange (HIE) can be a vital technology tool and play a pivotal role in driving health care innovation and better health outcomes, especially for providers participating in value-based care models. NC HealthConnex is the state-designated HIE network that gives participating providers secure and timely access to important patient data from more than 4,700 health care facilities spanning geographic locations and care settings.
+PB  - North Carolina Medical Society Foundation's Community Practitioner Program
+SP  - 229
+EP  - 233
+IS  - 4
+VL  - 80
+SN  - 0029-2559
+ER  - 
+
+TY  - CHAP
+DO  - 10.1016/b978-0-12-803135-3.00010-4
+UR  - https://doi.org/10.1016/b978-0-12-803135-3.00010-4
+TI  - Shared Longitudinal Health Records for Clinical and Population Health
+T2  - Elsevier eBooks
+AU  - David Broyles
+AU  - Ryan Crichton
+AU  - Bob Jolliffe
+AU  - Johan Ivar Sæbø
+AU  - Brian E. Dixon
+PY  - 2016
+DA  - 2016-01-01
+AB  - The ability of a health information exchange to consolidate information, collected in multiple, disparate information systems, into a single, person-centric health record can provide a comprehensive and longitudinal representation of an individual’s medical history. Shared, longitudinal health records can be leveraged to enhance the delivery of individual clinical care and provide opportunities to improve health outcomes at the population level. This chapter will describe the clinical benefits imparted by the shared health record (SHR) component of the OpenHIE infrastructure. It will also characterize the potential population health benefits of the aggregate level data contained and distributed by the Health Management Information System component of OpenHIE. The chapter will further discuss the implementation of these systems.
+PB  - NA
+SP  - 149
+EP  - 162
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.1080/08874417.2018.1483213
+UR  - https://doi.org/10.1080/08874417.2018.1483213
+TI  - A Service-Oriented Model for Personal Health Records
+T2  - Journal of Computer Information Systems
+AU  - Jingquan Li
+PY  - 2018
+DA  - 2018-06-18
+AB  - Personal health records (PHRs) have received widespread attention as a tool for people to store and manage their own or their family’s health records. Today PHRs are provided by a variety of players, including health care systems or hospitals, health plans, employers, and technology vendors. Traditional PHR systems are institution specific and have not been concerned with the interoperability and privacy of PHRs when interacting with other systems. The paper reported here seeks to address this challenge by presenting a service-oriented model for PHRs. In this study, we examine the challenges faced in the integration of existing electronic medical record (EMR) systems and health information exchanges (HIEs). We then propose a service-oriented model for integrating PHR and EMR systems. Furthermore, we analyze the services in SOA and explore the potential of service-oriented personal health cloud. We present a practical case study to verify and validate our the proposed approach. We conclude by discussing practical and policy implications and future research directions.
+PB  - Taylor & Francis
+SP  - 316
+EP  - 325
+IS  - 4
+VL  - 60
+SN  - 0887-4417
+ER  - 
+
+TY  - CHAP
+DO  - 10.1016/b978-0-12-803135-3.00013-x
+UR  - https://doi.org/10.1016/b978-0-12-803135-3.00013-x
+TI  - Health Worker Registries
+T2  - NA
+AU  - Jennifer M. Alyea
+AU  - Dykki Settle
+AU  - Leitner C
+AU  - Brian E. Dixon
+PY  - 2016
+DA  - 2016-01-01
+AB  - Abstract Registries play an instrumental role in facilitating the transfer, aggregation, and analysis of standardized data in health information exchange (HIE). One such example is a health worker registry (HWR), a central, authoritative registry that maintains the unique identities of health workers according to a defined minimum data set. Currently, data comprising workers’ information—such as education, licensure, and place of employment—are collected through disparate methods and maintained in a variety of information systems. Harmonization of these data via an HWR can support interoperability and comparability of worker information across systems, thereby facilitating efficient workforce planning, including verification of training and education, identification of workforce shortages, and coordination of emergency response. This chapter identifies who is considered a “health worker” and why a registry of these individuals is a useful component of an HIE. It also provides guidance on selection of data elements and standards to include in the development of an HWR.
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - CHAP
+DO  - 10.1016/b978-0-12-803135-3.00006-2
+UR  - https://doi.org/10.1016/b978-0-12-803135-3.00006-2
+TI  - Privacy, Security, and Confidentiality
+T2  - Elsevier eBooks
+AU  - E. Thurston Thieme
+PY  - 2016
+DA  - 2016-01-01
+AB  - Trust among participants is the cornerstone to any successful health information exchange (HIE) initiative. The concepts of privacy, security and confidentiality as implemented through laws, rules, regulations, and contracts foster trust among HIE participants. Primary federal law applicable to HIE is HIPAA along with its Privacy Rule and Security Rule. HIPAA establishes the federal floor upon which states can, and often do, enact more stringent laws. In addition to abiding by federal and state laws, HIE participants further build trust with each other through contractual arrangements that can take the form of point-to-point, two-party or multiparty agreements. This chapter explores the legal aspects of HIE, explaining how laws, rules, regulations, and contracts foster trust and establish a framework for safe and secure exchange of health information.
+PB  - NA
+SP  - 91
+EP  - 104
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - CHAP
+DO  - 10.1016/b978-0-12-401678-1.00002-6
+UR  - https://doi.org/10.1016/b978-0-12-401678-1.00002-6
+TI  - Data Integration: An Overview
+T2  - Elsevier eBooks
+AU  - Prakash M. Nadkarni
+AU  - Luis N. Marenco
+PY  - 2014
+DA  - 2014-01-01
+AB  - Data integration refers to the process of providing seamless access to multiple sources of data that appear to the system’s users as a single resource. Integration can occur within a single large organization, or across organizations. Data integration strategies can be divided into two categories. In physical integration, data are extracted from source systems, restructured, and loaded into query-optimized databases. In logical (virtual) integration, data reside in their original locations, but users perform queries using intermediary software that knows about the storage technology and types of data at each location. Virtual integration should generally be avoided unless political barriers prevent physical integration. For integration efforts to be successful, it is important to use a formal sequence of steps: identifying which data elements must be shared, identifying redundancy, inconsistency, and modeling conflicts, and fixing these. Metadata form the scaffolding that holds the integration effort together.
+PB  - NA
+SP  - 15
+EP  - 47
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.2139/ssrn.2739457
+UR  - https://doi.org/10.2139/ssrn.2739457
+TI  - Patient Activation: Prediction of Behavioral Outcomes During a Controlled Telemonitoring Intervention
+T2  - Social Science Research Network
+AU  - Carrie Queenan
+AU  - Kellas Cameron
+AU  - Nitin Joglekar
+PY  - 2016
+DA  - 2016-01-01
+AB  - 
+PB  - RELX Group (Netherlands)
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - 1556-5068
+ER  - 
+
+TY  - CHAP
+DO  - 10.1093/oxfordhb/9780199993307.013.22
+UR  - https://doi.org/10.1093/oxfordhb/9780199993307.013.22
+TI  - Clusters, Communities, and Competitiveness
+T2  - Oxford University Press eBooks
+AU  - David Lawther Johnson
+PY  - 2015
+DA  - 2015-09-01
+AB  - 
+PB  - NA
+SP  - NA
+EP  - NA
+IS  - NA
+VL  - NA
+SN  - NA
+ER  - 
+
+TY  - JOUR
+DO  - 10.1377/hlthaff.2017.0129
+UR  - https://doi.org/10.1377/hlthaff.2017.0129
+TI  - Numbers Of Health Information Exchanges
+T2  - Health Affairs
+AU  - John P. Kansky
+PY  - 2017
+DA  - 2017-03-01
+AB  - Letters Health AffairsVol. 36, No. 3: Delivery System Innovation Numbers Of Health Information ExchangesJohn P. Kansky Affiliations Indiana Health Information Exchange Indianapolis, Indiana PUBLISHED:March 2017Free Accesshttps://doi.org/10.1377/hlthaff.2017.0129AboutSectionsView PDFPermissions ShareShare onFacebookTwitterLinked InRedditEmail ToolsAdd to favoritesDownload CitationsTrack CitationsPermissionsDownload Exhibits TOPICSHealth information exchangeJulia Adler-Milstein and coauthors (Jul 2016) found that the number of health information exchanges (HIEs) is declining, which potentially limits the broad exchange of clinical data in the future. I am not surprised that the data indicate that there are fewer HIEs. However, I believe that this decline is at least partly explained by HIE consolidation. The article reports a decrease in operational HIEs from 119 in 2012 to 106 in 2014. But it also acknowledges that 7 HIEs merged, which explains 31 percent of the total reduction in HIEs. A consolidation trend in HIEs has been expected, as small- and medium-scale HIEs have sought economies of scale to offer higher value at lower prices.In addition, more important than the number of HIEs is the number of patients and health care markets that HIEs serve nationally. I suspect that while the total number of HIEs has fallen, the number of health service areas (HSAs) served by those HIEs may have grown. That would suggest that HIEs are getting bigger, covering larger regions, and serving more providers—not fewer. This is true in Indiana, for example, where the Indiana Health Information Exchange has added at least five new HSAs to its service area since 2012.As follow up to Adler-Milstein and coauthors’ research, I suggest an examination of whether the number of HSAs served by HIEs has increased over the same time period that the number of HIEs has decreased. Loading Comments... Please enable JavaScript to view the comments powered by Disqus. DetailsExhibitsReferencesRelated Article Metrics History Published online 1 March 2017 Information Project HOPE—The People-to-People Health Foundation, Inc. PDF download
+PB  - Project HOPE
+SP  - 580
+EP  - 580
+IS  - 3
+VL  - 36
+SN  - 0278-2715
+ER  - 
+
+TY  - JOUR
+DO  - 10.1249/01.mss.0000560888.51726.7b
+UR  - https://doi.org/10.1249/01.mss.0000560888.51726.7b
+TI  - Low Usage of Physical Activity Related Diagnostic Codes Among Indiana Medical Providers
+T2  - Medicine and Science in Sports and Exercise
+AU  - NiCole R. Keith
+AU  - Lauren R. Lembke
+AU  - Erik A. Imel
+PY  - 2019
+DA  - 2019-06-01
+AB  - The National Academy of Medicine and “Exercise Is Medicine®” recommend physicians routinely advise patients about physical activity (PA) and, when needed, refer to PA support to improve patient and population health. Uptake of these recommendations has been slow. Knowledge of diagnostic codes for billing may influence provider behavior. The Indiana Health Information Exchange (IHIE) connects more than 100 healthcare entities and 40,000 providers for >18 million patients, with >10 billion clinical data elements. PURPOSE: To document ICD-9 and ICD-10 PA-related billing code use for “Lack of Physical Exercise” and “Physician Exercise Counseling”. METHODS: We searched IHIE for PA-related ICD-9 and ICD-10 codes and comorbidity codes from 01/01/94 through 04/24/18. RESULTS: PA-related ICD codes were used for 54,543 patients, but <10% (5,221) were used for adults. Fewer occurrences were in adult patients with common chronic diseases that could be improved through PA (Table 1).Table 1: Total Patient Count “Lack of Physical Exercise” “Exercise Counseling”DISCUSSION: Low use of PA-related ICD codes may be due to a lack of awareness of existing codes. Physician education regarding PA-related ICD codes may increase physician counseling, code usage and possibly referral to PA resources.
+PB  - Lippincott Williams & Wilkins
+SP  - 130
+EP  - 130
+IS  - 6S
+VL  - 51
+SN  - 0195-9131
+ER  - 
