@@ -14,6 +14,11 @@ sapply(
     source
 )
 
+
+preferred_types <- c("article", "book-chapter", "dissertation", "book", "dataset", "other", "report", "standard") #Excludes paratext, reference-entry, peer-review, editorial, erratum, grant, and letter
+
+
+
 # Set target-specific options such as packages:
 tar_option_set(
     packages = c(
@@ -35,29 +40,29 @@ list(
             search = "\"indiana network for patient care\"",
         )
     ),
-    ## Search for INPC and filter for only if in a journal index
-    tar_target(
-        name = A_2023_09_12_df,
-        command = 
-            oa_inpc_raw |> 
-            filter_for_pubmed_pmc_or_doaj(),
-    ),
-    tar_target(
-        name = A_2023_09_12,
-        command = 
-            A_2023_09_12_df |> 
-            export_ris_file("2023-09-12-A"),
-        format = "file"
-    ),
-    ## Include other INPC search results that are not in an index
-    tar_target(
-        name = A_2023_09_18,
-        command = 
-            anti_join(oa_inpc_raw, A_2023_09_12_df, by = "id") |> 
-            export_ris_file("2023-09-18-A"),
-        format = "file"
-    ),
-    
+    # ## Search for INPC and filter for only if in a journal index
+    # tar_target(
+    #     name = A_2023_09_12_df,
+    #     command = 
+    #         oa_inpc_raw |> 
+    #         filter_for_pubmed_pmc_or_doaj(),
+    # ),
+    # tar_target(
+    #     name = A_2023_09_12,
+    #     command = 
+    #         A_2023_09_12_df |> 
+    #         export_ris_file("2023-09-12-A"),
+    #     format = "file"
+    # ),
+    # ## Include other INPC search results that are not in an index
+    # tar_target(
+    #     name = A_2023_09_18,
+    #     command = 
+    #         anti_join(oa_inpc_raw, A_2023_09_12_df, by = "id") |> 
+    #         export_ris_file("2023-09-18-A"),
+    #     format = "file"
+    # ),
+    # 
     # IHIE-specific search results
     tar_target(
         name = oa_ihie_raw,
@@ -75,17 +80,18 @@ list(
     ),
     tar_target(
         name = oa_inpc_ihie_cumulative,
-        command = 
+        command =
             reduce(
                 .x = list(oa_inpc_raw, oa_ihie_raw),
                 .f = bind_unique_records
             )
     ),
-    tar_target(
-        name = B_2023_09_18,
-        command = export_ris_file(oa_ihie_unique, "2023-09-18-B")
-    ),
-    
+    # tar_target(
+    #     name = B_2023_09_18,
+    #     command = export_ris_file(oa_ihie_unique, "2023-09-18-B")
+    # ),
+    # 
+    # Regenstrief Institution Search Results
     tar_target(
         name = oa_regenstrief_institution_raw,
         command = oa_fetch(
@@ -93,64 +99,101 @@ list(
             from_publication_date = "2013-07-01", # Since cut off date for prior review
             to_publication_date = "2023-03-31", # Through first quarter of 2023
             language = "en",
-            institutions.ror = "https://ror.org/05f2ywb48"
+            institutions.ror = "https://ror.org/05f2ywb48",
+            type = preferred_types
         )
     ),
     tar_target(
-        name = oa_regenstrief_search_raw,
-        command = oa_fetch(
-            entity = "works",
-            from_publication_date = "2013-07-01", # Since cut off date for prior review
-            to_publication_date = "2023-03-31", # Through first quarter of 2023
-            language = "en",
-            search = "regenstrief"
-        )
+        name = oa_regenstrief_institution,
+        command = 
+            oa_regenstrief_institution_raw |> 
+            filter_for_pubmed_pmc_or_doaj()
     ),
     tar_target(
-        name = oa_iu_title_has_records_raw,
-        command = oa_fetch(
-            entity = "works",
-            from_publication_date = "2013-07-01",
-            to_publication_date = "2023-03-31",
-            institutions.ror = c(
-                "https://ror.org/01kg8sb98", # IU
-                "https://ror.org/02k40bc56", # IU Bloomington
-                "https://ror.org/05gxnyn08", # IUPUI
-                "https://ror.org/01aaptx40", # IU Health
-                "https://ror.org/022t7q367" # Indiana CTSI
-            ),
-            language = "en",
-            title.search = "\"electronic health record\" OR EHR OR \"electronic medical record\" OR EMR",
-        )
+        name = oa_regenstrief_institution_unique,
+        command = anti_join(oa_regenstrief_institution, oa_inpc_ihie_cumulative, by = "id")
     ),
     tar_target(
-        name = oa_iu_abstract_has_records_raw,
-        command = oa_fetch(
-            entity = "works",
-            from_publication_date = "2013-07-01",
-            to_publication_date = "2023-03-31",
-            institutions.ror = c(
-                "https://ror.org/01kg8sb98", # IU
-                "https://ror.org/02k40bc56", # IU Bloomington
-                "https://ror.org/05gxnyn08", # IUPUI
-                "https://ror.org/01aaptx40", # IU Health
-                "https://ror.org/022t7q367" # Indiana CTSI
-            ),
-            language = "en",
-            abstract.search = "\"electronic health record\" OR EHR OR \"electronic medical record\" OR EMR",
-        )
+        name = oa_inpc_ihie_institution_cumulative,
+        command =
+            reduce(
+                .x = list(oa_inpc_raw, oa_ihie_raw, oa_regenstrief_institution),
+                .f = bind_unique_records
+            )
     ),
     tar_target(
-        name = oa_consolidated_records,
-        command = list(
-            oa_inpc_raw, 
-            oa_ihie_raw, 
-            oa_regenstrief_institution_raw, 
-            oa_regenstrief_search_raw, 
-            oa_iu_title_has_records_raw
-        ) |>
-            reduce(bind_unique_records) |> 
-            filter_for_pubmed_pmc_or_doaj() |> 
-            add_ris()
+        name = A_2023_11_01,
+        command = 
+            oa_regenstrief_institution_unique |> 
+            export_ris_file("2023-11-01-A")
+    ),
+    
+    # tar_target(
+    #     name = oa_regenstrief_search_raw,
+    #     command = oa_fetch(
+    #         entity = "works",
+    #         from_publication_date = "2013-07-01", # Since cut off date for prior review
+    #         to_publication_date = "2023-03-31", # Through first quarter of 2023
+    #         language = "en",
+    #         search = "regenstrief"
+    #     )
+    # ),
+    # tar_target(
+    #     name = oa_iu_title_has_records_raw,
+    #     command = oa_fetch(
+    #         entity = "works",
+    #         from_publication_date = "2013-07-01",
+    #         to_publication_date = "2023-03-31",
+    #         institutions.ror = c(
+    #             "https://ror.org/01kg8sb98", # IU
+    #             "https://ror.org/02k40bc56", # IU Bloomington
+    #             "https://ror.org/05gxnyn08", # IUPUI
+    #             "https://ror.org/01aaptx40", # IU Health
+    #             "https://ror.org/022t7q367" # Indiana CTSI
+    #         ),
+    #         language = "en",
+    #         title.search = "\"electronic health record\" OR EHR OR \"electronic medical record\" OR EMR",
+    #     )
+    # ),
+    # tar_target(
+    #     name = oa_iu_abstract_has_records_raw,
+    #     command = oa_fetch(
+    #         entity = "works",
+    #         from_publication_date = "2013-07-01",
+    #         to_publication_date = "2023-03-31",
+    #         institutions.ror = c(
+    #             "https://ror.org/01kg8sb98", # IU
+    #             "https://ror.org/02k40bc56", # IU Bloomington
+    #             "https://ror.org/05gxnyn08", # IUPUI
+    #             "https://ror.org/01aaptx40", # IU Health
+    #             "https://ror.org/022t7q367" # Indiana CTSI
+    #         ),
+    #         language = "en",
+    #         abstract.search = "\"electronic health record\" OR EHR OR \"electronic medical record\" OR EMR",
+    #     )
+    # ),
+    # tar_target(
+    #     name = oa_consolidated_records,
+    #     command = list(
+    #         oa_inpc_raw, 
+    #         oa_ihie_raw, 
+    #         oa_regenstrief_institution_raw, 
+    #         oa_regenstrief_search_raw, 
+    #         oa_iu_title_has_records_raw
+    #     ) |>
+    #         reduce(bind_unique_records) |> 
+    #         filter_for_pubmed_pmc_or_doaj() |> 
+    #         add_ris()
+    # ),
+    
+    # Covidence Extraction Data
+    tar_target(
+        name = extraction_file,
+        command = "data/review_356674_20231101074731.csv",
+        format = "file"
+    ),
+    tar_target(
+        name = extraction_raw,
+        command = readr::read_csv(extraction_file)
     )
 )

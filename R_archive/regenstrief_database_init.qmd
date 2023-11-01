@@ -7,7 +7,7 @@ format: html
 Start by loading dependencies:
 
 ```{r}
-library(doltr)
+#library(doltr)
 library(openalexR)
 library(tidyverse)
 ```
@@ -15,7 +15,7 @@ library(tidyverse)
 I started a [database on DoltHub](https://www.dolthub.com/repositories/danriggins/regenstrief_from_openalex) and here I pull it to my local computer as one would with a git repository.
 
 ```{r}
-dolt_clone("danriggins/regenstrief_from_openalex")
+#dolt_clone("danriggins/regenstrief_from_openalex")
 Sys.setenv(DOLT_DIR="regenstrief_from_openalex")
 ```
 

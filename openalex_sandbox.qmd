@@ -7,8 +7,42 @@ format: html
 library(targets)
 library(tidyverse)
 library(openalexR)
+library(dplyr)
 ```
 
+## Type Exploration
+
+```{r}
+oa_query(
+    entity = "works",
+    from_publication_date = "2013-07-01", # Since cut off date for prior review
+    to_publication_date = "2023-03-31", # Through first quarter of 2023
+    language = "en",
+    institutions.ror = "https://ror.org/05f2ywb48",
+    type = c("!paratext", "!reference-entry", "!peer-review", "!editorial", "!erratum", "!grant", "!letter")
+)
+```
+
+
+```{r}
+oa_regenstrief_institution_raw |> 
+    filter(type == "other")
+```
+
+
+## Random Sample of Extractions for Quality Review
+
+```{r}
+tar_read(extraction_raw) |> 
+    group_by(`Reviewer Name`) |> 
+    slice_sample(prop = 0.1)
+```
+
+```{r}
+tar_read(extraction_raw) |> 
+    filter(`Reviewer Name` == "Margo Bowers") |> 
+    slice_sample(n = 1)
+```
 
 
 ## Develop filter for PMID, PMC, or DOAJ
