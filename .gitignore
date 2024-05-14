@@ -10,3 +10,13 @@ data/
 
 
 full_texts/
+
+manuscript/1-intro.qmd
+
+manuscript/2-methods.qmd
+
+*.html
+
+*.png
+
+social_network_report_cache/html/

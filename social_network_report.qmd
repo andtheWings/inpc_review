@@ -1,0 +1,175 @@
+---
+title: "INPC Social Network Analysis"
+author: "Daniel P. Hall Riggins, MD, MPH"
+date: today
+format: html
+toc: true
+code-fold: true
+embed-resources: true
+df-print: paged
+execute: 
+  cache: true
+---
+
+```{r}
+#| output: false
+
+# Libraries
+library(targets)
+library(tidyverse)
+library(janitor)
+library(tidygraph)
+library(ggraph)
+library(networkD3)
+
+# Custom Functions
+sapply(
+    paste0("R/", list.files("R/")),
+    source
+)
+
+# Data
+tar_load(coauthor_network)
+
+coauthor_nodes <-
+    coauthor_network |> 
+    activate(nodes) |> 
+    as_tibble() |>
+    mutate(
+        institution_display_name = case_match(
+            institution_display_name,
+            "Indiana University – Purdue University Indianapolis" ~ "IUPUI",
+            "Purdue University West Lafayette" ~ "Purdue",
+            "United States Department of Veterans Affairs" ~ "Veterans Affairs",
+            .default = institution_display_name
+        )
+    ) |> 
+    select(
+        Author = au_display_name, 
+        Institution = institution_display_name,
+        Degree = degree, 
+        Eigencentrality = eigen, 
+        Betweeness = betweeness,
+        Cluster = louvain_group
+    )
+```
+
+For this analysis, I have converted the dataset into a network, where each node of the network represents an author and each connection between nodes represents a paper (or other scholarly work) on which two authors collaborated.
+
+For example, here is the local network centered around Brian Dixon and all his coauthors. You can use your mouse to pan around and zoom in/out:
+
+
+```{r}
+brian_network <-
+    coauthor_network |> 
+    activate(nodes) |>
+    convert(
+        to_local_neighborhood,
+        node = 19
+    ) 
+
+brian_nodes <-
+    brian_network |>  
+    as_tibble() |> 
+    as.data.frame()
+
+brian_edges <- 
+    brian_network |> 
+    activate(edges) |> 
+    as_tibble() |> 
+    mutate(
+        from = from - 1,
+        to = to - 1
+    ) |> 
+    as.data.frame()
+
+forceNetwork(
+    Links = brian_edges,
+    Nodes = brian_nodes,
+    Source = "from",
+    Target = "to",
+    NodeID = "au_display_name",
+    Group = "institution_display_name",
+    zoom = TRUE,
+    opacity = 0.9,
+    opacityNoHover = 0.5,
+    # legend = TRUE
+    # charge = -30
+)
+```
+
+
+# Degree
+
+This metric measures the number of links connected to each node. In this context it reflects the number of coauthors each person has shared a paper with.
+
+```{r}
+coauthor_nodes |> 
+    slice_max(order_by = Degree, n = 10)
+```
+
+# Eigencentrality
+
+This metric is like Degree, but also takes into account the degree of connectedness throughout the broader network, so it can give a more gestalt view of who is most central to the network.
+
+```{r}
+coauthor_nodes |> 
+    relocate(Eigencentrality, .before = Degree) |> 
+    slice_max(order_by = Eigencentrality, n = 10)
+```
+
+# Betweeness
+
+This metric measures how much nodes act as bridges between different clusters of a network. In this context it reflects which authors act as connecters between different clusters of collaborators.
+
+```{r}
+coauthor_nodes |> 
+    relocate(Betweeness, .before = Degree) |> 
+    slice_max(order_by = Betweeness, n = 10)
+```
+
+
+# Clusters
+
+The Louvain algorithm is a way of automatically detecting clusters within a network. Unlike many other cluster-detection algorithms, it has the advantage of not requiring you to pre-specify how many clusters you think there should be. See below which cluster each author has been assigned to:
+
+```{r}
+coauthor_nodes |> 
+    relocate(Cluster, .before = Degree) |> 
+    arrange(Cluster, Author)
+```
+
+And here those clusters are visualized:
+
+```{r}
+cluster_nodes <-
+    coauthor_network |> 
+    activate(nodes) |>
+    as_tibble() |> 
+    as.data.frame()
+
+cluster_edges <- 
+    coauthor_network |> 
+    activate(edges) |> 
+    as_tibble() |> 
+    mutate(
+        from = from - 1,
+        to = to - 1
+    ) |> 
+    as.data.frame()
+
+forceNetwork(
+    Links = cluster_edges,
+    Nodes = cluster_nodes,
+    Source = "from",
+    Target = "to",
+    NodeID = "au_display_name",
+    Group = "louvain_group",
+    zoom = TRUE,
+    legend = TRUE,
+    opacity = 0.9,
+    opacityNoHover = 0.75,
+    charge = -30
+)
+```
+

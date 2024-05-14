@@ -1,0 +1,228 @@
+---
+title: "Preliminary INPC Report"
+author: "Daniel P. Hall Riggins"
+date: today
+format: html
+toc: true
+code-fold: true
+embed-resources: true
+df-print: paged
+execute: 
+  cache: true
+---
+
+# Intro
+
+```{r}
+#| output: false
+
+# Libraries
+library(targets)
+library(tidyverse)
+library(janitor)
+
+# Custom Functions
+sapply(
+    paste0("R/", list.files("R/")),
+    source
+)
+
+# Data
+tar_load(inpc_ihie_extractions)
+```
+
+This represents a preliminary report on research works that used data from the Indiana Network for Patient Care (INPC) and other sources connected to Regenstrief Data Services. All results should be taken provisionally as this report only draws from two of the initial batches of literature queries. 
+
+All literature queries were performed on the [OpenAlex service](https://help.openalex.org/), which is an open-access alternative to services like Web of Science or Scopus. Universal criteria were for works to be published in English from the third quarter of 2013 (2023-07-01; cut-off for previous study) through the first quarter of 2023 (2023-03-31).
+
+The first batch query performed a full-text search for "Indiana Network for Patient Care" and included 269 candidate works.
+
+The second batch query performed a full-text search for "Indiana Health Information Exchange" which returned 83 candidates, of which 47 were unique from the previous query.
+
+On completion of screening abstracts and reviewing full-texts, we were left with 93 works for extraction. 
+
+
+# Plotting Works over Time
+
+This figure represents any and all works that included INPC as a data source:
+
+```{r}
+inpc_ihie_extractions_by_year <-
+    inpc_ihie_extractions |> 
+    # Filter out years where we didn't track for the full year
+    filter(
+        publication_year > 2013 & publication_year < 2023
+    ) |> 
+    # Change publication year to a factor
+    mutate(
+        publication_year = factor(
+            publication_year,
+            levels = c(2014:2022)
+        )
+    ) |> 
+    # Pull out nested multi-select variable about data sources
+    unnest(data_sources_and_augmentations) |> 
+    # Make a separate column for every data source on whether it was used
+    mutate(dummy = TRUE) |> 
+    pivot_wider(
+        names_from = data_sources_and_augmentations, 
+        names_prefix = "source_",
+        values_from = dummy,
+        values_fill = FALSE
+    ) |> 
+    # Remove INPC/EDW data from the bucket of variables prefixed with "source_"
+    rename(
+        INPC_source = source_INPC,
+        IU_Health_source = `source_IU Health EHR/EDW`,
+        Eskenazi_source = `source_Eskenazi EHR/EDW`
+    )
+
+# Visualize all works using the INPC
+inpc_ihie_extractions_by_year |> 
+    filter(INPC_source == TRUE) |>
+    # filter(IU_Health_source == TRUE | Eskenazi_source == TRUE) |>  
+    # filter(
+    #     if_all(
+    #         starts_with("source_"),
+    #         ~ . == FALSE
+    #     )
+    # ) |> 
+    plot_works_by_year("All INPC-related Works")
+```
+
+This figure visualizes only works that utilized INPC data **and** additional data from either the Eskenazi or the IU Health Electronic Health Records (EHR)/Enterprise Data Warehouses (EDW):
+
+```{r}
+inpc_ihie_extractions_by_year |> 
+    filter(INPC_source == TRUE) |>
+    filter(IU_Health_source == TRUE | Eskenazi_source == TRUE) |>  
+    plot_works_by_year("INPC + EDW Works")
+```
+This figure visualizes only works that utilized INPC data **and NOT** additional data from either Eskenazi or IU Health:
+
+```{r}
+inpc_ihie_extractions_by_year |> 
+    filter(INPC_source == TRUE) |>
+    filter(IU_Health_source == FALSE | Eskenazi_source == FALSE) |>  
+    plot_works_by_year("INPC and No EDW Works")
+```
+In future iterations of this work, we will also visualize works that included data from Eskenazi or IU Health **and NOT** from INPC, but there are no such works in the first two batches of queries from OpenAlex.
+
+
+# Other Tallies
+
+
+```{r}
+inpc_ihie_extractions |> 
+    plot_inpc_tallies(potential_impact_areas, title_chr = "Potential Areas of Research Impact")
+```
+
+
+```{r}
+# Spot corrections for Journals
+inpc_ihie_extractions$so[inpc_ihie_extractions$openalex_work_id == "https://openalex.org/W2143971103"] <- "AMIA Annual Symposium Proceedings"
+inpc_ihie_extractions$so[inpc_ihie_extractions$openalex_work_id == "https://openalex.org/W2409681126"] <- "AMIA Annual Symposium Proceedings"
+inpc_ihie_extractions$so[inpc_ihie_extractions$openalex_work_id == "https://openalex.org/W2894614743"] <- "Journal of Registry Management"
+inpc_ihie_extractions$so[inpc_ihie_extractions$openalex_work_id == "https://openalex.org/W2964975265"] <- "AMIA Joint Summits on Translational Science Proceedings"
+inpc_ihie_extractions$so[inpc_ihie_extractions$openalex_work_id == "https://openalex.org/W2397988723"] <- "Studies in Health Technology and Informatics"
+inpc_ihie_extractions$so[inpc_ihie_extractions$openalex_work_id == "https://openalex.org/W2334763311"] <- "Conference on Computer Vision and Pattern Recognition Proceedings"
+inpc_ihie_extractions$so[inpc_ihie_extractions$openalex_work_id == "https://openalex.org/W2755680423"] <- "IEEE International Conference on Healthcare Informatics Proceedings"
+inpc_ihie_extractions$so[inpc_ihie_extractions$openalex_work_id == "https://openalex.org/W2991054658"] <- "IEEE International Conference on Healthcare Informatics Proceedings"
+inpc_ihie_extractions$so[inpc_ihie_extractions$openalex_work_id == "https://openalex.org/W2914216581"] <- "Preprint"
+
+
+inpc_ihie_extractions |> 
+    plot_inpc_tallies(so, top_n = 10, title_chr = "Journals of Publication")
+```
+
+
+```{r}
+inpc_ihie_extractions |> 
+    select(openalex_work_id, data_sources = data_sources_and_augmentations) |> 
+    unnest(data_sources) |> 
+    mutate(data_sources = as.character(data_sources)) |> 
+    filter(
+        !(
+            data_sources %in% c(
+                "Geospatial", 
+                "REDCap", 
+                "SDOH"
+            ) 
+        )
+    ) |> 
+    mutate(data_sources = fct_infreq(data_sources)) |>
+    tabyl(data_sources) |>
+    mutate(percent = percent * 100) |>
+    slice_max(percent, n = 10) |>
+    ggplot(aes(x = percent, y = fct_rev(data_sources))) +
+    geom_bar(stat = "identity") +
+    labs(
+        title = "Top 10 Data Sources",
+        y = NULL,
+        x = "Percent of Works"
+    ) +
+    theme_bw()
+```
+
+
+
+```{r}
+inpc_ihie_extractions |> 
+    select(openalex_work_id, health_areas) |> 
+    unnest(health_areas) |> 
+    mutate(health_areas = as.character(health_areas)) |> 
+    filter(
+        !(
+            health_areas %in% c(
+                "Epidemiology, Medical Biometry, Medical Informatics",
+                "Public Health, Health Services Research, Social Medicine"
+            ) 
+        )
+    ) |> 
+    mutate(health_areas = fct_infreq(health_areas)) |>
+    tabyl(health_areas) |>
+    mutate(percent = percent * 100) |>
+    slice_max(percent, n = 10) |> 
+    ggplot(aes(x = percent, y = fct_rev(health_areas))) +
+    geom_bar(stat = "identity") +
+    labs(
+        title = "Top 10 Health Disciplines",
+        y = NULL,
+        x = "Percent of Works"
+    ) +
+    theme_bw()
+```
+
+
+```{r}
+plot_inpc_tallies(inpc_ihie_extractions, inpc_and_edw_data_acquisition_methods, title_chr = "How the Work Used INPC/EDW")
+```
+```{r}
+plot_inpc_tallies(inpc_ihie_extractions, healthcare_settings, title_chr = "Care Settings")
+```
+
+```{r}
+plot_inpc_tallies(inpc_ihie_extractions, ri_service_areas, title_chr = "Regenstrief Service Areas")
+```
+
+
+```{r}
+plot_inpc_tallies(inpc_ihie_extractions, ri_units_of_first_last_authors, title_chr = "Regenstrief Centers of First/Last Authors")
+```
+
+```{r}
+plot_inpc_tallies(inpc_ihie_extractions, university_external_partners, top_n = 10, title_chr = "Top 10 External University Partners")
+
+```
+
+```{r}
+plot_inpc_tallies(inpc_ihie_extractions, non_university_external_partners, top_n = 9, title_chr = "Top 9 External Non-University Partners")
+```
+
+```{r}
+plot_inpc_tallies(inpc_ihie_extractions, funding_sources, top_n = 10, title_chr = "Top 10 Funding Sources")
+```
+
+```{r}
+plot_inpc_tallies(inpc_ihie_extractions, study_type, top_n = 10, title_chr = "Top 10 Study Types")
+```

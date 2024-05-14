@@ -1,0 +1,786 @@
+---
+title: "OpenAlex Sandbox"
+format: html
+---
+
+```{r}
+library(targets)
+library(tidyverse)
+library(openalexR)
+library(janitor)
+# library(tidygraph)
+# library(ggraph)
+# library(networkD3)
+```
+# Setting up Snapshots of reference lists
+
+```{r}
+
+
+covidence_included <- read_csv("data/2024-05-08 covidence included works.csv")
+
+include_spot_checks <- c("https://openalex.org/W2765492483", "https://openalex.org/W2468054471")
+
+oa_inpc_ihie_institution_cumulative |> 
+    mutate(
+        covidence_class = case_when(
+            display_name %in% covidence_included$Title ~ "Included",
+            id %in% include_spot_checks ~ "Included"
+        )
+    ) |> 
+    view()
+```
+
+
+
+
+
+```{r}
+anti_join(covidence_included, oa_inpc_ihie_institution_cumulative, by = c("Title" = "display_name"))
+```
+
+
+```{r}
+tar_load(oa_inpc_ihie_institution_cumulative)
+
+bib_2023_09_12_A <-
+    RefManageR::ReadBib("citation_exports/2023-09-12-A.bib") |> 
+    as_tibble() |> 
+    mutate(doi = paste0("https://doi.org/", doi))
+
+left_join(bib_2023_09_12_A, oa_inpc_ihie_institution_cumulative, by = "doi")
+```
+
+
+# Query Building
+
+```{r}
+oa_query(
+    search = "\"indiana network for patient care\"",
+    from_publication_date = "2013-07-01", # Since cut off date for prior review
+    to_publication_date = "2023-03-31"
+)
+```
+```{r}
+oa_query(
+    search = "\"indiana biobank\"",
+    from_publication_date = "2013-07-01", # Since cut off date for prior review
+    to_publication_date = "2023-03-31"
+)
+```
+
+
+```{r}
+tar_load(oa_inpc)
+tar_load(oa_ihie)
+tar_load(oa_ihie_unique)
+tar_load(oa_inpc_ihie_cumulative)
+tar_load(oa_inpc_ihie_institution_cumulative)
+tar_load(covidence_extraction)
+tar_load(oa_regenstrief_institution)
+tar_load(baserow_export)
+tar_load(oa_duplicates)
+tar_load(oa_regenstrief_institution_unique)
+```
+
+# Sherri Bucher
+
+```{r}
+oa_inpc_ihie_institution_cumulative |> 
+    select(id, display_name, author) |> 
+    unnest(author) |> 
+    filter(str_detect(au_display_name, "Bucher")) |> 
+    view()
+```
+
+# Sarah Wiehe
+
+```{r}
+oa_regenstrief_institution_unique |> 
+    select(id, display_name, author) |> 
+    unnest(author) |> 
+    filter(str_detect(au_display_name, "Wiehe")) |> 
+    view()
+```
+
+
+# PRISMA 
+
+## Duplicate Accounting
+
+```{r}
+semi_join(oa_duplicates, oa_inpc_ihie_cumulative, by = c("dupe_id" = "id"))
+```
+
+
+```{r}
+oa_inpc_ihie_institution_cumulative |> 
+    select(id, display_name) |> 
+    view()
+```
+
+
+
+## Social Network Analysis
+
+
+
+
+
+
+```{r}
+
+coauthor_edges <- 
+    coauthor_network |> 
+    activate(edges) |> 
+    as_tibble() |> 
+    mutate(
+        from = from - 1,
+        to = to - 1
+    )
+
+coauthor_nodes <-
+    coauthor_network |>
+    activate(nodes) |> 
+    as_tibble() |> 
+    left_join(
+        authors,
+        by = c("name" = "deduped_au_id")
+    ) 
+    
+
+forceNetwork(
+    Links = coauthor_edges,
+    Nodes = coauthor_nodes,
+    Source = "from",
+    Target = "to",
+    NodeID = "au_display_name",
+    Group = "institution_display_name",
+    zoom = TRUE,
+    legend = TRUE
+)
+
+coauthor_network |> 
+    activate(nodes) |> 
+    as_tibble() |> 
+    left_join(
+        authors,
+        by = c("name" = "deduped_au_id")
+    ) |> 
+    select(
+        au_display_name, institution_display_name,
+        eigen, degree, betweeness 
+    ) |> 
+    arrange(desc(degree)) |> 
+    view()
+
+```
+
+
+
+
+```{r}
+convert(to_local_neighborhood, node = 3, order = 2) |> 
+    ggraph() +
+    geom_edge_fan() +
+    theme_minimal()
+
+graph_plot
+
+ggiraph::girafe(
+    
+)
+
+girafe(ggobj = graph_plot, width_svg = 5, height_svg = 5)
+```
+
+
+## Tallying Journal Publications
+
+
+```{r}
+inpc_ihie_extractions |> 
+    tabyl(so) |> 
+    mutate(percent = round(percent * 100, 2)) |> 
+    filter(n > 1) |> 
+    arrange(desc(n))
+```
+
+```{r}
+inpc_ihie_extractions$so[inpc_ihie_extractions$openalex_work_id == "https://openalex.org/W2143971103"] <- "AMIA Annual Symposium Proceedings"
+inpc_ihie_extractions$so[inpc_ihie_extractions$openalex_work_id == "https://openalex.org/W2409681126"] <- "AMIA Annual Symposium Proceedings"
+inpc_ihie_extractions$so[inpc_ihie_extractions$openalex_work_id == "https://openalex.org/W2894614743"] <- "Journal of Registry Management"
+inpc_ihie_extractions$so[inpc_ihie_extractions$openalex_work_id == "https://openalex.org/W2964975265"] <- "AMIA Joint Summits on Translational Science Proceedings"
+inpc_ihie_extractions$so[inpc_ihie_extractions$openalex_work_id == "https://openalex.org/W2397988723"] <- "Studies in Health Technology and Informatics"
+inpc_ihie_extractions$so[inpc_ihie_extractions$openalex_work_id == "https://openalex.org/W2334763311"] <- "Conference on Computer Vision and Pattern Recognition Proceedings"
+inpc_ihie_extractions$so[inpc_ihie_extractions$openalex_work_id == "https://openalex.org/W2755680423"] <- "IEEE International Conference on Healthcare Informatics Proceedings"
+inpc_ihie_extractions$so[inpc_ihie_extractions$openalex_work_id == "https://openalex.org/W2991054658"] <- "IEEE International Conference on Healthcare Informatics Proceedings"
+inpc_ihie_extractions$so[inpc_ihie_extractions$openalex_work_id == "https://openalex.org/W2914216581"] <- "Preprint"
+```
+
+
+```{r}
+inpc_ihie_extractions |> 
+    filter(is.na(so))
+
+
+```
+
+
+## Reviewing for EDW in screen-outs
+
+```{r}
+irrelevants <- read_csv("data/review_356674_irrelevant_csv_20231122022856.csv")
+
+irrelevants |> 
+    filter(str_detect(Tags, "other data source")) |> 
+    view()
+```
+
+
+
+
+
+## Publications by Year
+
+```{r}
+tar_load(baserow_export)
+tar_load(oa_inpc_ihie_cumulative)
+tar_load(oa_regenstrief_institution)
+source("R/filter_for_pubmed_pmc_or_doaj.R")
+source("R/plot_works_by_year.R")
+
+inpc_ihie_extractions <- inner_join(baserow_export, oa_inpc_ihie_cumulative, by = c("openalex_work_id" = "id"))
+
+inpc_ihie_extractions |> 
+    filter(
+        publication_year > 2013 & publication_year < 2023
+    ) |> 
+    mutate(
+        publication_year = factor(
+            publication_year,
+            levels = c(2014:2022)
+        )
+    ) |> 
+    unnest(data_sources_and_augmentations) |> 
+    mutate(dummy = TRUE) |> 
+    pivot_wider(
+        names_from = data_sources_and_augmentations, 
+        names_prefix = "source_",
+        values_from = dummy,
+        values_fill = FALSE
+    ) |> 
+    rename(
+        INPC_source = source_INPC,
+        IU_Health_source = `source_IU Health EHR/EDW`,
+        Eskenazi_source = `source_Eskenazi EHR/EDW`
+    ) |> 
+    # filter(INPC_source == FALSE) |> 
+    filter(IU_Health_source == TRUE | Eskenazi_source == TRUE) |>  
+    # filter(
+    #     if_all(
+    #         starts_with("source_"),
+    #         ~ . == FALSE
+    #     )
+    # ) |> 
+    # select(starts_with("source_")) |>
+    plot_works_by_year()
+```
+
+
+```{r}
+regenstrief_year_counts <-
+    oa_regenstrief_institution |> 
+    filter(publication_year > 2013 & publication_year < 2023) |> 
+    distinct(display_name, .keep_all = TRUE) |> 
+    group_by(publication_year) |> 
+    summarize(regenstrief_count = n())
+
+
+inpc_ihie_extractions |> 
+    filter(publication_year > 2013 & publication_year < 2023) |> 
+
+```
+
+
+```{r}
+inpc_ihie_extractions |> 
+    filter(publication_year > 2013 & publication_year < 2023) |> 
+    group_by(publication_year) |> 
+    summarize(inpc_count = n()) |>     
+    # full_join(regenstrief_year_counts, by = "publication_year") |> 
+    mutate(
+        publication_year = as.character(publication_year)
+        # publication_year = factor(
+        #     publication_year,
+        #     ordered = TRUE,
+        #     levels = c("2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022")
+        # ),
+        # inpc_to_regenstrief_ratio = (inpc_count / regenstrief_count) * 17 * 5
+    ) |> 
+    ggplot(aes(x = publication_year, y = inpc_count)) + #, group = 1
+    geom_bar(
+        stat = "identity"
+    ) +
+    # geom_point(
+    #     aes(y = inpc_to_regenstrief_ratio)
+    # ) +
+    # geom_freqpoly(
+    #    aes(y = inpc_to_regenstrief_ratio),
+    #    stat = "identity"
+    # ) +
+    labs(
+        x = "Year",
+        y = "Number of INPC Publications"
+    ) +
+    # scale_y_continuous(
+    #     sec.axis = sec_axis( trans=~./17/5, name="Ratio of INPC Publications to Total Regenstrief Publications")
+    # ) +
+    theme_bw()
+```
+
+
+
+
+## Wrangle Covidence Extraction
+
+```{r}
+source("R/wrangle_covidence_extraction.R")
+
+cov_and_oa <-
+    wrangle_covidence_extraction(covidence_extraction_raw) |>
+    left_join(oa_inpc_ihie_institution_cumulative, by = c("oa_id" = "id"))
+```
+
+
+## Unnest OA Id's
+
+```{r}
+source("R/expand_oa_id_columns.R")
+
+expand_oa_id_columns(oa_inpc_ihie_institution_cumulative)
+```
+
+
+## Type Exploration
+
+```{r}
+oa_query(
+    entity = "works",
+    from_publication_date = "2013-07-01", # Since cut off date for prior review
+    to_publication_date = "2023-03-31", # Through first quarter of 2023
+    language = "en",
+    institutions.ror = "https://ror.org/05f2ywb48",
+    type = c("!paratext", "!reference-entry", "!peer-review", "!editorial", "!erratum", "!grant", "!letter")
+)
+```
+
+
+```{r}
+oa_regenstrief_institution_raw |> 
+    filter(type == "other")
+```
+
+
+## Random Sample of Extractions for Quality Review
+
+```{r}
+tar_read(extraction_raw) |> 
+    group_by(`Reviewer Name`) |> 
+    slice_sample(prop = 0.1)
+```
+
+```{r}
+tar_read(extraction_raw) |> 
+    filter(`Reviewer Name` == "Margo Bowers") |> 
+    slice_sample(n = 1)
+```
+
+
+## Develop filter for PMID, PMC, or DOAJ
+
+```{r}
+source("R/filter_for_pubmed_pmc_or_doaj.R")
+source("R/add_ris.R")
+
+new_entries <-
+    tar_read(oa_consolidated_records) |> 
+    anti_join(tar_read(oa_inpc_raw), by = "id")
+    
+
+cat(new_entries$ris, sep = "\n\n", file = "all_entries_except_inpc_2023_08_31.ris")
+```
+
+
+## Other
+
+```{r}
+openalexR::oa_query(
+    
+)
+
+library(openalexR)
+
+oa_fetch(
+    entity = "works",
+    from_publication_date = "2013-07-01",
+    to_publication_date = "2023-03-31",
+    institutions.ror = c(
+        "https://ror.org/01kg8sb98", # IU
+        "https://ror.org/02k40bc56", # IU Bloomington
+        "https://ror.org/01aaptx40", # IU Health
+        "https://ror.org/05gxnyn08", # IUPUI
+        "https://ror.org/022t7q367" # Indiana CTSI
+    ),
+    search = c("\"electronic health record\" OR \"electronic medical record\""),
+    count_only = TRUE
+)
+
+test_work <- oa_random(output = "list")
+
+all_queries <- list(oa_inpc_raw, oa_ihie_raw, oa_regenstrief_institution_raw, oa_regenstrief_search_raw)
+
+
+
+merged_queries <- purrr::reduce(all_queries, bind_unique_records)
+adding_iu <- purrr::reduce(
+    list(merged_queries, test_iu), 
+    bind_unique_records
+)
+
+inpc_since_2013 <-
+    oa_fetch(
+        entity = "works",
+        from_publication_date = "2013-07-01",
+        to_publication_date = "2023-03-31",
+        search = "regenstrief"
+    )
+
+inpc_since_2013_obj <-
+    oa_query(
+        entity = "works",
+        from_publication_date = "2013-07-01",
+        to_publication_date = "2023-03-31",
+        search = "\"indiana network for patient care\"",
+    ) |> 
+    oa_request()
+
+ihie_since_2013 <-
+    oa_fetch(
+        entity = "works",
+        from_publication_date = "2013-07-01",
+        to_publication_date = "2023-03-31",
+        search = "\"indiana health information exchange\""
+    )
+
+anti_join(ihie_since_2013, inpc_since_2013, by = "id")
+```
+
+
+```{r}
+inpc_bibliometrix <- oa2bibliometrix(inpc_since_2013)
+ihie_bibliometrix <- oa2bibliometrix(ihie_since_2013)
+glimpse
+
+inpc_bibliometrix |> 
+    mutate(
+        id_oa = paste0("https://openalex.org/",id_oa)
+    ) |> 
+    full_join(inpc_since_2013, by = c("id_oa" = "id")) |> 
+    select(id_oa, type, DT) |> 
+    distinct(type, DT) |> 
+    glimpse()
+
+oa_consolidated_records |> 
+    select(type) |> 
+    distinct()
+```
+```{r}
+oa_iu_health_records_raw |> 
+    group_by(type) |> 
+    summarize(n = n())
+```
+```{r}
+oa_fetch(
+    entity = "works",
+    from_publication_date = "2013-07-01",
+    to_publication_date = "2023-03-31",
+    institutions.ror = c(
+        "https://ror.org/01kg8sb98", # IU
+        "https://ror.org/02k40bc56", # IU Bloomington
+        "https://ror.org/01aaptx40", # IU Health
+        "https://ror.org/05gxnyn08", # IUPUI
+        "https://ror.org/022t7q367" # Indiana CTSI
+    ),
+    language = "en",
+    title.search = "\"electronic health record\" OR EHR OR \"electronic medical record\" OR EMR",
+    count_only = TRUE
+) 
+
+oa_iu_health_records_raw |> 
+    select(
+        work_id = id,
+        ids
+    ) |> 
+    unnest(ids) |> 
+    mutate(
+        type = 
+            case_when(
+                str_detect(ids, "^https://open") ~ "openalex",
+                str_detect(ids, "^https://doi") ~ "doi",
+                str_detect(ids, "^https://www.ncbi") ~ "pmc_id",
+                str_detect(ids, "^https://pubmed") ~ "pubmed_id",
+                str_detect(ids, "^[0-9]") ~ "mag_id"
+            )
+    ) |> 
+    filter(type != "openalex") |> 
+    pivot_wider(names_from = type, values_from = ids) |> 
+    filter(!is.na(pubmed_id) | !is.na(pmc_id))
+```
+
+
+
+```{r}
+source("R/ris_authorify.R")
+source("R/add_ris.R")
+
+oa_consolidated_records |> 
+    add_ris()
+```
+
+
+```{r}
+test_mutation <- 
+    oa|>
+    separate_wider_regex(
+        doi, 
+        patterns = c(
+            doi_url = "https://doi.org/", 
+            doi_id = ".*"
+        )
+    ) |>
+    mutate(
+        TY = case_when(
+            type == "article" ~ "JOUR",
+            type == "journal-article" ~ "JOUR",
+            type == "book-chapter" ~ "CHAP",
+            type == "letter" ~ "GEN",
+            type == "editorial" ~ "GEN",
+            type == "erratum" ~ "GEN",
+            type == "other" ~ "GEN"
+        ),
+        AU = map(
+            .x = author,
+            .f = ~ris_authorify(.x$au_display_name)
+        ),
+        RIS = paste0(
+            "TY  - ",TY,"\n",
+            "DO  - ",doi_id,"\n",
+            "UR  - ",url,"\n",
+            "TI  - ",display_name,"\n",
+            "T2  - ",so,"\n",
+            AU,"\n",
+            "PY  - ",publication_year,"\n",
+            "DA  - ",publication_date,"\n",
+            "AB  - ",ab,"\n",
+            "PB  - ",host_organization,"\n",
+            "SP  - ",first_page,"\n",
+            "EP  - ",last_page,"\n",
+            "IS  - ",issue,"\n",
+            "VL  - ",volume,"\n",
+            "SN  - ",issn_l,"\n",
+            "ER  - "
+        )
+    )
+
+cat(test_mutation$RIS, file = "temp.txt", sep = "\n\n")
+```
+
+
+```{r}
+authorify_test_output <- ris_authorify(author_test_vector)
+
+cat(authorify_test_output, file = "temp.txt", sep = "")
+
+
+test_mutation <- 
+    inpc_since_2013 |> 
+    head() |> 
+    mutate(
+        TY = case_when(
+            type == "article" ~ "JOUR",
+            type == "book-chapter" ~ "CHAP",
+            type == "letter" ~ NA
+        ),
+        AU = map(
+            .x = author,
+            .f = ~ris_authorify(.x$au_display_name)
+        ),
+        RIS = 
+            paste0(
+                "TY  - ",TY,"\n",
+                AU,"\n"
+            )
+    ) |> 
+    select(RIS)
+    
+
+cat(test_mutation$RIS, file = "temp.txt", sep = "\n")
+```
+
+
+```{r}
+inpc_since_2013 |> 
+    filter(is.na(doi)) |> 
+    select(id, ids) |> 
+    unnest(ids) 
+    
+inpc_since_2013 |> 
+    filter(!is.na(doi)) |> 
+    separate_wider_regex(doi, patterns = c(doi_url = "https://doi.org/", doi_id = ".*")) |> 
+    select(doi_url, doi_id) |> 
+    pull(doi_id) |> 
+    cat(
+        file = "temp.txt",
+        sep = ", "
+    )
+
+inpc_since_2013 |> 
+    filter(str_detect(display_name, "Medical, Social, and Legal Risks")) |> 
+    select(id, url, doi) |> 
+    view()
+
+inpc_since_2013 |> 
+    select(!where(is.list)) |> 
+    arrow::write_parquet("data/inpc_since_2013.parquet")
+
+
+```
+
+
+```{r}
+regenstrief_works_2d |> 
+    mutate(
+        publication_decade = 
+            case_when(
+                publication_year >= 1973 & publication_year <= 1982 ~ "1973-1982",
+                publication_year >= 1983 & publication_year <= 1992 ~ "1983-1992",
+                publication_year >= 1993 & publication_year <= 2002 ~ "1993-2002",
+                publication_year >= 2003 & publication_year <= 2012 ~ "2003-2012",
+                publication_year >= 2013 & publication_year <= 2022 ~ "2013-2022",
+                publication_year >= 2023 & publication_year <= 2032 ~ "2023-2032"
+            )
+    ) |> 
+    group_by(publication_decade) |> 
+    summarize(n = n())
+
+regenstrief_works |> 
+    select(work_id = id, grants) |> 
+    unnest() |> 
+    filter(!is.na(grants)) 
+```
+
+
+
+```{bash}
+#cd data/regenstrief_from_openalex
+#dolt add works
+#dolt commit -m "Adding core works table"
+```
+
+```{r}
+show_query(
+    tbl(dolt(), "works") |> 
+    filter(publication_year > 2012) |> 
+    filter(str_detect(ab, "INPC"))
+)
+```
+
+
+```{r}
+regenstrief_mags <-
+    regenstrief_works_2013_2022 |> 
+    select(id, ids) |> 
+    unnest() |> 
+    filter(name == "mag") |> 
+    select(openalex_id = id, mag_id = value) |> 
+    as_arrow_table()
+```
+
+
+
+
+```{}
+
+```
+
+
+```{r}
+works_brian_dixon <-
+    oa_fetch(
+        entity = "works",
+        author.orcid = "https://orcid.org/0000-0002-1121-0607",
+        verbose = TRUE
+    )
+
+works_daniel_riggins <-
+    oa_fetch(
+        entity = "works",
+        author.orcid = "https://orcid.org/0000-0002-6240-6212",
+        verbose = TRUE
+    )
+
+glimpse(works_daniel_riggins)
+```
+
+```{r}
+works_brian_dixon |> 
+    select(work_id = id, concepts) |> 
+    unnest(concepts) |> 
+    rename(concept_id = id) |> 
+    filter(level == 5) |> 
+    group_by(display_name) |> 
+    summarise(n = n()) |> 
+    arrange(desc(n))
+```
+
+```{r}
+regenstrief_works_2013_2022 |> 
+    select(work_id = id, author) |> 
+    unnest(author) |> 
+    distinct(work_id, institution_display_name) |> 
+    group_by(institution_display_name) |> 
+    summarise(n = n()) |> 
+    arrange(desc(n))
+```
+
+## Playing with Small Teams dataset
+
+```{r}
+library(arrow)
+library(tidyverse)
+
+small_teams <- 
+    read_tsv_arrow(
+        "data/Aggregated_20210521.txt",
+        col_names = c("mag_id", "year", "field", "team_size", "citations", "disruption"),
+        col_types = "ciiiin",
+        as_data_frame =  FALSE
+    ) |> 
+    filter(year > 2012) |> 
+    select(mag_id, disruption) |> 
+    collect() |> 
+    as_arrow_table()
+
+head(small_teams) |>  collect()
+
+con <- file("data/Aggregated_20210521.txt","r")
+first_line <- readLines(con,n=1)
+close(con)
+
+left_join(regenstrief_mags, small_teams, by = "mag_id") |> 
+    collect() |> 
+    filter(!is.na(disruption)) |> 
+    arrange(disruption)
+```
+
