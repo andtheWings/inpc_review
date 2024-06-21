@@ -1,12 +1,15 @@
-# Research Review of Regenstrief Institute-Stewarded Data Products (RISDP)
+# Research Review of Regenstrief Institute Data Products (RIDP)
 
-This repository lays out code used to query the OpenAlex data catalog for research works that prospectively used data derived from RISDPs. This helps the institute assess the research impact of its data services division.
+This repository lays out code used to query the OpenAlex data catalog for research works that prospectively used data derived from RIDPs. 
+This helps the institute assess the research impact of its data services division.
 
-Research works from these queries are uploaded into Covidence for manual review of its relevance. Research works determined to be relevant are further reviewed and extracted in the data tool Baserow. The extractions are then returned for analysis to this repository.
+Research works from these queries are uploaded into [Covidence](https://www.covidence.org/) for manual review of their relevance. 
+Research works determined to be relevant are further reviewed and extracted in [Baserow](https://baserow.io/). 
+Data from these tools are returned to the repository as snapshot files for analysis.
 
 # Getting Started
 
-1.  Clone this git repository:
+1.  In your terminal, clone this git repository:
 
 ``` bash
 git clone https://github.com/andtheWings/inpc_review.git
@@ -20,20 +23,34 @@ install.packages("renv")
 renv::restore()
 ```
 
-4.  Run data pipeline to establish data assets:
+4. Ensure the "data" folder has the following files and ensure they are listed correctly at the top of the "_targets.R" file:
+
+``` r
+### Manually Curated Files
+"data/duplicates <snapshot date>.csv"
+"data/crosswalks <snapshot date>.csv"
+### Downloaded from Covidence
+"data/irrelevant covidence works <snapshot date>.csv"
+"data/excluded covidence works <snapshot date>.csv"
+"data/included covidence works <snapshot date>.csv"
+### Downloaded from Baserow (needs to be JSON)
+"data/baserow export <snapshot date>.json"
+```
+
+5.  Run data pipeline:
 
 ``` r
 targets::tar_make()
 ```
 
-5.  List data assets:
+6.  List pipeline assets:
 
 ``` r
 targets::tar_manifest()
 ```
 
-6.  Load desired data asset:
+6.  Load desired pipeline asset (most likely "works" or "included_works"):
 
 ``` r
-targets::tar_load(name_of_data_asset)
+targets::tar_load(<name_of_data_asset>)
 ```
