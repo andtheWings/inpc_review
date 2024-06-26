@@ -3,8 +3,8 @@
 This repository lays out code used to query the OpenAlex data catalog for research works that prospectively used data derived from RIDPs. 
 This helps the institute assess the research impact of its data services division.
 
-Research works from these queries are uploaded into [Covidence](https://www.covidence.org/) for manual review of their relevance. 
-Research works determined to be relevant are further reviewed and extracted in [Baserow](https://baserow.io/). 
+Research works from these queries are uploaded into [Covidence](https://www.covidence.org/) for manual classification as "Included" in the project's scope. 
+Research works determined to be "Included" are further reviewed and abstracted in [Baserow](https://baserow.io/). 
 Data from these tools are returned to the repository as snapshot files for analysis.
 
 # Getting Started
